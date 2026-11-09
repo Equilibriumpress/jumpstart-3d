@@ -1,0 +1,2255 @@
+{
+  "app": "jumpstart-3d",
+  "version": 1,
+  "doc": {
+    "v": 1,
+    "id": "djo233cupx3",
+    "name": "Amsterdams grachtenpand",
+    "mode": "beginner",
+    "created": 1794245875599,
+    "seq": 59,
+    "grid": 1,
+    "bodies": [
+      {
+        "id": "bjo2o5k8k95",
+        "name": "Basement terrace",
+        "seq": 1,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 62,
+            "d": 54,
+            "h": 2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo2obzk9o6",
+        "name": "Main canal house masonry",
+        "seq": 2,
+        "color": "#88493d",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 43,
+            "d": 35,
+            "h": 62,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo2og48i17",
+        "name": "Roof cornice",
+        "seq": 3,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          61.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 48,
+            "d": 37,
+            "h": 1.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo2p7jhwa8",
+        "name": "Steep gable roof",
+        "seq": 4,
+        "color": "#374956",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          63,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 50,
+            "d": 41,
+            "h": 21
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo2pcax4i9",
+        "name": "Facade plinth belt",
+        "seq": 5,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -17.8,
+          18,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 43,
+            "d": 1.2,
+            "h": 2.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo2q0ap70a",
+        "name": "Facade upper stone belt",
+        "seq": 6,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -17.8,
+          39,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 43,
+            "d": 1.1,
+            "h": 2.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo2q9qxfdb",
+        "name": "Historic canal house entrance",
+        "seq": 7,
+        "color": "#3c555d",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.6,
+          0,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 11,
+            "d": 1.5,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo2uyy4nwc",
+        "name": "Entrance lintel",
+        "seq": 8,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -19,
+          18.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 12.5,
+            "d": 2,
+            "h": 1.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo2wr5aqod",
+        "name": "Entrance glazing",
+        "seq": 9,
+        "color": "#31526d",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -19.6,
+          4.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 6.4,
+            "d": 0.6,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo2xr34bce",
+        "name": "Door brass knob",
+        "seq": 10,
+        "color": "#b98b5d",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4,
+          -20.1,
+          9,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 1.5,
+            "d": 1.5,
+            "h": 1.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo2y1aghbf",
+        "name": "Entrance stair step",
+        "seq": 11,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -27,
+          -1.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 20,
+            "d": 13,
+            "h": 1.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo2zuvkjjg",
+        "name": "Window r1x-13.7",
+        "seq": 12,
+        "color": "#45738a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.15,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo30r2tw9h",
+        "name": "Sill r1x-13.7",
+        "seq": 13,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          20.15,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo31rsm3wi",
+        "name": "Lintel r1x-13.7",
+        "seq": 14,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          30.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo32pihc4j",
+        "name": "Mullion r1x-13.7",
+        "seq": 15,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.5,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo33l467ek",
+        "name": "Window transom r1x-13.7",
+        "seq": 16,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.5,
+          25.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo34lmgi7l",
+        "name": "Window r1x13.7",
+        "seq": 17,
+        "color": "#45738a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.15,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo35fcidqm",
+        "name": "Sill r1x13.7",
+        "seq": 18,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          20.15,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo36cud28n",
+        "name": "Lintel r1x13.7",
+        "seq": 19,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          30.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo377014yo",
+        "name": "Mullion r1x13.7",
+        "seq": 20,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.5,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo383ahqup",
+        "name": "Window transom r1x13.7",
+        "seq": 21,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.5,
+          25.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo389327pq",
+        "name": "Window r2x-13.7",
+        "seq": 22,
+        "color": "#45738a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.15,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo394ak3qr",
+        "name": "Sill r2x-13.7",
+        "seq": 23,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          32.949999999999996,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3a2pdots",
+        "name": "Lintel r2x-13.7",
+        "seq": 24,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          42.9,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3axk50rt",
+        "name": "Mullion r2x-13.7",
+        "seq": 25,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.5,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3c3l7miu",
+        "name": "Window transom r2x-13.7",
+        "seq": 26,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.5,
+          38.599999999999994,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3cdtwanv",
+        "name": "Window r2x0",
+        "seq": 27,
+        "color": "#45738a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.15,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3dfzhmzw",
+        "name": "Sill r2x0",
+        "seq": 28,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.8,
+          32.949999999999996,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3emtoojx",
+        "name": "Lintel r2x0",
+        "seq": 29,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.8,
+          42.9,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3ft04i9y",
+        "name": "Mullion r2x0",
+        "seq": 30,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.5,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3guk6j1z",
+        "name": "Window transom r2x0",
+        "seq": 31,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.5,
+          38.599999999999994,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3h1qiwk10",
+        "name": "Window r2x13.7",
+        "seq": 32,
+        "color": "#45738a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.15,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3hvltk311",
+        "name": "Sill r2x13.7",
+        "seq": 33,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          32.949999999999996,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3ivko1b12",
+        "name": "Lintel r2x13.7",
+        "seq": 34,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          42.9,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3jr34sh13",
+        "name": "Mullion r2x13.7",
+        "seq": 35,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.5,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3kq97uz14",
+        "name": "Window transom r2x13.7",
+        "seq": 36,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.5,
+          38.599999999999994,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3lm147815",
+        "name": "Window r3x-13.7",
+        "seq": 37,
+        "color": "#45738a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.15,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3mmh1en16",
+        "name": "Sill r3x-13.7",
+        "seq": 38,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          45.75,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3nhn7dk17",
+        "name": "Lintel r3x-13.7",
+        "seq": 39,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          55.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3ohi39u18",
+        "name": "Mullion r3x-13.7",
+        "seq": 40,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.5,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3phqin619",
+        "name": "Window transom r3x-13.7",
+        "seq": 41,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.5,
+          51.4,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3psby4g1a",
+        "name": "Window r3x0",
+        "seq": 42,
+        "color": "#45738a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.15,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3qqab2x1b",
+        "name": "Sill r3x0",
+        "seq": 43,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.8,
+          45.75,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3rshpwf1c",
+        "name": "Lintel r3x0",
+        "seq": 44,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.8,
+          55.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3su6elh1d",
+        "name": "Mullion r3x0",
+        "seq": 45,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.5,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3t54wqk1e",
+        "name": "Window transom r3x0",
+        "seq": 46,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.5,
+          51.4,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3u7qeln1f",
+        "name": "Window r3x13.7",
+        "seq": 47,
+        "color": "#45738a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.15,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3uhpw871g",
+        "name": "Sill r3x13.7",
+        "seq": 48,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          45.75,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3vhdbn81h",
+        "name": "Lintel r3x13.7",
+        "seq": 49,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          55.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3wn0owg1i",
+        "name": "Mullion r3x13.7",
+        "seq": 50,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.5,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3xobte41j",
+        "name": "Window transom r3x13.7",
+        "seq": 51,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.5,
+          51.4,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo3ywjelp1k",
+        "name": "Dormer -11",
+        "seq": 52,
+        "color": "#88493d",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11,
+          -12,
+          69.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 7,
+            "d": 2.3,
+            "h": 6.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo403429g1l",
+        "name": "Dormer window -11",
+        "seq": 53,
+        "color": "#45738a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11,
+          -13.7,
+          71,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4.5,
+            "d": 0.9,
+            "h": 4.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo41cr6b31m",
+        "name": "Dormer gable -11",
+        "seq": 54,
+        "color": "#374956",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11,
+          -12,
+          76.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 8,
+            "d": 3.5,
+            "h": 3.8
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo42eya581n",
+        "name": "Dormer 11",
+        "seq": 55,
+        "color": "#88493d",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11,
+          -12,
+          69.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 7,
+            "d": 2.3,
+            "h": 6.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo43l6da41o",
+        "name": "Dormer window 11",
+        "seq": 56,
+        "color": "#45738a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11,
+          -13.7,
+          71,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4.5,
+            "d": 0.9,
+            "h": 4.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo44o04re1p",
+        "name": "Dormer gable 11",
+        "seq": 57,
+        "color": "#374956",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11,
+          -12,
+          76.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 8,
+            "d": 3.5,
+            "h": 3.8
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo45ygj1b1q",
+        "name": "Vertical corner quoin -21",
+        "seq": 58,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -21,
+          -18,
+          8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 2.4,
+            "h": 53,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjo475h4aq1r",
+        "name": "Vertical corner quoin 21",
+        "seq": 59,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          21,
+          -18,
+          8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 2.4,
+            "h": 53,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      }
+    ],
+    "sketches": [],
+    "planes": [],
+    "joints": [],
+    "params": []
+  }
+}

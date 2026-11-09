@@ -1,0 +1,11 @@
+{
+  "title": "Klassiek koepelpaviljoen",
+  "author": "Equilibrium Press",
+  "license": "CC0-1.0",
+  "year": 2026,
+  "purpose": "Architecture model variety test",
+  "method": "Advanced: sketches + extrude, curves",
+  "description": "Een rond paviljoen met zuilenkring en koepel. De fundering wordt als echte parametrische schets geëxtrudeerd.",
+  "accuracy": "Original illustrative geometry, not a measured construction drawing",
+  "test": true
+}

@@ -1,0 +1,73 @@
+name: Render A/B grachtenpand CAD realism test
+
+on:
+  push:
+    branches: [equilibrium/test-architecture-variety]
+    paths:
+      - "models/test-grachtenpand-realistisch/recipe.json"
+      - ".github/workflows/grachtenpand-ab.yml"
+      - "scripts/render-grachtenpand-ab.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render-ab:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm ci --prefix mcp
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - name: Build realistic B model through the original JS3D kernel
+        run: node scripts/build-models.mjs --id=test-grachtenpand-realistisch
+      - name: Verify geometry and publishable files
+        run: |
+          node scripts/validate-models.mjs
+          node --input-type=module <<'EOF'
+          import { readFileSync } from "node:fs";
+          const A=JSON.parse(readFileSync("models/test-grachtenpand/project.json"));
+          const B=JSON.parse(readFileSync("models/test-grachtenpand-realistisch/project.json"));
+          if(A.doc.bodies.length!==59) throw Error("Baseline A modified");
+          if(B.doc.bodies.length < 80) throw Error("B has too few independently editable parts");
+          const facade=B.doc.bodies.find(b=>b.name.includes("Solid masonry with nine true"));
+          const roof=B.doc.bodies.find(b=>b.name==="Steep gable roof");
+          if(!facade || facade.node?.t!=="group") throw Error("Boolean openings are not a genuine CAD group");
+          if(!facade.textures?.some(t=>t.tex==="bricks")) throw Error("Brick height-map texture missing");
+          if(!roof?.textures?.some(t=>t.tex==="slate")) throw Error("Slate roof texture missing");
+          console.log("A/B geometry verified:",A.doc.bodies.length,"vs",B.doc.bodies.length,"CAD bodies");
+          EOF
+      - name: Export real GLB for the B model
+        run: node mcp/cli.mjs export models/test-grachtenpand-realistisch/project.json models/test-grachtenpand-realistisch/model.glb --app docs
+      - name: Render A and B with existing photo renderer at matched settings
+        run: node scripts/render-grachtenpand-ab.mjs
+      - name: Verify output sizes
+        run: |
+          test $(stat -c%s models/test-grachtenpand-realistisch/preview.png) -gt 10000
+          test $(stat -c%s models/test-grachtenpand-realistisch/model.glb) -gt 10000
+          test $(stat -c%s models/grachtenpand-ab-vergelijking.png) -gt 30000
+      - name: Commit verified model and A/B PNGs to experiment branch
+        run: |
+          git add models/test-grachtenpand-realistisch/project.json models/test-grachtenpand-realistisch/preview.png models/test-grachtenpand-realistisch/model.glb
+          git add models/grachtenpand-ab-render-A.png models/grachtenpand-ab-render-B.png models/grachtenpand-ab-vergelijking.png
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Generate real 3D CAD and matched photo renders for grachtenpand A/B test"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: grachtenpand-realism-ab
+          path: |
+            models/test-grachtenpand-realistisch/project.json
+            models/test-grachtenpand-realistisch/preview.png
+            models/test-grachtenpand-realistisch/model.glb
+            models/grachtenpand-ab-*.png

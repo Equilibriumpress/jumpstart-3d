@@ -1,0 +1,6331 @@
+{
+  "app": "jumpstart-3d",
+  "version": 1,
+  "doc": {
+    "v": 1,
+    "id": "dkc89n3squ3",
+    "name": "Amsterdams grachtenpand – realistische gevelproef",
+    "mode": "advanced",
+    "created": 1794247003355,
+    "seq": 168,
+    "grid": 1,
+    "bodies": [
+      {
+        "id": "bkc8nwb6tm5",
+        "name": "Basement terrace",
+        "seq": 1,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 62,
+            "d": 54,
+            "h": 2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc90wtp9kg",
+        "name": "Solid masonry with nine true architectural recesses",
+        "seq": 12,
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "node": {
+          "t": "group",
+          "children": [
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 43,
+                  "d": 35,
+                  "h": 62,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "hole": false,
+              "name": "Main masonry with genuine recessed openings",
+              "color": "#925344"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 9.7,
+                  "d": 7.2,
+                  "h": 10.8,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -13.7,
+                -17.6,
+                20.25,
+                1
+              ],
+              "hole": true,
+              "name": "Recess row1 x-13.7",
+              "color": "#925344"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 9.7,
+                  "d": 7.2,
+                  "h": 10.8,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                13.7,
+                -17.6,
+                20.25,
+                1
+              ],
+              "hole": true,
+              "name": "Recess row1 x13.7",
+              "color": "#925344"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 9.7,
+                  "d": 7.2,
+                  "h": 10.8,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -13.7,
+                -17.6,
+                33.05,
+                1
+              ],
+              "hole": true,
+              "name": "Recess row2 x-13.7",
+              "color": "#925344"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 9.7,
+                  "d": 7.2,
+                  "h": 10.8,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                -17.6,
+                33.05,
+                1
+              ],
+              "hole": true,
+              "name": "Recess row2 x0",
+              "color": "#925344"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 9.7,
+                  "d": 7.2,
+                  "h": 10.8,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                13.7,
+                -17.6,
+                33.05,
+                1
+              ],
+              "hole": true,
+              "name": "Recess row2 x13.7",
+              "color": "#925344"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 9.7,
+                  "d": 7.2,
+                  "h": 10.8,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -13.7,
+                -17.6,
+                45.85,
+                1
+              ],
+              "hole": true,
+              "name": "Recess row3 x-13.7",
+              "color": "#925344"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 9.7,
+                  "d": 7.2,
+                  "h": 10.8,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                -17.6,
+                45.85,
+                1
+              ],
+              "hole": true,
+              "name": "Recess row3 x0",
+              "color": "#925344"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 9.7,
+                  "d": 7.2,
+                  "h": 10.8,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                13.7,
+                -17.6,
+                45.85,
+                1
+              ],
+              "hole": true,
+              "name": "Recess row3 x13.7",
+              "color": "#925344"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 12.5,
+                  "d": 7.2,
+                  "h": 19.8,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                -17.6,
+                0,
+                1
+              ],
+              "hole": true,
+              "name": "Real entrance recess",
+              "color": "#925344"
+            }
+          ],
+          "mods": []
+        },
+        "textures": [
+          {
+            "id": "tkcg9s7f2f4s",
+            "seq": 168,
+            "faces": [
+              {
+                "c": [
+                  -1.9892044967807068e-16,
+                  -17.5,
+                  29.50522392781667
+                ],
+                "t": "PLANE",
+                "n": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ],
+            "tex": "bricks",
+            "size": 18,
+            "depth": 0.15,
+            "dir": "raise",
+            "rot": 0,
+            "mapping": "planar",
+            "falloff": 0,
+            "invert": false,
+            "once": false
+          }
+        ]
+      },
+      {
+        "id": "bkc99is1soh",
+        "name": "Roof cornice",
+        "seq": 13,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          61.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 48,
+            "d": 37,
+            "h": 1.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc99ofcvdi",
+        "name": "Steep gable roof",
+        "seq": 14,
+        "color": "#3e4a54",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          63,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 50,
+            "d": 41,
+            "h": 21
+          },
+          "mods": []
+        },
+        "textures": [
+          {
+            "id": "tkcg4hhyiw4r",
+            "seq": 167,
+            "faces": "all",
+            "tex": "slate",
+            "size": 10,
+            "depth": 0.16,
+            "dir": "raise",
+            "rot": 0,
+            "mapping": "triplanar",
+            "falloff": 0,
+            "invert": false,
+            "once": false
+          }
+        ]
+      },
+      {
+        "id": "bkc9axklujj",
+        "name": "Facade plinth belt",
+        "seq": 15,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -17.8,
+          18,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 43,
+            "d": 1.2,
+            "h": 2.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9c4wm9lk",
+        "name": "Facade upper stone belt",
+        "seq": 16,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -17.8,
+          39,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 43,
+            "d": 1.1,
+            "h": 2.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9curjw5l",
+        "name": "Historic canal house entrance",
+        "seq": 17,
+        "color": "#463b36",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -14.05,
+          0,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 11,
+            "d": 0.45,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9d0zs2em",
+        "name": "Entrance lintel",
+        "seq": 18,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -19,
+          18.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 12.5,
+            "d": 2,
+            "h": 1.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9drwv9mn",
+        "name": "Entrance glazing",
+        "seq": 19,
+        "color": "#31546b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -14.4,
+          4.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 6.4,
+            "d": 0.25,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9dx1r6qo",
+        "name": "Door brass knob",
+        "seq": 20,
+        "color": "#c7a96d",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4,
+          -14.95,
+          9,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 1.5,
+            "d": 1.5,
+            "h": 1.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9fa8rjnp",
+        "name": "Entrance stair step",
+        "seq": 21,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -27,
+          -1.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 20,
+            "d": 13,
+            "h": 1.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9g1b2u3q",
+        "name": "Recessed glazing r1x-13.7",
+        "seq": 22,
+        "color": "#31546b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -14.02,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9g8wflqr",
+        "name": "Sill r1x-13.7",
+        "seq": 23,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          20.15,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9gxbvees",
+        "name": "Lintel r1x-13.7",
+        "seq": 24,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          30.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9hoy1rat",
+        "name": "Mullion r1x-13.7",
+        "seq": 25,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.05,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9ig0wgiu",
+        "name": "Window transom r1x-13.7",
+        "seq": 26,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.05,
+          25.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9j7ahqyv",
+        "name": "Recessed glazing r1x13.7",
+        "seq": 27,
+        "color": "#31546b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -14.02,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9jyq95iw",
+        "name": "Sill r1x13.7",
+        "seq": 28,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          20.15,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9kp2s3nx",
+        "name": "Lintel r1x13.7",
+        "seq": 29,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          30.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9lh208hy",
+        "name": "Mullion r1x13.7",
+        "seq": 30,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.05,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9mamd8iz",
+        "name": "Window transom r1x13.7",
+        "seq": 31,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.05,
+          25.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9n4mvwx10",
+        "name": "Recessed glazing r2x-13.7",
+        "seq": 32,
+        "color": "#31546b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -14.02,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9nzvva011",
+        "name": "Sill r2x-13.7",
+        "seq": 33,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          32.949999999999996,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9p5aonj12",
+        "name": "Lintel r2x-13.7",
+        "seq": 34,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          42.9,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9q0x39a13",
+        "name": "Mullion r2x-13.7",
+        "seq": 35,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.05,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9qu9pn914",
+        "name": "Window transom r2x-13.7",
+        "seq": 36,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.05,
+          38.599999999999994,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9rk3y6n15",
+        "name": "Recessed glazing r2x0",
+        "seq": 37,
+        "color": "#31546b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -14.02,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9sfvrqy16",
+        "name": "Sill r2x0",
+        "seq": 38,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.8,
+          32.949999999999996,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9snddnk17",
+        "name": "Lintel r2x0",
+        "seq": 39,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.8,
+          42.9,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9te9usq18",
+        "name": "Mullion r2x0",
+        "seq": 40,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -16.05,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9uatv4x19",
+        "name": "Window transom r2x0",
+        "seq": 41,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -16.05,
+          38.599999999999994,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9ujwtpw1a",
+        "name": "Recessed glazing r2x13.7",
+        "seq": 42,
+        "color": "#31546b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -14.02,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9vamlvu1b",
+        "name": "Sill r2x13.7",
+        "seq": 43,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          32.949999999999996,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9w80pid1c",
+        "name": "Lintel r2x13.7",
+        "seq": 44,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          42.9,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9whyl361d",
+        "name": "Mullion r2x13.7",
+        "seq": 45,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.05,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9xe9mb11e",
+        "name": "Window transom r2x13.7",
+        "seq": 46,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.05,
+          38.599999999999994,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9yel4wa1f",
+        "name": "Recessed glazing r3x-13.7",
+        "seq": 47,
+        "color": "#31546b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -14.02,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9ypqrhs1g",
+        "name": "Sill r3x-13.7",
+        "seq": 48,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          45.75,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkc9zo4fnk1h",
+        "name": "Lintel r3x-13.7",
+        "seq": 49,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -18.8,
+          55.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkca0n20yj1i",
+        "name": "Mullion r3x-13.7",
+        "seq": 50,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.05,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkca1otbz41j",
+        "name": "Window transom r3x-13.7",
+        "seq": 51,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.05,
+          51.4,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkca237uni1k",
+        "name": "Recessed glazing r3x0",
+        "seq": 52,
+        "color": "#31546b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -14.02,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkca32i66s1l",
+        "name": "Sill r3x0",
+        "seq": 53,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.8,
+          45.75,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkca3fteq91m",
+        "name": "Lintel r3x0",
+        "seq": 54,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -18.8,
+          55.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkca4fnlpf1n",
+        "name": "Mullion r3x0",
+        "seq": 55,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -16.05,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkca5ok64t1o",
+        "name": "Window transom r3x0",
+        "seq": 56,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -16.05,
+          51.4,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkca6q9icp1p",
+        "name": "Recessed glazing r3x13.7",
+        "seq": 57,
+        "color": "#31546b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -14.02,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkca7xmefl1q",
+        "name": "Sill r3x13.7",
+        "seq": 58,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          45.75,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkca8uoixa1r",
+        "name": "Lintel r3x13.7",
+        "seq": 59,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -18.8,
+          55.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkca9un1751s",
+        "name": "Mullion r3x13.7",
+        "seq": 60,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.05,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcaawolh91t",
+        "name": "Window transom r3x13.7",
+        "seq": 61,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.05,
+          51.4,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcab8a1zh1u",
+        "name": "Dormer -11",
+        "seq": 62,
+        "color": "#88493d",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11,
+          -12,
+          69.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 7,
+            "d": 2.3,
+            "h": 6.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcac9fia61v",
+        "name": "Dormer window -11",
+        "seq": 63,
+        "color": "#31546b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11,
+          -13.7,
+          71,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4.5,
+            "d": 0.9,
+            "h": 4.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcadfjoxl1w",
+        "name": "Dormer gable -11",
+        "seq": 64,
+        "color": "#374956",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11,
+          -12,
+          76.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 8,
+            "d": 3.5,
+            "h": 3.8
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcag0gvd91x",
+        "name": "Dormer 11",
+        "seq": 65,
+        "color": "#88493d",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11,
+          -12,
+          69.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 7,
+            "d": 2.3,
+            "h": 6.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcah6hydn1y",
+        "name": "Dormer window 11",
+        "seq": 66,
+        "color": "#31546b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11,
+          -13.7,
+          71,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4.5,
+            "d": 0.9,
+            "h": 4.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcaiciuic1z",
+        "name": "Dormer gable 11",
+        "seq": 67,
+        "color": "#374956",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11,
+          -12,
+          76.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 8,
+            "d": 3.5,
+            "h": 3.8
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcaiq3sc020",
+        "name": "Vertical corner quoin -21",
+        "seq": 68,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -21,
+          -18,
+          8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 2.4,
+            "h": 53,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcakj2yag21",
+        "name": "Vertical corner quoin 21",
+        "seq": 69,
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          21,
+          -18,
+          8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 2.4,
+            "h": 53,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcalvb8gl22",
+        "name": "Stone recess left reveal level1 x-13.7",
+        "seq": 70,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -18.25,
+          -16.17,
+          20.45,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcanp2fq723",
+        "name": "Stone recess right reveal level1 x-13.7",
+        "seq": 71,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -9.149999999999999,
+          -16.17,
+          20.45,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcaov3kca24",
+        "name": "Deep stone window header level1 x-13.7",
+        "seq": 72,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.17,
+          30.25,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcaq03t9b25",
+        "name": "Deep stone window base level1 x-13.7",
+        "seq": 73,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.17,
+          20.25,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcas7o1ok26",
+        "name": "Wood frame division level1 x-13.7 dx-2.1",
+        "seq": 74,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -15.799999999999999,
+          -15.15,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcau24ylu27",
+        "name": "Wood frame division level1 x-13.7 dx2.1",
+        "seq": 75,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.6,
+          -15.15,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcav9g4pc28",
+        "name": "Lower glass horizontal division level1 x-13.7",
+        "seq": 76,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -15.15,
+          23.75,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcawimmaj29",
+        "name": "Stone recess left reveal level1 x13.7",
+        "seq": 77,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          9.149999999999999,
+          -16.17,
+          20.45,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcaxppucp2a",
+        "name": "Stone recess right reveal level1 x13.7",
+        "seq": 78,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          18.25,
+          -16.17,
+          20.45,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcayt541m2b",
+        "name": "Deep stone window header level1 x13.7",
+        "seq": 79,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.17,
+          30.25,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcb0322al2c",
+        "name": "Deep stone window base level1 x13.7",
+        "seq": 80,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.17,
+          20.25,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcb18jtp02d",
+        "name": "Wood frame division level1 x13.7 dx-2.1",
+        "seq": 81,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.6,
+          -15.15,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcb2qeze32e",
+        "name": "Wood frame division level1 x13.7 dx2.1",
+        "seq": 82,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          15.799999999999999,
+          -15.15,
+          20.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcb462v322f",
+        "name": "Lower glass horizontal division level1 x13.7",
+        "seq": 83,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -15.15,
+          23.75,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcb5dflgb2g",
+        "name": "Stone recess left reveal level2 x-13.7",
+        "seq": 84,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -18.25,
+          -16.17,
+          33.25,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcb6qozch2h",
+        "name": "Stone recess right reveal level2 x-13.7",
+        "seq": 85,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -9.149999999999999,
+          -16.17,
+          33.25,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcb83tdqx2i",
+        "name": "Deep stone window header level2 x-13.7",
+        "seq": 86,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.17,
+          43.05,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcb9gnqyc2j",
+        "name": "Deep stone window base level2 x-13.7",
+        "seq": 87,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.17,
+          33.05,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbasdxg62k",
+        "name": "Wood frame division level2 x-13.7 dx-2.1",
+        "seq": 88,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -15.799999999999999,
+          -15.15,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbc51wkp2l",
+        "name": "Wood frame division level2 x-13.7 dx2.1",
+        "seq": 89,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.6,
+          -15.15,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbdkzunz2m",
+        "name": "Lower glass horizontal division level2 x-13.7",
+        "seq": 90,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -15.15,
+          36.55,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbeyaqn12n",
+        "name": "Stone recess left reveal level2 x0",
+        "seq": 91,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.55,
+          -16.17,
+          33.25,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbgckw102o",
+        "name": "Stone recess right reveal level2 x0",
+        "seq": 92,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.55,
+          -16.17,
+          33.25,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbhyij3i2p",
+        "name": "Deep stone window header level2 x0",
+        "seq": 93,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -16.17,
+          43.05,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbjhjwak2q",
+        "name": "Deep stone window base level2 x0",
+        "seq": 94,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -16.17,
+          33.05,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbkp2w5v2r",
+        "name": "Wood frame division level2 x0 dx-2.1",
+        "seq": 95,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -2.1,
+          -15.15,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbm7ztj72s",
+        "name": "Wood frame division level2 x0 dx2.1",
+        "seq": 96,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2.1,
+          -15.15,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbngscbl2t",
+        "name": "Lower glass horizontal division level2 x0",
+        "seq": 97,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -15.15,
+          36.55,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbowow8a2u",
+        "name": "Stone recess left reveal level2 x13.7",
+        "seq": 98,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          9.149999999999999,
+          -16.17,
+          33.25,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbq96cte2v",
+        "name": "Stone recess right reveal level2 x13.7",
+        "seq": 99,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          18.25,
+          -16.17,
+          33.25,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbrrsqzu2w",
+        "name": "Deep stone window header level2 x13.7",
+        "seq": 100,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.17,
+          43.05,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbt5y9pr2x",
+        "name": "Deep stone window base level2 x13.7",
+        "seq": 101,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.17,
+          33.05,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbuser4o2y",
+        "name": "Wood frame division level2 x13.7 dx-2.1",
+        "seq": 102,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.6,
+          -15.15,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbwlyrt12z",
+        "name": "Wood frame division level2 x13.7 dx2.1",
+        "seq": 103,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          15.799999999999999,
+          -15.15,
+          33.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbyczikm30",
+        "name": "Lower glass horizontal division level2 x13.7",
+        "seq": 104,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -15.15,
+          36.55,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcbzx25q031",
+        "name": "Stone recess left reveal level3 x-13.7",
+        "seq": 105,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -18.25,
+          -16.17,
+          46.050000000000004,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcc1f0kzy32",
+        "name": "Stone recess right reveal level3 x-13.7",
+        "seq": 106,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -9.149999999999999,
+          -16.17,
+          46.050000000000004,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcc2ssdf633",
+        "name": "Deep stone window header level3 x-13.7",
+        "seq": 107,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.17,
+          55.85,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcc4cq5w934",
+        "name": "Deep stone window base level3 x-13.7",
+        "seq": 108,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -16.17,
+          45.85,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcc62z3k635",
+        "name": "Wood frame division level3 x-13.7 dx-2.1",
+        "seq": 109,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -15.799999999999999,
+          -15.15,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcc7gn2yv36",
+        "name": "Wood frame division level3 x-13.7 dx2.1",
+        "seq": 110,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.6,
+          -15.15,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcc93bby037",
+        "name": "Lower glass horizontal division level3 x-13.7",
+        "seq": 111,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -13.7,
+          -15.15,
+          49.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkccawjx2l38",
+        "name": "Stone recess left reveal level3 x0",
+        "seq": 112,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.55,
+          -16.17,
+          46.050000000000004,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkccclzqpp39",
+        "name": "Stone recess right reveal level3 x0",
+        "seq": 113,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.55,
+          -16.17,
+          46.050000000000004,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcce1gn7o3a",
+        "name": "Deep stone window header level3 x0",
+        "seq": 114,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -16.17,
+          55.85,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkccfoa6ee3b",
+        "name": "Deep stone window base level3 x0",
+        "seq": 115,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -16.17,
+          45.85,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcchd3hwj3c",
+        "name": "Wood frame division level3 x0 dx-2.1",
+        "seq": 116,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -2.1,
+          -15.15,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkccj52zr73d",
+        "name": "Wood frame division level3 x0 dx2.1",
+        "seq": 117,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2.1,
+          -15.15,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcckthcw13e",
+        "name": "Lower glass horizontal division level3 x0",
+        "seq": 118,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -15.15,
+          49.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkccmhmshy3f",
+        "name": "Stone recess left reveal level3 x13.7",
+        "seq": 119,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          9.149999999999999,
+          -16.17,
+          46.050000000000004,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcco628tt3g",
+        "name": "Stone recess right reveal level3 x13.7",
+        "seq": 120,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          18.25,
+          -16.17,
+          46.050000000000004,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkccqckesf3h",
+        "name": "Deep stone window header level3 x13.7",
+        "seq": 121,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.17,
+          55.85,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkccs3ta6o3i",
+        "name": "Deep stone window base level3 x13.7",
+        "seq": 122,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -16.17,
+          45.85,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkccttv7un3j",
+        "name": "Wood frame division level3 x13.7 dx-2.1",
+        "seq": 123,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.6,
+          -15.15,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkccvkhs0n3k",
+        "name": "Wood frame division level3 x13.7 dx2.1",
+        "seq": 124,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          15.799999999999999,
+          -15.15,
+          46.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkccx56ttr3l",
+        "name": "Lower glass horizontal division level3 x13.7",
+        "seq": 125,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          13.7,
+          -15.15,
+          49.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkccyx2gb13m",
+        "name": "Portal deep stone jamb -6.2",
+        "seq": 126,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -6.2,
+          -16,
+          0,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.95,
+            "d": 4.2,
+            "h": 19.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcd1hq78i3n",
+        "name": "Portal deep stone jamb 6.2",
+        "seq": 127,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          6.2,
+          -16,
+          0,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.95,
+            "d": 4.2,
+            "h": 19.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcd3amwtn3o",
+        "name": "Portal stone lintel",
+        "seq": 128,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -16.5,
+          19.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 14,
+            "d": 4.1,
+            "h": 0.9,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcd566tqp3p",
+        "name": "Entrance timber central divider",
+        "seq": 129,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -15.3,
+          2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 0.8,
+            "h": 15,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcd86xdaf3q",
+        "name": "Stepped gable tier 0 side -1",
+        "seq": 130,
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19,
+          -21.7,
+          62,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcdbc7acq3r",
+        "name": "Stepped gable stone cap tier 0 side -1",
+        "seq": 131,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19,
+          -21.7,
+          66.52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcde5c2xv3s",
+        "name": "Stepped gable tier 0 side 1",
+        "seq": 132,
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19,
+          -21.7,
+          62,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcdg45rte3t",
+        "name": "Stepped gable stone cap tier 0 side 1",
+        "seq": 133,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19,
+          -21.7,
+          66.52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcdhy2eht3u",
+        "name": "Stepped gable tier 1 side -1",
+        "seq": 134,
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -14,
+          -21.7,
+          66,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcdjr8obh3v",
+        "name": "Stepped gable stone cap tier 1 side -1",
+        "seq": 135,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -14,
+          -21.7,
+          70.52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcdlrmbkh3w",
+        "name": "Stepped gable tier 1 side 1",
+        "seq": 136,
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          14,
+          -21.7,
+          66,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcdou7ryw3x",
+        "name": "Stepped gable stone cap tier 1 side 1",
+        "seq": 137,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          14,
+          -21.7,
+          70.52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcdr6dnfz3y",
+        "name": "Stepped gable tier 2 side -1",
+        "seq": 138,
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -9,
+          -21.7,
+          70,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcdttluc43z",
+        "name": "Stepped gable stone cap tier 2 side -1",
+        "seq": 139,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -9,
+          -21.7,
+          74.52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcdw55het40",
+        "name": "Stepped gable tier 2 side 1",
+        "seq": 140,
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          9,
+          -21.7,
+          70,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcdykklyp41",
+        "name": "Stepped gable stone cap tier 2 side 1",
+        "seq": 141,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          9,
+          -21.7,
+          74.52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkce16i6xr42",
+        "name": "Stepped gable tier 3 side -1",
+        "seq": 142,
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4,
+          -21.7,
+          74,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8,
+            "d": 2.2,
+            "h": 4.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkce4luyqg43",
+        "name": "Stepped gable stone cap tier 3 side -1",
+        "seq": 143,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4,
+          -21.7,
+          78.52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9,
+            "d": 2.7,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkce7uerc244",
+        "name": "Stepped gable tier 3 side 1",
+        "seq": 144,
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4,
+          -21.7,
+          74,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 8,
+            "d": 2.2,
+            "h": 4.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcea7gb9y45",
+        "name": "Stepped gable stone cap tier 3 side 1",
+        "seq": 145,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4,
+          -21.7,
+          78.52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 9,
+            "d": 2.7,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcecq60cw46",
+        "name": "Central stepped gable crest",
+        "seq": 146,
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -21.7,
+          78,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 10,
+            "d": 2.4,
+            "h": 6.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkceesa7gy47",
+        "name": "Central carved gable top cap",
+        "seq": 147,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -21.7,
+          84.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 12.5,
+            "d": 2.7,
+            "h": 1.1,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcei81hbn48",
+        "name": "Circular attic oculus",
+        "seq": 148,
+        "color": "#cfb996",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          6.123233995736766e-17,
+          1,
+          0,
+          0,
+          -1,
+          6.123233995736766e-17,
+          0,
+          0,
+          -23.549999999999997,
+          77.45,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 6,
+            "d": 6,
+            "h": 0.9,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkceoe9zcp49",
+        "name": "Historic masonry chimney stack",
+        "seq": 149,
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          17,
+          12,
+          70,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 6,
+            "d": 6,
+            "h": 14,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkces3xjns4a",
+        "name": "Chimney crown stone course",
+        "seq": 150,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          17,
+          12,
+          84,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 7.2,
+            "d": 7.2,
+            "h": 1.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcevmnubv4b",
+        "name": "Limestone quoin x-19.2 z11.0",
+        "seq": 151,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.2,
+          -18,
+          11,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcez325ok4c",
+        "name": "Limestone quoin x-19.2 z19.2",
+        "seq": 152,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.2,
+          -18,
+          19.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcf1knc6o4d",
+        "name": "Limestone quoin x-19.2 z27.4",
+        "seq": 153,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.2,
+          -18,
+          27.4,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcf3y5gwg4e",
+        "name": "Limestone quoin x-19.2 z35.6",
+        "seq": 154,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.2,
+          -18,
+          35.599999999999994,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcf6e509h4f",
+        "name": "Limestone quoin x-19.2 z43.8",
+        "seq": 155,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.2,
+          -18,
+          43.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcf8r3j8x4g",
+        "name": "Limestone quoin x-19.2 z52.0",
+        "seq": 156,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.2,
+          -18,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcfbqsqfj4h",
+        "name": "Limestone quoin x19.2 z11.0",
+        "seq": 157,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.2,
+          -18,
+          11,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcfedhlf04i",
+        "name": "Limestone quoin x19.2 z19.2",
+        "seq": 158,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.2,
+          -18,
+          19.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcfgrigbs4j",
+        "name": "Limestone quoin x19.2 z27.4",
+        "seq": 159,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.2,
+          -18,
+          27.4,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcfjhwsuo4k",
+        "name": "Limestone quoin x19.2 z35.6",
+        "seq": 160,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.2,
+          -18,
+          35.599999999999994,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcflrxs2m4l",
+        "name": "Limestone quoin x19.2 z43.8",
+        "seq": 161,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.2,
+          -18,
+          43.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcfo8f5y04m",
+        "name": "Limestone quoin x19.2 z52.0",
+        "seq": 162,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.2,
+          -18,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcfqmv4pb4n",
+        "name": "Dormer stone sill -11",
+        "seq": 163,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11,
+          -14,
+          72,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 6,
+            "d": 1.2,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcfu9b7p94o",
+        "name": "Dormer roof trim -11",
+        "seq": 164,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11,
+          -14,
+          75.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 6.6,
+            "d": 1.2,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcfxybnvb4p",
+        "name": "Dormer stone sill 11",
+        "seq": 165,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11,
+          -14,
+          72,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 6,
+            "d": 1.2,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bkcg10n9bk4q",
+        "name": "Dormer roof trim 11",
+        "seq": 166,
+        "color": "#e4d5b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11,
+          -14,
+          75.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 6.6,
+            "d": 1.2,
+            "h": 0.7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      }
+    ],
+    "sketches": [],
+    "planes": [],
+    "joints": [],
+    "params": []
+  }
+}

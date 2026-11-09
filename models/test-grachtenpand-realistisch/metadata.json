@@ -1,0 +1,11 @@
+{
+  "title": "Amsterdams grachtenpand – realistische gevelproef",
+  "variant": "B",
+  "base": "test-grachtenpand",
+  "author": "Equilibrium Press",
+  "license": "CC0-1.0",
+  "accuracy": "Original illustrative geometry, not a reconstruction",
+  "production": "Native editable JS3D CAD project with real Boolean recesses and built-in texture height maps",
+  "year": 2026,
+  "test": true
+}

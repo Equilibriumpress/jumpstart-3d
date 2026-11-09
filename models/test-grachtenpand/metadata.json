@@ -1,0 +1,11 @@
+{
+  "title": "Amsterdams grachtenpand",
+  "author": "Equilibrium Press",
+  "license": "CC0-1.0",
+  "year": 2026,
+  "purpose": "Architecture model variety test",
+  "method": "Beginner: vormen en herhaling",
+  "description": "Een trapgevelachtig grachtenpand met klassieke ramen, voordeur, pannendak en dakkapellen. Gebouwd met eenvoudige primitives.",
+  "accuracy": "Original illustrative geometry, not a measured construction drawing",
+  "test": true
+}
