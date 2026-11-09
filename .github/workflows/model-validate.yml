@@ -1,0 +1,45 @@
+name: Validate Equilibrium CAD library
+
+on:
+  pull_request:
+    paths:
+      - "models/**"
+      - "scripts/**"
+      - "src/equilibrium-loader.js"
+      - "src/app.js"
+      - "equilibrium-library/**"
+      - "test/equilibrium-*.mjs"
+      - "build.mjs"
+      - ".github/workflows/model-validate.yml"
+  push:
+    branches: [main]
+    paths:
+      - "models/**"
+      - "scripts/**"
+      - "src/equilibrium-loader.js"
+      - "equilibrium-library/**"
+      - "build.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  model-validation:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: node scripts/validate-models.mjs
+      - run: node --test test/equilibrium-loader.test.mjs
+      - run: npm run build
+      - name: Verify published library assets
+        run: |
+          test -s docs/models/library.json
+          test -s docs/models/starter-box/project.json
+          test -s docs/library/index.html
+          test -s docs/index.html

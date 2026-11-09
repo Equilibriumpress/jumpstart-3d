@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Editable native JumpStart 3D models published from the Equilibrium Press GitHub repository.">
+  <title>Equilibrium 3D Library</title>
+  <style>
+    :root{color-scheme:light;font:16px/1.5 system-ui,-apple-system,sans-serif;background:#f6f8fa;color:#182536}
+    *{box-sizing:border-box} body{margin:0} a{color:#1a5d9d}
+    header{background:#111f31;color:white;padding:22px max(22px,calc((100vw - 1100px)/2))}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    .brand{color:white;font-weight:750;letter-spacing:.01em;text-decoration:none}.top a:not(.brand){color:#c9dbf7}
+    main{max-width:1100px;margin:38px auto;padding:0 22px}
+    h1{font-size:clamp(28px,4vw,43px);line-height:1.12;letter-spacing:-.025em;margin:0 0 12px}
+    .intro{max-width:700px;color:#59677a;margin:0 0 26px}
+    label{display:block;font-weight:600;font-size:14px;margin-bottom:6px}
+    input{width:min(100%,420px);border:1px solid #c6ced7;border-radius:8px;padding:11px 13px;font:inherit;background:white}
+    .grid{margin:26px 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:20px}
+    .card{background:white;border:1px solid #dce2e8;border-radius:13px;overflow:hidden;box-shadow:0 4px 14px rgba(17,31,49,.04)}
+    .preview{aspect-ratio:4/3;background:linear-gradient(135deg,#dbe7f2,#f5f7fa);display:grid;place-items:center;overflow:hidden}
+    .preview img{height:100%;width:100%;object-fit:contain}
+    .placeholder{font-size:62px;color:#497ca8}
+    .details{padding:18px}.details h2{font-size:19px;line-height:1.2;margin:0 0 8px}
+    .details p{margin:0 0 12px;color:#586679;font-size:14px;min-height:42px}
+    .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:17px}
+    .tag{font-size:12px;background:#edf2f7;color:#455970;padding:3px 8px;border-radius:99px}
+    .link{display:inline-block;text-decoration:none;background:#225f9a;color:white;border-radius:8px;padding:9px 14px;font-weight:600;font-size:14px}
+    .link:focus-visible, input:focus-visible{outline:3px solid #e4a34a;outline-offset:2px}
+    #status{font-size:14px;color:#536377;margin-top:12px}
+    footer{max-width:1100px;margin:30px auto;padding:0 22px 28px;color:#647185;font-size:13px}
+  </style>
+</head>
+<body>
+<header><div class="top"><a class="brand" href="./">Equilibrium 3D Library</a><a href="../">Open JumpStart 3D editor</a></div></header>
+<main>
+  <h1>Editable 3D models</h1>
+  <p class="intro">Models created through ChatGPT and stored as native CAD projects in GitHub. Open any published design in the original JumpStart 3D editor. Edits stay in your browser until you export and commit a new version.</p>
+  <label for="search">Search models</label>
+  <input id="search" type="search" placeholder="Search by name, description or tag">
+  <div id="status" role="status">Loading published models…</div>
+  <section id="models" class="grid" aria-label="Published 3D models"></section>
+</main>
+<footer>Public source and designs: <a href="https://github.com/Equilibriumpress/jumpstart-3d">Equilibriumpress/jumpstart-3d</a>. Original JumpStart 3D editor and licences are retained.</footer>
+<script type="module">
+  const container = document.querySelector("#models"), status = document.querySelector("#status"), search = document.querySelector("#search");
+  const slug = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+  let models = [];
+  function node(tag, cls, content) {
+    const el = document.createElement(tag);
+    if (cls) el.className = cls;
+    if (content !== undefined) el.textContent = content;
+    return el;
+  }
+  function draw() {
+    container.replaceChildren();
+    const q = search.value.trim().toLowerCase();
+    const visible = models.filter(m => [m.title,m.description,...(m.tags||[])].join(" ").toLowerCase().includes(q));
+    status.textContent = visible.length + " published model" + (visible.length === 1 ? "" : "s");
+    for (const m of visible) {
+      const card = node("article","card"), preview = node("div","preview"), details = node("div","details");
+      if (m.preview === "models/" + m.id + "/preview.png") {
+        const image = node("img");
+        image.loading = "lazy";
+        image.src = "../" + m.preview;
+        image.alt = "CAD preview: " + m.title;
+        preview.append(image);
+      } else preview.append(node("span","placeholder","⬡"));
+      details.append(node("h2","",m.title),node("p","",m.description || ""));
+      const tags = node("div","tags");
+      for (const tag of (m.tags || [])) tags.append(node("span","tag",tag));
+      details.append(tags);
+      const link = node("a","link","Open in editor");
+      link.href = "../?project=" + encodeURIComponent(m.id);
+      link.setAttribute("aria-label","Open in editor: " + m.title);
+      details.append(link);
+      card.append(preview,details);
+      container.append(card);
+    }
+  }
+  search.addEventListener("input", draw);
+  try {
+    const response = await fetch("../models/library.json", {cache:"no-store"});
+    if (!response.ok) throw new Error("Catalog unavailable");
+    const catalog = await response.json();
+    if (catalog.schemaVersion !== 1 || !Array.isArray(catalog.models)) throw new Error("Catalog format mismatch");
+    models = catalog.models.filter(m => m.published !== false && typeof m.id === "string" && slug.test(m.id) && m.project === "models/" + m.id + "/project.json");
+    draw();
+  } catch (e) {status.textContent = "Unable to load the model library: " + e.message;}
+</script>
+</body>
+</html>
