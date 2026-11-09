@@ -181,10 +181,12 @@
     {
       "call": "group",
       "args": [
-        "$bridge",
-        "$cut0",
-        "$cut52",
-        "$cut104",
+        [
+          "$bridge",
+          "$cut0",
+          "$cut52",
+          "$cut104"
+        ],
         {
           "name": "Stone bridge with three true tunnel openings"
         }
