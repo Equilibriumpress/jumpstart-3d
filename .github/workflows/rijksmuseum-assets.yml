@@ -1,0 +1,69 @@
+name: Produce editable Rijksmuseum CAD assets
+
+on:
+  push:
+    branches: [equilibrium/model-rijksmuseum-amsterdam]
+    paths:
+      - models/rijksmuseum-amsterdam/recipe.json
+      - .github/workflows/rijksmuseum-assets.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rijksmuseum-model-assets
+  cancel-in-progress: false
+
+jobs:
+  produce:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm ci --prefix mcp
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - name: Rebuild editable native project and actual viewport PNG
+        run: node scripts/build-models.mjs --id=rijksmuseum-amsterdam
+      - name: Validate native projects
+        run: node scripts/validate-models.mjs
+      - name: Verify the real building components
+        run: |
+          node --input-type=module <<'EOF'
+          import { readFileSync } from 'node:fs';
+          const model = JSON.parse(readFileSync('models/rijksmuseum-amsterdam/project.json'));
+          const n = model.doc.bodies.map(b=>b.name);
+          for(const key of ['tower','entrance','roof','arch voussoir','courtyard','window']) {
+            if(!n.some(x=>x.toLowerCase().includes(key))) throw Error('Missing architectural part: '+key);
+          }
+          if(n.length < 140) throw Error('Not enough independently editable CAD components: '+n.length);
+          console.log('Validated '+n.length+' native architectural components');
+          EOF
+      - name: Export preview GLB
+        run: node mcp/cli.mjs export models/rijksmuseum-amsterdam/project.json models/rijksmuseum-amsterdam/model.glb --app docs
+      - name: Verify generated file sizes
+        run: |
+          test $(stat -c%s models/rijksmuseum-amsterdam/preview.png) -gt 10000
+          test $(stat -c%s models/rijksmuseum-amsterdam/model.glb) -gt 10000
+      - name: Commit produced CAD assets on feature branch
+        run: |
+          git add models/rijksmuseum-amsterdam/project.json models/rijksmuseum-amsterdam/preview.png models/rijksmuseum-amsterdam/model.glb
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Generate verified native Rijksmuseum 3D model and rendered preview"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rijksmuseum-cad
+          path: |
+            models/rijksmuseum-amsterdam/project.json
+            models/rijksmuseum-amsterdam/preview.png
+            models/rijksmuseum-amsterdam/model.glb

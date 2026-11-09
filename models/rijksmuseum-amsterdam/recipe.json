@@ -1,0 +1,6654 @@
+{
+  "jumpstart": "recipe",
+  "version": 1,
+  "needs": "1.12",
+  "steps": [
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 292,
+            "d": 193,
+            "h": 1.4
+          },
+          "at": [
+            0,
+            0,
+            -2.4
+          ],
+          "color": "#CFC9B8",
+          "name": "001 Presentation plinth"
+        }
+      ],
+      "as": "p1"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 20,
+            "d": 191,
+            "h": 0.35
+          },
+          "at": [
+            0,
+            0,
+            -0.92
+          ],
+          "color": "#777E81",
+          "name": "002 Uninterrupted bicycle passage"
+        }
+      ],
+      "as": "p2"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 23,
+            "d": 20,
+            "h": 0.2
+          },
+          "at": [
+            0,
+            -87,
+            -0.92
+          ],
+          "color": "#B4B0A4",
+          "name": "003 Museumplein approach"
+        }
+      ],
+      "as": "p3"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 82,
+            "d": 21,
+            "h": 27
+          },
+          "at": [
+            -90,
+            -65,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "004 West front exhibition wing"
+        }
+      ],
+      "as": "p4"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 82,
+            "d": 21,
+            "h": 27
+          },
+          "at": [
+            -90,
+            65,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "005 West rear exhibition wing"
+        }
+      ],
+      "as": "p5"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 15,
+            "d": 111,
+            "h": 27
+          },
+          "at": [
+            -123,
+            0,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "006 West outer long gallery"
+        }
+      ],
+      "as": "p6"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 15,
+            "d": 111,
+            "h": 27
+          },
+          "at": [
+            -55,
+            0,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "007 West inner courtyard gallery"
+        }
+      ],
+      "as": "p7"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 22,
+            "d": 83,
+            "h": 9
+          },
+          "at": [
+            -90,
+            -65,
+            27
+          ],
+          "color": "#354657",
+          "name": "008 West south slate roof"
+        }
+      ],
+      "as": "p8"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p8",
+        "z",
+        90
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 22,
+            "d": 83,
+            "h": 9
+          },
+          "at": [
+            -90,
+            65,
+            27
+          ],
+          "color": "#354657",
+          "name": "009 West north slate roof"
+        }
+      ],
+      "as": "p9"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p9",
+        "z",
+        90
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 16,
+            "d": 111,
+            "h": 7
+          },
+          "at": [
+            -123,
+            0,
+            27
+          ],
+          "color": "#475A68",
+          "name": "010 West perimeter gallery roof"
+        }
+      ],
+      "as": "p10"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 16,
+            "d": 111,
+            "h": 7
+          },
+          "at": [
+            -55,
+            0,
+            27
+          ],
+          "color": "#475A68",
+          "name": "011 West courtyard gallery roof"
+        }
+      ],
+      "as": "p11"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 15,
+            "d": 139,
+            "h": 23
+          },
+          "at": [
+            -23,
+            0,
+            0
+          ],
+          "color": "#7B382E",
+          "name": "012 West passage side gallery"
+        }
+      ],
+      "as": "p12"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 15,
+            "d": 139,
+            "h": 8
+          },
+          "at": [
+            -23,
+            23,
+            "#354657"
+          ],
+          "color": "West central spine roof",
+          "name": "013 undefined"
+        }
+      ],
+      "as": "p13"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 20,
+            "d": 26,
+            "h": 34
+          },
+          "at": [
+            -123,
+            -65,
+            0
+          ],
+          "color": "#7B382E",
+          "name": "014 West corner pavilion"
+        }
+      ],
+      "as": "p14"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 21,
+            "d": 27,
+            "h": 1.2
+          },
+          "at": [
+            -123,
+            -65,
+            33.5
+          ],
+          "color": "#E6CEAC",
+          "name": "015 West pavilion cornice"
+        }
+      ],
+      "as": "p15"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 23,
+            "d": 29,
+            "h": 11
+          },
+          "at": [
+            -123,
+            -65,
+            35
+          ],
+          "color": "#354657",
+          "name": "016 West pavilion hip roof"
+        }
+      ],
+      "as": "p16"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 20,
+            "d": 26,
+            "h": 34
+          },
+          "at": [
+            -123,
+            65,
+            0
+          ],
+          "color": "#7B382E",
+          "name": "017 West rear corner pavilion"
+        }
+      ],
+      "as": "p17"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 22,
+            "d": 28,
+            "h": 10
+          },
+          "at": [
+            -123,
+            65,
+            34
+          ],
+          "color": "#354657",
+          "name": "018 West rear pavilion roof"
+        }
+      ],
+      "as": "p18"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10,
+            "d": 83,
+            "h": 0.5
+          },
+          "at": [
+            -71,
+            0,
+            27.7
+          ],
+          "color": "#6C9DAC",
+          "name": "019 West courtyard glass panel 1"
+        }
+      ],
+      "as": "p19"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10,
+            "d": 83,
+            "h": 0.5
+          },
+          "at": [
+            -83,
+            0,
+            27.7
+          ],
+          "color": "#6C9DAC",
+          "name": "020 West courtyard glass panel 2"
+        }
+      ],
+      "as": "p20"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10,
+            "d": 83,
+            "h": 0.5
+          },
+          "at": [
+            -95,
+            0,
+            27.7
+          ],
+          "color": "#6C9DAC",
+          "name": "021 West courtyard glass panel 3"
+        }
+      ],
+      "as": "p21"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10,
+            "d": 83,
+            "h": 0.5
+          },
+          "at": [
+            -107,
+            0,
+            27.7
+          ],
+          "color": "#6C9DAC",
+          "name": "022 West courtyard glass panel 4"
+        }
+      ],
+      "as": "p22"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 51,
+            "d": 1,
+            "h": 0.9
+          },
+          "at": [
+            -89,
+            -40,
+            28.1
+          ],
+          "color": "#475A68",
+          "name": "023 West atrium glazing crossbar -40"
+        }
+      ],
+      "as": "p23"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 51,
+            "d": 1,
+            "h": 0.9
+          },
+          "at": [
+            -89,
+            0,
+            28.1
+          ],
+          "color": "#475A68",
+          "name": "024 West atrium glazing crossbar 0"
+        }
+      ],
+      "as": "p24"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 51,
+            "d": 1,
+            "h": 0.9
+          },
+          "at": [
+            -89,
+            40,
+            28.1
+          ],
+          "color": "#475A68",
+          "name": "025 West atrium glazing crossbar 40"
+        }
+      ],
+      "as": "p25"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            -90,
+            -76,
+            7.5
+          ],
+          "color": "#E6CEAC",
+          "name": "026 West gallery stone course y-76 z7.5"
+        }
+      ],
+      "as": "p26"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            -90,
+            -76,
+            17
+          ],
+          "color": "#E6CEAC",
+          "name": "027 West gallery stone course y-76 z17"
+        }
+      ],
+      "as": "p27"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            -90,
+            -76,
+            26
+          ],
+          "color": "#E6CEAC",
+          "name": "028 West gallery stone course y-76 z26"
+        }
+      ],
+      "as": "p28"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            -90,
+            76,
+            7.5
+          ],
+          "color": "#E6CEAC",
+          "name": "029 West gallery stone course y76 z7.5"
+        }
+      ],
+      "as": "p29"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            -90,
+            76,
+            17
+          ],
+          "color": "#E6CEAC",
+          "name": "030 West gallery stone course y76 z17"
+        }
+      ],
+      "as": "p30"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            -90,
+            76,
+            26
+          ],
+          "color": "#E6CEAC",
+          "name": "031 West gallery stone course y76 z26"
+        }
+      ],
+      "as": "p31"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            -120,
+            -76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "032 West front window x-30"
+        }
+      ],
+      "as": "p32"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -120,
+            -76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "033 West stone sill x-30 y-76.2"
+        }
+      ],
+      "as": "p33"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -120,
+            -76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "034 West stone lintel x-30 y-76.2"
+        }
+      ],
+      "as": "p34"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            -120,
+            -76.3,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "035 West mullion x-30 y-76.2"
+        }
+      ],
+      "as": "p35"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            -120,
+            76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "036 West rear window x-30"
+        }
+      ],
+      "as": "p36"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -120,
+            76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "037 West stone sill x-30 y76.2"
+        }
+      ],
+      "as": "p37"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -120,
+            76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "038 West stone lintel x-30 y76.2"
+        }
+      ],
+      "as": "p38"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            -120,
+            76.10000000000001,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "039 West mullion x-30 y76.2"
+        }
+      ],
+      "as": "p39"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            -105,
+            -76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "040 West front window x-15"
+        }
+      ],
+      "as": "p40"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -105,
+            -76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "041 West stone sill x-15 y-76.2"
+        }
+      ],
+      "as": "p41"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -105,
+            -76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "042 West stone lintel x-15 y-76.2"
+        }
+      ],
+      "as": "p42"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            -105,
+            -76.3,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "043 West mullion x-15 y-76.2"
+        }
+      ],
+      "as": "p43"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            -105,
+            76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "044 West rear window x-15"
+        }
+      ],
+      "as": "p44"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -105,
+            76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "045 West stone sill x-15 y76.2"
+        }
+      ],
+      "as": "p45"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -105,
+            76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "046 West stone lintel x-15 y76.2"
+        }
+      ],
+      "as": "p46"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            -105,
+            76.10000000000001,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "047 West mullion x-15 y76.2"
+        }
+      ],
+      "as": "p47"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            -90,
+            -76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "048 West front window x0"
+        }
+      ],
+      "as": "p48"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -90,
+            -76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "049 West stone sill x0 y-76.2"
+        }
+      ],
+      "as": "p49"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -90,
+            -76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "050 West stone lintel x0 y-76.2"
+        }
+      ],
+      "as": "p50"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            -90,
+            -76.3,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "051 West mullion x0 y-76.2"
+        }
+      ],
+      "as": "p51"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            -90,
+            76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "052 West rear window x0"
+        }
+      ],
+      "as": "p52"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -90,
+            76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "053 West stone sill x0 y76.2"
+        }
+      ],
+      "as": "p53"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -90,
+            76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "054 West stone lintel x0 y76.2"
+        }
+      ],
+      "as": "p54"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            -90,
+            76.10000000000001,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "055 West mullion x0 y76.2"
+        }
+      ],
+      "as": "p55"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            -75,
+            -76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "056 West front window x15"
+        }
+      ],
+      "as": "p56"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -75,
+            -76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "057 West stone sill x15 y-76.2"
+        }
+      ],
+      "as": "p57"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -75,
+            -76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "058 West stone lintel x15 y-76.2"
+        }
+      ],
+      "as": "p58"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            -75,
+            -76.3,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "059 West mullion x15 y-76.2"
+        }
+      ],
+      "as": "p59"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            -75,
+            76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "060 West rear window x15"
+        }
+      ],
+      "as": "p60"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -75,
+            76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "061 West stone sill x15 y76.2"
+        }
+      ],
+      "as": "p61"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -75,
+            76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "062 West stone lintel x15 y76.2"
+        }
+      ],
+      "as": "p62"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            -75,
+            76.10000000000001,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "063 West mullion x15 y76.2"
+        }
+      ],
+      "as": "p63"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            -60,
+            -76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "064 West front window x30"
+        }
+      ],
+      "as": "p64"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -60,
+            -76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "065 West stone sill x30 y-76.2"
+        }
+      ],
+      "as": "p65"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -60,
+            -76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "066 West stone lintel x30 y-76.2"
+        }
+      ],
+      "as": "p66"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            -60,
+            -76.3,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "067 West mullion x30 y-76.2"
+        }
+      ],
+      "as": "p67"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            -60,
+            76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "068 West rear window x30"
+        }
+      ],
+      "as": "p68"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -60,
+            76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "069 West stone sill x30 y76.2"
+        }
+      ],
+      "as": "p69"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            -60,
+            76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "070 West stone lintel x30 y76.2"
+        }
+      ],
+      "as": "p70"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            -60,
+            76.10000000000001,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "071 West mullion x30 y76.2"
+        }
+      ],
+      "as": "p71"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 6.3,
+            "h": 10
+          },
+          "at": [
+            -131,
+            -39,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "072 West side window y-39"
+        }
+      ],
+      "as": "p72"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.9,
+            "d": 7.8,
+            "h": 0.75
+          },
+          "at": [
+            -131.3,
+            -39,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "073 West side sill y-39"
+        }
+      ],
+      "as": "p73"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 6.3,
+            "h": 10
+          },
+          "at": [
+            -131,
+            -14,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "074 West side window y-14"
+        }
+      ],
+      "as": "p74"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.9,
+            "d": 7.8,
+            "h": 0.75
+          },
+          "at": [
+            -131.3,
+            -14,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "075 West side sill y-14"
+        }
+      ],
+      "as": "p75"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 6.3,
+            "h": 10
+          },
+          "at": [
+            -131,
+            14,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "076 West side window y14"
+        }
+      ],
+      "as": "p76"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.9,
+            "d": 7.8,
+            "h": 0.75
+          },
+          "at": [
+            -131.3,
+            14,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "077 West side sill y14"
+        }
+      ],
+      "as": "p77"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 6.3,
+            "h": 10
+          },
+          "at": [
+            -131,
+            39,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "078 West side window y39"
+        }
+      ],
+      "as": "p78"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.9,
+            "d": 7.8,
+            "h": 0.75
+          },
+          "at": [
+            -131.3,
+            39,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "079 West side sill y39"
+        }
+      ],
+      "as": "p79"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 3.1,
+            "h": 3.6
+          },
+          "at": [
+            -122.8,
+            -44,
+            32
+          ],
+          "color": "#37627A",
+          "name": "080 West roof dormer y-44"
+        }
+      ],
+      "as": "p80"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4.9,
+            "d": 3.6,
+            "h": 2.3
+          },
+          "at": [
+            -122.8,
+            -44,
+            35.6
+          ],
+          "color": "#354657",
+          "name": "081 West dormer cap y-44"
+        }
+      ],
+      "as": "p81"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 3.1,
+            "h": 3.6
+          },
+          "at": [
+            -122.8,
+            -18,
+            32
+          ],
+          "color": "#37627A",
+          "name": "082 West roof dormer y-18"
+        }
+      ],
+      "as": "p82"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4.9,
+            "d": 3.6,
+            "h": 2.3
+          },
+          "at": [
+            -122.8,
+            -18,
+            35.6
+          ],
+          "color": "#354657",
+          "name": "083 West dormer cap y-18"
+        }
+      ],
+      "as": "p83"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 3.1,
+            "h": 3.6
+          },
+          "at": [
+            -122.8,
+            18,
+            32
+          ],
+          "color": "#37627A",
+          "name": "084 West roof dormer y18"
+        }
+      ],
+      "as": "p84"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4.9,
+            "d": 3.6,
+            "h": 2.3
+          },
+          "at": [
+            -122.8,
+            18,
+            35.6
+          ],
+          "color": "#354657",
+          "name": "085 West dormer cap y18"
+        }
+      ],
+      "as": "p85"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 3.1,
+            "h": 3.6
+          },
+          "at": [
+            -122.8,
+            44,
+            32
+          ],
+          "color": "#37627A",
+          "name": "086 West roof dormer y44"
+        }
+      ],
+      "as": "p86"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4.9,
+            "d": 3.6,
+            "h": 2.3
+          },
+          "at": [
+            -122.8,
+            44,
+            35.6
+          ],
+          "color": "#354657",
+          "name": "087 West dormer cap y44"
+        }
+      ],
+      "as": "p87"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 82,
+            "d": 21,
+            "h": 27
+          },
+          "at": [
+            90,
+            -65,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "088 East front exhibition wing"
+        }
+      ],
+      "as": "p88"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 82,
+            "d": 21,
+            "h": 27
+          },
+          "at": [
+            90,
+            65,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "089 East rear exhibition wing"
+        }
+      ],
+      "as": "p89"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 15,
+            "d": 111,
+            "h": 27
+          },
+          "at": [
+            123,
+            0,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "090 East outer long gallery"
+        }
+      ],
+      "as": "p90"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 15,
+            "d": 111,
+            "h": 27
+          },
+          "at": [
+            55,
+            0,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "091 East inner courtyard gallery"
+        }
+      ],
+      "as": "p91"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 22,
+            "d": 83,
+            "h": 9
+          },
+          "at": [
+            90,
+            -65,
+            27
+          ],
+          "color": "#354657",
+          "name": "092 East south slate roof"
+        }
+      ],
+      "as": "p92"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p92",
+        "z",
+        90
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 22,
+            "d": 83,
+            "h": 9
+          },
+          "at": [
+            90,
+            65,
+            27
+          ],
+          "color": "#354657",
+          "name": "093 East north slate roof"
+        }
+      ],
+      "as": "p93"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p93",
+        "z",
+        90
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 16,
+            "d": 111,
+            "h": 7
+          },
+          "at": [
+            123,
+            0,
+            27
+          ],
+          "color": "#475A68",
+          "name": "094 East perimeter gallery roof"
+        }
+      ],
+      "as": "p94"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 16,
+            "d": 111,
+            "h": 7
+          },
+          "at": [
+            55,
+            0,
+            27
+          ],
+          "color": "#475A68",
+          "name": "095 East courtyard gallery roof"
+        }
+      ],
+      "as": "p95"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 15,
+            "d": 139,
+            "h": 23
+          },
+          "at": [
+            23,
+            0,
+            0
+          ],
+          "color": "#7B382E",
+          "name": "096 East passage side gallery"
+        }
+      ],
+      "as": "p96"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 15,
+            "d": 139,
+            "h": 8
+          },
+          "at": [
+            23,
+            23,
+            "#354657"
+          ],
+          "color": "East central spine roof",
+          "name": "097 undefined"
+        }
+      ],
+      "as": "p97"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 20,
+            "d": 26,
+            "h": 34
+          },
+          "at": [
+            123,
+            -65,
+            0
+          ],
+          "color": "#7B382E",
+          "name": "098 East corner pavilion"
+        }
+      ],
+      "as": "p98"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 21,
+            "d": 27,
+            "h": 1.2
+          },
+          "at": [
+            123,
+            -65,
+            33.5
+          ],
+          "color": "#E6CEAC",
+          "name": "099 East pavilion cornice"
+        }
+      ],
+      "as": "p99"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 23,
+            "d": 29,
+            "h": 11
+          },
+          "at": [
+            123,
+            -65,
+            35
+          ],
+          "color": "#354657",
+          "name": "100 East pavilion hip roof"
+        }
+      ],
+      "as": "p100"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 20,
+            "d": 26,
+            "h": 34
+          },
+          "at": [
+            123,
+            65,
+            0
+          ],
+          "color": "#7B382E",
+          "name": "101 East rear corner pavilion"
+        }
+      ],
+      "as": "p101"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 22,
+            "d": 28,
+            "h": 10
+          },
+          "at": [
+            123,
+            65,
+            34
+          ],
+          "color": "#354657",
+          "name": "102 East rear pavilion roof"
+        }
+      ],
+      "as": "p102"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10,
+            "d": 83,
+            "h": 0.5
+          },
+          "at": [
+            71,
+            0,
+            27.7
+          ],
+          "color": "#6C9DAC",
+          "name": "103 East courtyard glass panel 1"
+        }
+      ],
+      "as": "p103"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10,
+            "d": 83,
+            "h": 0.5
+          },
+          "at": [
+            83,
+            0,
+            27.7
+          ],
+          "color": "#6C9DAC",
+          "name": "104 East courtyard glass panel 2"
+        }
+      ],
+      "as": "p104"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10,
+            "d": 83,
+            "h": 0.5
+          },
+          "at": [
+            95,
+            0,
+            27.7
+          ],
+          "color": "#6C9DAC",
+          "name": "105 East courtyard glass panel 3"
+        }
+      ],
+      "as": "p105"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10,
+            "d": 83,
+            "h": 0.5
+          },
+          "at": [
+            107,
+            0,
+            27.7
+          ],
+          "color": "#6C9DAC",
+          "name": "106 East courtyard glass panel 4"
+        }
+      ],
+      "as": "p106"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 51,
+            "d": 1,
+            "h": 0.9
+          },
+          "at": [
+            89,
+            -40,
+            28.1
+          ],
+          "color": "#475A68",
+          "name": "107 East atrium glazing crossbar -40"
+        }
+      ],
+      "as": "p107"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 51,
+            "d": 1,
+            "h": 0.9
+          },
+          "at": [
+            89,
+            0,
+            28.1
+          ],
+          "color": "#475A68",
+          "name": "108 East atrium glazing crossbar 0"
+        }
+      ],
+      "as": "p108"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 51,
+            "d": 1,
+            "h": 0.9
+          },
+          "at": [
+            89,
+            40,
+            28.1
+          ],
+          "color": "#475A68",
+          "name": "109 East atrium glazing crossbar 40"
+        }
+      ],
+      "as": "p109"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            90,
+            -76,
+            7.5
+          ],
+          "color": "#E6CEAC",
+          "name": "110 East gallery stone course y-76 z7.5"
+        }
+      ],
+      "as": "p110"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            90,
+            -76,
+            17
+          ],
+          "color": "#E6CEAC",
+          "name": "111 East gallery stone course y-76 z17"
+        }
+      ],
+      "as": "p111"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            90,
+            -76,
+            26
+          ],
+          "color": "#E6CEAC",
+          "name": "112 East gallery stone course y-76 z26"
+        }
+      ],
+      "as": "p112"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            90,
+            76,
+            7.5
+          ],
+          "color": "#E6CEAC",
+          "name": "113 East gallery stone course y76 z7.5"
+        }
+      ],
+      "as": "p113"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            90,
+            76,
+            17
+          ],
+          "color": "#E6CEAC",
+          "name": "114 East gallery stone course y76 z17"
+        }
+      ],
+      "as": "p114"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 79,
+            "d": 0.85,
+            "h": 0.9
+          },
+          "at": [
+            90,
+            76,
+            26
+          ],
+          "color": "#E6CEAC",
+          "name": "115 East gallery stone course y76 z26"
+        }
+      ],
+      "as": "p115"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            60,
+            -76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "116 East front window x-30"
+        }
+      ],
+      "as": "p116"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            60,
+            -76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "117 East stone sill x-30 y-76.2"
+        }
+      ],
+      "as": "p117"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            60,
+            -76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "118 East stone lintel x-30 y-76.2"
+        }
+      ],
+      "as": "p118"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            60,
+            -76.3,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "119 East mullion x-30 y-76.2"
+        }
+      ],
+      "as": "p119"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            60,
+            76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "120 East rear window x-30"
+        }
+      ],
+      "as": "p120"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            60,
+            76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "121 East stone sill x-30 y76.2"
+        }
+      ],
+      "as": "p121"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            60,
+            76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "122 East stone lintel x-30 y76.2"
+        }
+      ],
+      "as": "p122"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            60,
+            76.10000000000001,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "123 East mullion x-30 y76.2"
+        }
+      ],
+      "as": "p123"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            75,
+            -76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "124 East front window x-15"
+        }
+      ],
+      "as": "p124"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            75,
+            -76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "125 East stone sill x-15 y-76.2"
+        }
+      ],
+      "as": "p125"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            75,
+            -76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "126 East stone lintel x-15 y-76.2"
+        }
+      ],
+      "as": "p126"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            75,
+            -76.3,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "127 East mullion x-15 y-76.2"
+        }
+      ],
+      "as": "p127"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            75,
+            76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "128 East rear window x-15"
+        }
+      ],
+      "as": "p128"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            75,
+            76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "129 East stone sill x-15 y76.2"
+        }
+      ],
+      "as": "p129"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            75,
+            76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "130 East stone lintel x-15 y76.2"
+        }
+      ],
+      "as": "p130"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            75,
+            76.10000000000001,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "131 East mullion x-15 y76.2"
+        }
+      ],
+      "as": "p131"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            90,
+            -76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "132 East front window x0"
+        }
+      ],
+      "as": "p132"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            90,
+            -76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "133 East stone sill x0 y-76.2"
+        }
+      ],
+      "as": "p133"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            90,
+            -76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "134 East stone lintel x0 y-76.2"
+        }
+      ],
+      "as": "p134"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            90,
+            -76.3,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "135 East mullion x0 y-76.2"
+        }
+      ],
+      "as": "p135"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            90,
+            76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "136 East rear window x0"
+        }
+      ],
+      "as": "p136"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            90,
+            76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "137 East stone sill x0 y76.2"
+        }
+      ],
+      "as": "p137"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            90,
+            76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "138 East stone lintel x0 y76.2"
+        }
+      ],
+      "as": "p138"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            90,
+            76.10000000000001,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "139 East mullion x0 y76.2"
+        }
+      ],
+      "as": "p139"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            105,
+            -76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "140 East front window x15"
+        }
+      ],
+      "as": "p140"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            105,
+            -76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "141 East stone sill x15 y-76.2"
+        }
+      ],
+      "as": "p141"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            105,
+            -76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "142 East stone lintel x15 y-76.2"
+        }
+      ],
+      "as": "p142"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            105,
+            -76.3,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "143 East mullion x15 y-76.2"
+        }
+      ],
+      "as": "p143"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            105,
+            76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "144 East rear window x15"
+        }
+      ],
+      "as": "p144"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            105,
+            76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "145 East stone sill x15 y76.2"
+        }
+      ],
+      "as": "p145"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            105,
+            76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "146 East stone lintel x15 y76.2"
+        }
+      ],
+      "as": "p146"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            105,
+            76.10000000000001,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "147 East mullion x15 y76.2"
+        }
+      ],
+      "as": "p147"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            120,
+            -76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "148 East front window x30"
+        }
+      ],
+      "as": "p148"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            120,
+            -76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "149 East stone sill x30 y-76.2"
+        }
+      ],
+      "as": "p149"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            120,
+            -76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "150 East stone lintel x30 y-76.2"
+        }
+      ],
+      "as": "p150"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            120,
+            -76.3,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "151 East mullion x30 y-76.2"
+        }
+      ],
+      "as": "p151"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.1,
+            "d": 0.85,
+            "h": 10
+          },
+          "at": [
+            120,
+            76.2,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "152 East rear window x30"
+        }
+      ],
+      "as": "p152"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            120,
+            76.2,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "153 East stone sill x30 y76.2"
+        }
+      ],
+      "as": "p153"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.9,
+            "d": 1,
+            "h": 0.85
+          },
+          "at": [
+            120,
+            76.2,
+            20.3
+          ],
+          "color": "#E6CEAC",
+          "name": "154 East stone lintel x30 y76.2"
+        }
+      ],
+      "as": "p154"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1,
+            "h": 10
+          },
+          "at": [
+            120,
+            76.10000000000001,
+            10.5
+          ],
+          "color": "#E6CEAC",
+          "name": "155 East mullion x30 y76.2"
+        }
+      ],
+      "as": "p155"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 6.3,
+            "h": 10
+          },
+          "at": [
+            131,
+            -39,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "156 East side window y-39"
+        }
+      ],
+      "as": "p156"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.9,
+            "d": 7.8,
+            "h": 0.75
+          },
+          "at": [
+            131.3,
+            -39,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "157 East side sill y-39"
+        }
+      ],
+      "as": "p157"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 6.3,
+            "h": 10
+          },
+          "at": [
+            131,
+            -14,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "158 East side window y-14"
+        }
+      ],
+      "as": "p158"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.9,
+            "d": 7.8,
+            "h": 0.75
+          },
+          "at": [
+            131.3,
+            -14,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "159 East side sill y-14"
+        }
+      ],
+      "as": "p159"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 6.3,
+            "h": 10
+          },
+          "at": [
+            131,
+            14,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "160 East side window y14"
+        }
+      ],
+      "as": "p160"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.9,
+            "d": 7.8,
+            "h": 0.75
+          },
+          "at": [
+            131.3,
+            14,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "161 East side sill y14"
+        }
+      ],
+      "as": "p161"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 6.3,
+            "h": 10
+          },
+          "at": [
+            131,
+            39,
+            10.5
+          ],
+          "color": "#37627A",
+          "name": "162 East side window y39"
+        }
+      ],
+      "as": "p162"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.9,
+            "d": 7.8,
+            "h": 0.75
+          },
+          "at": [
+            131.3,
+            39,
+            10
+          ],
+          "color": "#E6CEAC",
+          "name": "163 East side sill y39"
+        }
+      ],
+      "as": "p163"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 3.1,
+            "h": 3.6
+          },
+          "at": [
+            122.8,
+            -44,
+            32
+          ],
+          "color": "#37627A",
+          "name": "164 East roof dormer y-44"
+        }
+      ],
+      "as": "p164"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4.9,
+            "d": 3.6,
+            "h": 2.3
+          },
+          "at": [
+            122.8,
+            -44,
+            35.6
+          ],
+          "color": "#354657",
+          "name": "165 East dormer cap y-44"
+        }
+      ],
+      "as": "p165"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 3.1,
+            "h": 3.6
+          },
+          "at": [
+            122.8,
+            -18,
+            32
+          ],
+          "color": "#37627A",
+          "name": "166 East roof dormer y-18"
+        }
+      ],
+      "as": "p166"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4.9,
+            "d": 3.6,
+            "h": 2.3
+          },
+          "at": [
+            122.8,
+            -18,
+            35.6
+          ],
+          "color": "#354657",
+          "name": "167 East dormer cap y-18"
+        }
+      ],
+      "as": "p167"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 3.1,
+            "h": 3.6
+          },
+          "at": [
+            122.8,
+            18,
+            32
+          ],
+          "color": "#37627A",
+          "name": "168 East roof dormer y18"
+        }
+      ],
+      "as": "p168"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4.9,
+            "d": 3.6,
+            "h": 2.3
+          },
+          "at": [
+            122.8,
+            18,
+            35.6
+          ],
+          "color": "#354657",
+          "name": "169 East dormer cap y18"
+        }
+      ],
+      "as": "p169"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 3.1,
+            "h": 3.6
+          },
+          "at": [
+            122.8,
+            44,
+            32
+          ],
+          "color": "#37627A",
+          "name": "170 East roof dormer y44"
+        }
+      ],
+      "as": "p170"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4.9,
+            "d": 3.6,
+            "h": 2.3
+          },
+          "at": [
+            122.8,
+            44,
+            35.6
+          ],
+          "color": "#354657",
+          "name": "171 East dormer cap y44"
+        }
+      ],
+      "as": "p171"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 46,
+            "d": 135,
+            "h": 11
+          },
+          "at": [
+            0,
+            0,
+            23.5
+          ],
+          "color": "#7B382E",
+          "name": "172 Upper gallery across central passage"
+        }
+      ],
+      "as": "p172"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 47,
+            "d": 140,
+            "h": 9.5
+          },
+          "at": [
+            0,
+            0,
+            34.5
+          ],
+          "color": "#354657",
+          "name": "173 Main north-south roof ridge"
+        }
+      ],
+      "as": "p173"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 26,
+            "d": 29,
+            "h": 43
+          },
+          "at": [
+            -34,
+            -68,
+            0
+          ],
+          "color": "#7B382E",
+          "name": "174 Museumplein West tower"
+        }
+      ],
+      "as": "p174"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.3
+          },
+          "at": [
+            -34,
+            -68,
+            12
+          ],
+          "color": "#E6CEAC",
+          "name": "175 Museumplein West lower tower band"
+        }
+      ],
+      "as": "p175"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.3
+          },
+          "at": [
+            -34,
+            -68,
+            24
+          ],
+          "color": "#E6CEAC",
+          "name": "176 Museumplein West middle tower band"
+        }
+      ],
+      "as": "p176"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.8
+          },
+          "at": [
+            -34,
+            -68,
+            42.1
+          ],
+          "color": "#E6CEAC",
+          "name": "177 Museumplein West crown cornice"
+        }
+      ],
+      "as": "p177"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 29,
+            "d": 32,
+            "h": 18
+          },
+          "at": [
+            -34,
+            -68,
+            43.9
+          ],
+          "color": "#354657",
+          "name": "178 Museumplein West steep tower spire"
+        }
+      ],
+      "as": "p178"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 20,
+            "d": 23,
+            "h": 2
+          },
+          "at": [
+            -34,
+            -68,
+            61.8
+          ],
+          "color": "#475A68",
+          "name": "179 Museumplein West roof lantern"
+        }
+      ],
+      "as": "p179"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 1.35,
+            "d": 1.35,
+            "h": 4.3
+          },
+          "at": [
+            -34,
+            -68,
+            63.8
+          ],
+          "color": "#C4A46C",
+          "name": "180 Museumplein West gilt finial mast"
+        }
+      ],
+      "as": "p180"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.2,
+            "d": 2.2,
+            "h": 3
+          },
+          "at": [
+            -34,
+            -68,
+            68
+          ],
+          "color": "#C5A059",
+          "name": "181 Museumplein West roof finial"
+        }
+      ],
+      "as": "p181"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            -41,
+            -82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "182 Museumplein West tower lancet -7"
+        }
+      ],
+      "as": "p182"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            -41,
+            -82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "183 Museumplein West lancet lintel -7"
+        }
+      ],
+      "as": "p183"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            -41,
+            -82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "184 Museumplein West lower leaded light -7"
+        }
+      ],
+      "as": "p184"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            -34,
+            -82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "185 Museumplein West tower lancet 0"
+        }
+      ],
+      "as": "p185"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            -34,
+            -82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "186 Museumplein West lancet lintel 0"
+        }
+      ],
+      "as": "p186"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            -34,
+            -82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "187 Museumplein West lower leaded light 0"
+        }
+      ],
+      "as": "p187"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            -27,
+            -82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "188 Museumplein West tower lancet 7"
+        }
+      ],
+      "as": "p188"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            -27,
+            -82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "189 Museumplein West lancet lintel 7"
+        }
+      ],
+      "as": "p189"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            -27,
+            -82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "190 Museumplein West lower leaded light 7"
+        }
+      ],
+      "as": "p190"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 26,
+            "d": 29,
+            "h": 43
+          },
+          "at": [
+            34,
+            -68,
+            0
+          ],
+          "color": "#7B382E",
+          "name": "191 Museumplein East tower"
+        }
+      ],
+      "as": "p191"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.3
+          },
+          "at": [
+            34,
+            -68,
+            12
+          ],
+          "color": "#E6CEAC",
+          "name": "192 Museumplein East lower tower band"
+        }
+      ],
+      "as": "p192"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.3
+          },
+          "at": [
+            34,
+            -68,
+            24
+          ],
+          "color": "#E6CEAC",
+          "name": "193 Museumplein East middle tower band"
+        }
+      ],
+      "as": "p193"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.8
+          },
+          "at": [
+            34,
+            -68,
+            42.1
+          ],
+          "color": "#E6CEAC",
+          "name": "194 Museumplein East crown cornice"
+        }
+      ],
+      "as": "p194"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 29,
+            "d": 32,
+            "h": 18
+          },
+          "at": [
+            34,
+            -68,
+            43.9
+          ],
+          "color": "#354657",
+          "name": "195 Museumplein East steep tower spire"
+        }
+      ],
+      "as": "p195"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 20,
+            "d": 23,
+            "h": 2
+          },
+          "at": [
+            34,
+            -68,
+            61.8
+          ],
+          "color": "#475A68",
+          "name": "196 Museumplein East roof lantern"
+        }
+      ],
+      "as": "p196"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 1.35,
+            "d": 1.35,
+            "h": 4.3
+          },
+          "at": [
+            34,
+            -68,
+            63.8
+          ],
+          "color": "#C4A46C",
+          "name": "197 Museumplein East gilt finial mast"
+        }
+      ],
+      "as": "p197"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.2,
+            "d": 2.2,
+            "h": 3
+          },
+          "at": [
+            34,
+            -68,
+            68
+          ],
+          "color": "#C5A059",
+          "name": "198 Museumplein East roof finial"
+        }
+      ],
+      "as": "p198"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            27,
+            -82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "199 Museumplein East tower lancet -7"
+        }
+      ],
+      "as": "p199"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            27,
+            -82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "200 Museumplein East lancet lintel -7"
+        }
+      ],
+      "as": "p200"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            27,
+            -82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "201 Museumplein East lower leaded light -7"
+        }
+      ],
+      "as": "p201"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            34,
+            -82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "202 Museumplein East tower lancet 0"
+        }
+      ],
+      "as": "p202"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            34,
+            -82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "203 Museumplein East lancet lintel 0"
+        }
+      ],
+      "as": "p203"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            34,
+            -82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "204 Museumplein East lower leaded light 0"
+        }
+      ],
+      "as": "p204"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            41,
+            -82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "205 Museumplein East tower lancet 7"
+        }
+      ],
+      "as": "p205"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            41,
+            -82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "206 Museumplein East lancet lintel 7"
+        }
+      ],
+      "as": "p206"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            41,
+            -82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "207 Museumplein East lower leaded light 7"
+        }
+      ],
+      "as": "p207"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 20,
+            "h": 20
+          },
+          "at": [
+            -17,
+            -68,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "208 Museumplein west portal pier"
+        }
+      ],
+      "as": "p208"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 20,
+            "h": 20
+          },
+          "at": [
+            17,
+            -68,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "209 Museumplein east portal pier"
+        }
+      ],
+      "as": "p209"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 54,
+            "d": 20,
+            "h": 18
+          },
+          "at": [
+            0,
+            -68,
+            23
+          ],
+          "color": "#9B4837",
+          "name": "210 Museumplein entrance upper facade"
+        }
+      ],
+      "as": "p210"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 55,
+            "d": 21,
+            "h": 1.5
+          },
+          "at": [
+            0,
+            -68,
+            22.6
+          ],
+          "color": "#E6CEAC",
+          "name": "211 Museumplein entrance frieze"
+        }
+      ],
+      "as": "p211"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 55,
+            "d": 21,
+            "h": 1.5
+          },
+          "at": [
+            0,
+            -68,
+            40.4
+          ],
+          "color": "#E6CEAC",
+          "name": "212 Museumplein cornice"
+        }
+      ],
+      "as": "p212"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            11.679893014195006,
+            -78.4,
+            14.579315091624766
+          ],
+          "color": "#E6CEAC",
+          "name": "213 Museumplein arch voussoir 1"
+        }
+      ],
+      "as": "p213"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            10.733657545183318,
+            -78.4,
+            17.80189715342226
+          ],
+          "color": "#E6CEAC",
+          "name": "214 Museumplein arch voussoir 2"
+        }
+      ],
+      "as": "p214"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            8.917844977380248,
+            -78.4,
+            20.627356660554366
+          ],
+          "color": "#E6CEAC",
+          "name": "215 Museumplein arch voussoir 3"
+        }
+      ],
+      "as": "p215"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            6.379561645976053,
+            -78.4,
+            22.82679168740794
+          ],
+          "color": "#E6CEAC",
+          "name": "216 Museumplein arch voussoir 4"
+        }
+      ],
+      "as": "p216"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            3.3244441707288717,
+            -78.4,
+            24.22201708865107
+          ],
+          "color": "#E6CEAC",
+          "name": "217 Museumplein arch voussoir 5"
+        }
+      ],
+      "as": "p217"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            3.3426679496123083e-15,
+            -78.4,
+            24.700000000000003
+          ],
+          "color": "#E6CEAC",
+          "name": "218 Museumplein arch voussoir 6"
+        }
+      ],
+      "as": "p218"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            -3.3244441707288703,
+            -78.4,
+            24.22201708865107
+          ],
+          "color": "#E6CEAC",
+          "name": "219 Museumplein arch voussoir 7"
+        }
+      ],
+      "as": "p219"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            -6.379561645976048,
+            -78.4,
+            22.82679168740794
+          ],
+          "color": "#E6CEAC",
+          "name": "220 Museumplein arch voussoir 8"
+        }
+      ],
+      "as": "p220"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            -8.917844977380247,
+            -78.4,
+            20.627356660554366
+          ],
+          "color": "#E6CEAC",
+          "name": "221 Museumplein arch voussoir 9"
+        }
+      ],
+      "as": "p221"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            -10.733657545183316,
+            -78.4,
+            17.801897153422264
+          ],
+          "color": "#E6CEAC",
+          "name": "222 Museumplein arch voussoir 10"
+        }
+      ],
+      "as": "p222"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            -11.679893014195006,
+            -78.4,
+            14.579315091624766
+          ],
+          "color": "#E6CEAC",
+          "name": "223 Museumplein arch voussoir 11"
+        }
+      ],
+      "as": "p223"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3,
+            "d": 0.85,
+            "h": 14
+          },
+          "at": [
+            -13,
+            -78.4,
+            0
+          ],
+          "color": "#E6CEAC",
+          "name": "224 Museumplein west arch jamb"
+        }
+      ],
+      "as": "p224"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3,
+            "d": 0.85,
+            "h": 14
+          },
+          "at": [
+            13,
+            -78.4,
+            0
+          ],
+          "color": "#E6CEAC",
+          "name": "225 Museumplein east arch jamb"
+        }
+      ],
+      "as": "p225"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.3,
+            "d": 0.85,
+            "h": 9.6
+          },
+          "at": [
+            -15,
+            -78.4,
+            27
+          ],
+          "color": "#37627A",
+          "name": "226 Museumplein main stained glass window -15"
+        }
+      ],
+      "as": "p226"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 1,
+            "h": 9.8
+          },
+          "at": [
+            -11.9,
+            -78.4,
+            26.9
+          ],
+          "color": "#E6CEAC",
+          "name": "227 Museumplein window pilaster -15"
+        }
+      ],
+      "as": "p227"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.3,
+            "d": 0.85,
+            "h": 9.6
+          },
+          "at": [
+            -7.5,
+            -78.4,
+            27
+          ],
+          "color": "#37627A",
+          "name": "228 Museumplein main stained glass window -7.5"
+        }
+      ],
+      "as": "p228"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 1,
+            "h": 9.8
+          },
+          "at": [
+            -4.4,
+            -78.4,
+            26.9
+          ],
+          "color": "#E6CEAC",
+          "name": "229 Museumplein window pilaster -7.5"
+        }
+      ],
+      "as": "p229"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.3,
+            "d": 0.85,
+            "h": 9.6
+          },
+          "at": [
+            0,
+            -78.4,
+            27
+          ],
+          "color": "#37627A",
+          "name": "230 Museumplein main stained glass window 0"
+        }
+      ],
+      "as": "p230"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 1,
+            "h": 9.8
+          },
+          "at": [
+            3.1,
+            -78.4,
+            26.9
+          ],
+          "color": "#E6CEAC",
+          "name": "231 Museumplein window pilaster 0"
+        }
+      ],
+      "as": "p231"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.3,
+            "d": 0.85,
+            "h": 9.6
+          },
+          "at": [
+            7.5,
+            -78.4,
+            27
+          ],
+          "color": "#37627A",
+          "name": "232 Museumplein main stained glass window 7.5"
+        }
+      ],
+      "as": "p232"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 1,
+            "h": 9.8
+          },
+          "at": [
+            10.6,
+            -78.4,
+            26.9
+          ],
+          "color": "#E6CEAC",
+          "name": "233 Museumplein window pilaster 7.5"
+        }
+      ],
+      "as": "p233"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.3,
+            "d": 0.85,
+            "h": 9.6
+          },
+          "at": [
+            15,
+            -78.4,
+            27
+          ],
+          "color": "#37627A",
+          "name": "234 Museumplein main stained glass window 15"
+        }
+      ],
+      "as": "p234"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 1,
+            "h": 9.8
+          },
+          "at": [
+            18.1,
+            -78.4,
+            26.9
+          ],
+          "color": "#E6CEAC",
+          "name": "235 Museumplein window pilaster 15"
+        }
+      ],
+      "as": "p235"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 42,
+            "d": 1.3,
+            "h": 1
+          },
+          "at": [
+            0,
+            -78.4,
+            36.4
+          ],
+          "color": "#E6CEAC",
+          "name": "236 Museumplein large window lintel"
+        }
+      ],
+      "as": "p236"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 53,
+            "d": 23,
+            "h": 10
+          },
+          "at": [
+            0,
+            -68,
+            41.8
+          ],
+          "color": "#475A68",
+          "name": "237 Museumplein high entrance gable"
+        }
+      ],
+      "as": "p237"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 1.1,
+            "d": 1.1,
+            "h": 4
+          },
+          "at": [
+            0,
+            -68,
+            51.7
+          ],
+          "color": "#C4A46C",
+          "name": "238 Museumplein central crest finial"
+        }
+      ],
+      "as": "p238"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 26,
+            "d": 29,
+            "h": 43
+          },
+          "at": [
+            -34,
+            68,
+            0
+          ],
+          "color": "#7B382E",
+          "name": "239 City-side West tower"
+        }
+      ],
+      "as": "p239"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.3
+          },
+          "at": [
+            -34,
+            68,
+            12
+          ],
+          "color": "#E6CEAC",
+          "name": "240 City-side West lower tower band"
+        }
+      ],
+      "as": "p240"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.3
+          },
+          "at": [
+            -34,
+            68,
+            24
+          ],
+          "color": "#E6CEAC",
+          "name": "241 City-side West middle tower band"
+        }
+      ],
+      "as": "p241"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.8
+          },
+          "at": [
+            -34,
+            68,
+            42.1
+          ],
+          "color": "#E6CEAC",
+          "name": "242 City-side West crown cornice"
+        }
+      ],
+      "as": "p242"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 29,
+            "d": 32,
+            "h": 18
+          },
+          "at": [
+            -34,
+            68,
+            43.9
+          ],
+          "color": "#354657",
+          "name": "243 City-side West steep tower spire"
+        }
+      ],
+      "as": "p243"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 20,
+            "d": 23,
+            "h": 2
+          },
+          "at": [
+            -34,
+            68,
+            61.8
+          ],
+          "color": "#475A68",
+          "name": "244 City-side West roof lantern"
+        }
+      ],
+      "as": "p244"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 1.35,
+            "d": 1.35,
+            "h": 4.3
+          },
+          "at": [
+            -34,
+            68,
+            63.8
+          ],
+          "color": "#C4A46C",
+          "name": "245 City-side West gilt finial mast"
+        }
+      ],
+      "as": "p245"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.2,
+            "d": 2.2,
+            "h": 3
+          },
+          "at": [
+            -34,
+            68,
+            68
+          ],
+          "color": "#C5A059",
+          "name": "246 City-side West roof finial"
+        }
+      ],
+      "as": "p246"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            -41,
+            82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "247 City-side West tower lancet -7"
+        }
+      ],
+      "as": "p247"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            -41,
+            82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "248 City-side West lancet lintel -7"
+        }
+      ],
+      "as": "p248"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            -41,
+            82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "249 City-side West lower leaded light -7"
+        }
+      ],
+      "as": "p249"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            -34,
+            82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "250 City-side West tower lancet 0"
+        }
+      ],
+      "as": "p250"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            -34,
+            82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "251 City-side West lancet lintel 0"
+        }
+      ],
+      "as": "p251"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            -34,
+            82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "252 City-side West lower leaded light 0"
+        }
+      ],
+      "as": "p252"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            -27,
+            82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "253 City-side West tower lancet 7"
+        }
+      ],
+      "as": "p253"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            -27,
+            82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "254 City-side West lancet lintel 7"
+        }
+      ],
+      "as": "p254"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            -27,
+            82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "255 City-side West lower leaded light 7"
+        }
+      ],
+      "as": "p255"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 26,
+            "d": 29,
+            "h": 43
+          },
+          "at": [
+            34,
+            68,
+            0
+          ],
+          "color": "#7B382E",
+          "name": "256 City-side East tower"
+        }
+      ],
+      "as": "p256"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.3
+          },
+          "at": [
+            34,
+            68,
+            12
+          ],
+          "color": "#E6CEAC",
+          "name": "257 City-side East lower tower band"
+        }
+      ],
+      "as": "p257"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.3
+          },
+          "at": [
+            34,
+            68,
+            24
+          ],
+          "color": "#E6CEAC",
+          "name": "258 City-side East middle tower band"
+        }
+      ],
+      "as": "p258"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 27,
+            "d": 30,
+            "h": 1.8
+          },
+          "at": [
+            34,
+            68,
+            42.1
+          ],
+          "color": "#E6CEAC",
+          "name": "259 City-side East crown cornice"
+        }
+      ],
+      "as": "p259"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 29,
+            "d": 32,
+            "h": 18
+          },
+          "at": [
+            34,
+            68,
+            43.9
+          ],
+          "color": "#354657",
+          "name": "260 City-side East steep tower spire"
+        }
+      ],
+      "as": "p260"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 20,
+            "d": 23,
+            "h": 2
+          },
+          "at": [
+            34,
+            68,
+            61.8
+          ],
+          "color": "#475A68",
+          "name": "261 City-side East roof lantern"
+        }
+      ],
+      "as": "p261"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 1.35,
+            "d": 1.35,
+            "h": 4.3
+          },
+          "at": [
+            34,
+            68,
+            63.8
+          ],
+          "color": "#C4A46C",
+          "name": "262 City-side East gilt finial mast"
+        }
+      ],
+      "as": "p262"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.2,
+            "d": 2.2,
+            "h": 3
+          },
+          "at": [
+            34,
+            68,
+            68
+          ],
+          "color": "#C5A059",
+          "name": "263 City-side East roof finial"
+        }
+      ],
+      "as": "p263"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            27,
+            82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "264 City-side East tower lancet -7"
+        }
+      ],
+      "as": "p264"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            27,
+            82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "265 City-side East lancet lintel -7"
+        }
+      ],
+      "as": "p265"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            27,
+            82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "266 City-side East lower leaded light -7"
+        }
+      ],
+      "as": "p266"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            34,
+            82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "267 City-side East tower lancet 0"
+        }
+      ],
+      "as": "p267"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            34,
+            82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "268 City-side East lancet lintel 0"
+        }
+      ],
+      "as": "p268"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            34,
+            82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "269 City-side East lower leaded light 0"
+        }
+      ],
+      "as": "p269"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.2,
+            "d": 0.6,
+            "h": 9.3
+          },
+          "at": [
+            41,
+            82.8,
+            26
+          ],
+          "color": "#37627A",
+          "name": "270 City-side East tower lancet 7"
+        }
+      ],
+      "as": "p270"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.8,
+            "d": 0.9,
+            "h": 0.8
+          },
+          "at": [
+            41,
+            82.8,
+            35.3
+          ],
+          "color": "#E6CEAC",
+          "name": "271 City-side East lancet lintel 7"
+        }
+      ],
+      "as": "p271"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 5.5,
+            "d": 0.7,
+            "h": 5.1
+          },
+          "at": [
+            41,
+            82.8,
+            15.1
+          ],
+          "color": "#6C9DAC",
+          "name": "272 City-side East lower leaded light 7"
+        }
+      ],
+      "as": "p272"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 20,
+            "h": 20
+          },
+          "at": [
+            -17,
+            68,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "273 City-side west portal pier"
+        }
+      ],
+      "as": "p273"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 20,
+            "h": 20
+          },
+          "at": [
+            17,
+            68,
+            0
+          ],
+          "color": "#9B4837",
+          "name": "274 City-side east portal pier"
+        }
+      ],
+      "as": "p274"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 54,
+            "d": 20,
+            "h": 18
+          },
+          "at": [
+            0,
+            68,
+            23
+          ],
+          "color": "#9B4837",
+          "name": "275 City-side entrance upper facade"
+        }
+      ],
+      "as": "p275"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 55,
+            "d": 21,
+            "h": 1.5
+          },
+          "at": [
+            0,
+            68,
+            22.6
+          ],
+          "color": "#E6CEAC",
+          "name": "276 City-side entrance frieze"
+        }
+      ],
+      "as": "p276"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 55,
+            "d": 21,
+            "h": 1.5
+          },
+          "at": [
+            0,
+            68,
+            40.4
+          ],
+          "color": "#E6CEAC",
+          "name": "277 City-side cornice"
+        }
+      ],
+      "as": "p277"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            11.679893014195006,
+            78.4,
+            14.579315091624766
+          ],
+          "color": "#E6CEAC",
+          "name": "278 City-side arch voussoir 1"
+        }
+      ],
+      "as": "p278"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            10.733657545183318,
+            78.4,
+            17.80189715342226
+          ],
+          "color": "#E6CEAC",
+          "name": "279 City-side arch voussoir 2"
+        }
+      ],
+      "as": "p279"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            8.917844977380248,
+            78.4,
+            20.627356660554366
+          ],
+          "color": "#E6CEAC",
+          "name": "280 City-side arch voussoir 3"
+        }
+      ],
+      "as": "p280"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            6.379561645976053,
+            78.4,
+            22.82679168740794
+          ],
+          "color": "#E6CEAC",
+          "name": "281 City-side arch voussoir 4"
+        }
+      ],
+      "as": "p281"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            3.3244441707288717,
+            78.4,
+            24.22201708865107
+          ],
+          "color": "#E6CEAC",
+          "name": "282 City-side arch voussoir 5"
+        }
+      ],
+      "as": "p282"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            3.3426679496123083e-15,
+            78.4,
+            24.700000000000003
+          ],
+          "color": "#E6CEAC",
+          "name": "283 City-side arch voussoir 6"
+        }
+      ],
+      "as": "p283"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            -3.3244441707288703,
+            78.4,
+            24.22201708865107
+          ],
+          "color": "#E6CEAC",
+          "name": "284 City-side arch voussoir 7"
+        }
+      ],
+      "as": "p284"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            -6.379561645976048,
+            78.4,
+            22.82679168740794
+          ],
+          "color": "#E6CEAC",
+          "name": "285 City-side arch voussoir 8"
+        }
+      ],
+      "as": "p285"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            -8.917844977380247,
+            78.4,
+            20.627356660554366
+          ],
+          "color": "#E6CEAC",
+          "name": "286 City-side arch voussoir 9"
+        }
+      ],
+      "as": "p286"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            -10.733657545183316,
+            78.4,
+            17.801897153422264
+          ],
+          "color": "#E6CEAC",
+          "name": "287 City-side arch voussoir 10"
+        }
+      ],
+      "as": "p287"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.8,
+            "d": 0.95,
+            "h": 2.2
+          },
+          "at": [
+            -11.679893014195006,
+            78.4,
+            14.579315091624766
+          ],
+          "color": "#E6CEAC",
+          "name": "288 City-side arch voussoir 11"
+        }
+      ],
+      "as": "p288"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3,
+            "d": 0.85,
+            "h": 14
+          },
+          "at": [
+            -13,
+            78.4,
+            0
+          ],
+          "color": "#E6CEAC",
+          "name": "289 City-side west arch jamb"
+        }
+      ],
+      "as": "p289"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3,
+            "d": 0.85,
+            "h": 14
+          },
+          "at": [
+            13,
+            78.4,
+            0
+          ],
+          "color": "#E6CEAC",
+          "name": "290 City-side east arch jamb"
+        }
+      ],
+      "as": "p290"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.3,
+            "d": 0.85,
+            "h": 9.6
+          },
+          "at": [
+            -15,
+            78.4,
+            27
+          ],
+          "color": "#37627A",
+          "name": "291 City-side main stained glass window -15"
+        }
+      ],
+      "as": "p291"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 1,
+            "h": 9.8
+          },
+          "at": [
+            -11.9,
+            78.4,
+            26.9
+          ],
+          "color": "#E6CEAC",
+          "name": "292 City-side window pilaster -15"
+        }
+      ],
+      "as": "p292"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.3,
+            "d": 0.85,
+            "h": 9.6
+          },
+          "at": [
+            -7.5,
+            78.4,
+            27
+          ],
+          "color": "#37627A",
+          "name": "293 City-side main stained glass window -7.5"
+        }
+      ],
+      "as": "p293"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 1,
+            "h": 9.8
+          },
+          "at": [
+            -4.4,
+            78.4,
+            26.9
+          ],
+          "color": "#E6CEAC",
+          "name": "294 City-side window pilaster -7.5"
+        }
+      ],
+      "as": "p294"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.3,
+            "d": 0.85,
+            "h": 9.6
+          },
+          "at": [
+            0,
+            78.4,
+            27
+          ],
+          "color": "#37627A",
+          "name": "295 City-side main stained glass window 0"
+        }
+      ],
+      "as": "p295"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 1,
+            "h": 9.8
+          },
+          "at": [
+            3.1,
+            78.4,
+            26.9
+          ],
+          "color": "#E6CEAC",
+          "name": "296 City-side window pilaster 0"
+        }
+      ],
+      "as": "p296"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.3,
+            "d": 0.85,
+            "h": 9.6
+          },
+          "at": [
+            7.5,
+            78.4,
+            27
+          ],
+          "color": "#37627A",
+          "name": "297 City-side main stained glass window 7.5"
+        }
+      ],
+      "as": "p297"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 1,
+            "h": 9.8
+          },
+          "at": [
+            10.6,
+            78.4,
+            26.9
+          ],
+          "color": "#E6CEAC",
+          "name": "298 City-side window pilaster 7.5"
+        }
+      ],
+      "as": "p298"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.3,
+            "d": 0.85,
+            "h": 9.6
+          },
+          "at": [
+            15,
+            78.4,
+            27
+          ],
+          "color": "#37627A",
+          "name": "299 City-side main stained glass window 15"
+        }
+      ],
+      "as": "p299"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 1,
+            "h": 9.8
+          },
+          "at": [
+            18.1,
+            78.4,
+            26.9
+          ],
+          "color": "#E6CEAC",
+          "name": "300 City-side window pilaster 15"
+        }
+      ],
+      "as": "p300"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 42,
+            "d": 1.3,
+            "h": 1
+          },
+          "at": [
+            0,
+            78.4,
+            36.4
+          ],
+          "color": "#E6CEAC",
+          "name": "301 City-side large window lintel"
+        }
+      ],
+      "as": "p301"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 53,
+            "d": 23,
+            "h": 10
+          },
+          "at": [
+            0,
+            68,
+            41.8
+          ],
+          "color": "#475A68",
+          "name": "302 City-side high entrance gable"
+        }
+      ],
+      "as": "p302"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 1.1,
+            "d": 1.1,
+            "h": 4
+          },
+          "at": [
+            0,
+            68,
+            51.7
+          ],
+          "color": "#C4A46C",
+          "name": "303 City-side central crest finial"
+        }
+      ],
+      "as": "p303"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            -65,
+            -58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "304 West balustrade finial x0 y-58"
+        }
+      ],
+      "as": "p304"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            -88,
+            -58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "305 West balustrade finial x1 y-58"
+        }
+      ],
+      "as": "p305"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            -111,
+            -58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "306 West balustrade finial x2 y-58"
+        }
+      ],
+      "as": "p306"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            -65,
+            58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "307 West balustrade finial x0 y58"
+        }
+      ],
+      "as": "p307"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            -88,
+            58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "308 West balustrade finial x1 y58"
+        }
+      ],
+      "as": "p308"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            -111,
+            58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "309 West balustrade finial x2 y58"
+        }
+      ],
+      "as": "p309"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            65,
+            -58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "310 East balustrade finial x0 y-58"
+        }
+      ],
+      "as": "p310"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            88,
+            -58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "311 East balustrade finial x1 y-58"
+        }
+      ],
+      "as": "p311"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            111,
+            -58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "312 East balustrade finial x2 y-58"
+        }
+      ],
+      "as": "p312"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            65,
+            58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "313 East balustrade finial x0 y58"
+        }
+      ],
+      "as": "p313"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            88,
+            58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "314 East balustrade finial x1 y58"
+        }
+      ],
+      "as": "p314"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.2,
+            "d": 1.5,
+            "h": 6.5
+          },
+          "at": [
+            111,
+            58,
+            27
+          ],
+          "color": "#E6CEAC",
+          "name": "315 East balustrade finial x2 y58"
+        }
+      ],
+      "as": "p315"
+    }
+  ]
+}
