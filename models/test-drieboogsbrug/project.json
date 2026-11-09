@@ -3,13 +3,17 @@
   "version": 1,
   "doc": {
     "v": 1,
-    "id": "prototype-test-drieboogsbrug",
+    "id": "djo9eeemtt3",
     "name": "Stenen brug met drie bogen",
     "mode": "beginner",
+    "created": 1794245885078,
+    "seq": 31,
+    "grid": 1,
     "bodies": [
       {
-        "id": "placeholder-1",
+        "id": "bjoa0l5v8u5",
         "name": "River surface",
+        "seq": 1,
         "color": "#547d9d",
         "hole": false,
         "hidden": false,
@@ -37,14 +41,1139 @@
           "p": {
             "w": 181,
             "d": 95,
-            "h": 1.1
+            "h": 1.1,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoah5fjmoa",
+        "name": "Stone bridge with three true tunnel openings",
+        "seq": 6,
+        "color": "#c3ad86",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "node": {
+          "t": "group",
+          "children": [
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 163,
+                  "d": 37,
+                  "h": 31,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "hole": false,
+              "name": "Arch bridge solid body",
+              "color": "#c3ad86"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "cylinder",
+                "p": {
+                  "w": 31,
+                  "d": 31,
+                  "h": 52,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                6.123233995736766e-17,
+                1,
+                0,
+                0,
+                -1,
+                6.123233995736766e-17,
+                0,
+                -52,
+                26,
+                3.9999999999999982,
+                1
+              ],
+              "hole": true,
+              "name": "Vault cutter -52",
+              "color": "#c3ad86"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "cylinder",
+                "p": {
+                  "w": 31,
+                  "d": 31,
+                  "h": 52,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                6.123233995736766e-17,
+                1,
+                0,
+                0,
+                -1,
+                6.123233995736766e-17,
+                0,
+                0,
+                26,
+                3.9999999999999982,
+                1
+              ],
+              "hole": true,
+              "name": "Vault cutter 0",
+              "color": "#c3ad86"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "cylinder",
+                "p": {
+                  "w": 31,
+                  "d": 31,
+                  "h": 52,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                6.123233995736766e-17,
+                1,
+                0,
+                0,
+                -1,
+                6.123233995736766e-17,
+                0,
+                52,
+                26,
+                3.9999999999999982,
+                1
+              ],
+              "hole": true,
+              "name": "Vault cutter 52",
+              "color": "#c3ad86"
+            }
+          ],
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoastihl5b",
+        "name": "Continuous bridge deck",
+        "seq": 7,
+        "color": "#a59072",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          31,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 169,
+            "d": 43,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoauipf6ic",
+        "name": "Stone parapet y-20",
+        "seq": 8,
+        "color": "#c3ad86",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 169,
+            "d": 3.2,
+            "h": 8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoaye7dr9d",
+        "name": "Parapet coping y-20",
+        "seq": 9,
+        "color": "#e1d0b2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -20,
+          42,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 172,
+            "d": 4.5,
+            "h": 1.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjob0syyswe",
+        "name": "Parapet panel -74 y-20",
+        "seq": 10,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -74,
+          -20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjob2g64prf",
+        "name": "Parapet panel -47 y-20",
+        "seq": 11,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -47,
+          -20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjob2l6a4cg",
+        "name": "Parapet panel -20 y-20",
+        "seq": 12,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -20,
+          -20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjob2qib8jh",
+        "name": "Parapet panel 7 y-20",
+        "seq": 13,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          7,
+          -20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjob49wyu3i",
+        "name": "Parapet panel 34 y-20",
+        "seq": 14,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          34,
+          -20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjob4fxj3gj",
+        "name": "Parapet panel 61 y-20",
+        "seq": 15,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          61,
+          -20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjob4l9bmek",
+        "name": "Stone parapet y20",
+        "seq": 16,
+        "color": "#c3ad86",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 169,
+            "d": 3.2,
+            "h": 8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjob6app9xl",
+        "name": "Parapet coping y20",
+        "seq": 17,
+        "color": "#e1d0b2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          20,
+          42,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 172,
+            "d": 4.5,
+            "h": 1.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjob83adwum",
+        "name": "Parapet panel -74 y20",
+        "seq": 18,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -74,
+          20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjob9vvg4in",
+        "name": "Parapet panel -47 y20",
+        "seq": 19,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -47,
+          20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoba1n9hvo",
+        "name": "Parapet panel -20 y20",
+        "seq": 20,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -20,
+          20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjobbp78a2p",
+        "name": "Parapet panel 7 y20",
+        "seq": 21,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          7,
+          20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjobdhx1xaq",
+        "name": "Parapet panel 34 y20",
+        "seq": 22,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          34,
+          20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjobdnsxv8r",
+        "name": "Parapet panel 61 y20",
+        "seq": 23,
+        "color": "#94816a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          61,
+          20,
+          34,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjobdttbtjs",
+        "name": "Front arch keystone -52",
+        "seq": 24,
+        "color": "#e1d0b2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -52,
+          -19,
+          18.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjobfogxqvt",
+        "name": "Rear arch keystone -52",
+        "seq": 25,
+        "color": "#e1d0b2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -52,
+          19,
+          18.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjobj0d3zwu",
+        "name": "Front arch keystone 0",
+        "seq": 26,
+        "color": "#e1d0b2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -19,
+          18.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjobkrycd7v",
+        "name": "Rear arch keystone 0",
+        "seq": 27,
+        "color": "#e1d0b2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          19,
+          18.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjobmlc7lhw",
+        "name": "Front arch keystone 52",
+        "seq": 28,
+        "color": "#e1d0b2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          52,
+          -19,
+          18.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoboexp3ex",
+        "name": "Rear arch keystone 52",
+        "seq": 29,
+        "color": "#e1d0b2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          52,
+          19,
+          18.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjobq4da5py",
+        "name": "Abutment top -75",
+        "seq": 30,
+        "color": "#e1d0b2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -75,
+          0,
+          27,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 14,
+            "d": 44,
+            "h": 4,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjobs22vx5z",
+        "name": "Abutment top 75",
+        "seq": 31,
+        "color": "#e1d0b2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          75,
+          0,
+          27,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 14,
+            "d": 44,
+            "h": 4,
+            "r": 0,
+            "c": 0
           },
           "mods": []
         }
       }
     ],
     "sketches": [],
-    "params": [],
-    "seq": 1
+    "planes": [],
+    "joints": [],
+    "params": []
   }
 }

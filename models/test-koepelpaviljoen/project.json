@@ -3,13 +3,60 @@
   "version": 1,
   "doc": {
     "v": 1,
-    "id": "prototype-test-koepelpaviljoen",
+    "id": "djohcc7myi3",
     "name": "Klassiek koepelpaviljoen",
-    "mode": "beginner",
+    "mode": "advanced",
+    "created": 1794245895372,
+    "seq": 43,
+    "grid": 1,
     "bodies": [
       {
-        "id": "placeholder-1",
+        "id": "bjoi341y54a",
+        "name": "Circular foundation with editable sketch",
+        "seq": 2,
+        "color": "#e4572e",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "node": {
+          "t": "extrude",
+          "sketch": "sjohxzfloj9",
+          "profiles": [
+            {
+              "key": "ejohxzr1v96",
+              "pt": [
+                0,
+                1e-7
+              ]
+            }
+          ],
+          "dist": 3,
+          "mode": "one",
+          "dist2": 0,
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoi46adk8b",
         "name": "Lower plinth bevel ring",
+        "seq": 3,
         "color": "#ddd5c2",
         "hole": false,
         "hidden": false,
@@ -37,14 +84,1591 @@
           "p": {
             "w": 97,
             "d": 97,
-            "h": 3
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoi4dh0itc",
+        "name": "Column terrace",
+        "seq": 4,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          6,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 89,
+            "d": 89,
+            "h": 4,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoi5g64bqd",
+        "name": "Circular classical entablature",
+        "seq": 5,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          55,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 91,
+            "d": 91,
+            "h": 4,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoi5npbjde",
+        "name": "Circular dome footing",
+        "seq": 6,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          59,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 95,
+            "d": 95,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoi5tx1r5f",
+        "name": "Column 1 base",
+        "seq": 7,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          38,
+          0,
+          10,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7,
+            "d": 7,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoiapuaghg",
+        "name": "Column 1 shaft",
+        "seq": 8,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          38,
+          0,
+          13,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoids97tuh",
+        "name": "Column 1 capital",
+        "seq": 9,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          38,
+          0,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoigs0bc4i",
+        "name": "Column 2 base",
+        "seq": 10,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          30.74,
+          22.34,
+          10,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7,
+            "d": 7,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoiiicaopj",
+        "name": "Column 2 shaft",
+        "seq": 11,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          30.74,
+          22.34,
+          13,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoiiqsx9fk",
+        "name": "Column 2 capital",
+        "seq": 12,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          30.74,
+          22.34,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoikh9ai2l",
+        "name": "Column 3 base",
+        "seq": 13,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.74,
+          36.14,
+          10,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7,
+            "d": 7,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoim8963sm",
+        "name": "Column 3 shaft",
+        "seq": 14,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.74,
+          36.14,
+          13,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoio7f9jqn",
+        "name": "Column 3 capital",
+        "seq": 15,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.74,
+          36.14,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoiq59o8wo",
+        "name": "Column 4 base",
+        "seq": 16,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.74,
+          36.14,
+          10,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7,
+            "d": 7,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjois5go7zp",
+        "name": "Column 4 shaft",
+        "seq": 17,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.74,
+          36.14,
+          13,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoishpgskq",
+        "name": "Column 4 capital",
+        "seq": 18,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.74,
+          36.14,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoiug9w4jr",
+        "name": "Column 5 base",
+        "seq": 19,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -30.74,
+          22.34,
+          10,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7,
+            "d": 7,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoiuqz41ss",
+        "name": "Column 5 shaft",
+        "seq": 20,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -30.74,
+          22.34,
+          13,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoiwqkg05t",
+        "name": "Column 5 capital",
+        "seq": 21,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -30.74,
+          22.34,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoix1bnvqu",
+        "name": "Column 6 base",
+        "seq": 22,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -38,
+          0,
+          10,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7,
+            "d": 7,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoiz5xghtv",
+        "name": "Column 6 shaft",
+        "seq": 23,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -38,
+          0,
+          13,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoj1agis4w",
+        "name": "Column 6 capital",
+        "seq": 24,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -38,
+          0,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoj3itj8vx",
+        "name": "Column 7 base",
+        "seq": 25,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -30.74,
+          -22.34,
+          10,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7,
+            "d": 7,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoj5pzzjiy",
+        "name": "Column 7 shaft",
+        "seq": 26,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -30.74,
+          -22.34,
+          13,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoj8c1aw3z",
+        "name": "Column 7 capital",
+        "seq": 27,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -30.74,
+          -22.34,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjoj8num2310",
+        "name": "Column 8 base",
+        "seq": 28,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.74,
+          -36.14,
+          10,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7,
+            "d": 7,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjojax4bzn11",
+        "name": "Column 8 shaft",
+        "seq": 29,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.74,
+          -36.14,
+          13,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjojdax4mj12",
+        "name": "Column 8 capital",
+        "seq": 30,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.74,
+          -36.14,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjojfq0uhu13",
+        "name": "Column 9 base",
+        "seq": 31,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.74,
+          -36.14,
+          10,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7,
+            "d": 7,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjojg3n72k14",
+        "name": "Column 9 shaft",
+        "seq": 32,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.74,
+          -36.14,
+          13,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjojikbmsl15",
+        "name": "Column 9 capital",
+        "seq": 33,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.74,
+          -36.14,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjojl1f7ao16",
+        "name": "Column 10 base",
+        "seq": 34,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          30.74,
+          -22.34,
+          10,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7,
+            "d": 7,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjojnotabi17",
+        "name": "Column 10 shaft",
+        "seq": 35,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          30.74,
+          -22.34,
+          13,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjojqa9pr918",
+        "name": "Column 10 capital",
+        "seq": 36,
+        "color": "#c6b69a",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          30.74,
+          -22.34,
+          52,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjojte2bvw19",
+        "name": "Copper dome",
+        "seq": 37,
+        "color": "#607b79",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          62,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "hemisphere",
+          "p": {
+            "w": 93,
+            "d": 93,
+            "h": 46.5
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjojw81nog1a",
+        "name": "Lantern base ring",
+        "seq": 38,
+        "color": "#bb9865",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          106,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 20,
+            "d": 20,
+            "h": 2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjok055ogu1b",
+        "name": "Central lantern drum",
+        "seq": 39,
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          108,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 13,
+            "d": 13,
+            "h": 12,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjok5x9e7t1c",
+        "name": "Lantern half dome",
+        "seq": 40,
+        "color": "#607b79",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          120,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "hemisphere",
+          "p": {
+            "w": 19,
+            "d": 19,
+            "h": 9.5
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjok98w2nr1d",
+        "name": "Copper finial",
+        "seq": 41,
+        "color": "#bb9865",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          129,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 2.2,
+            "d": 2.2,
+            "h": 7,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjokf1ngga1e",
+        "name": "Approach stair -51",
+        "seq": 42,
+        "color": "#b5ab9b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -51,
+          -0.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 19,
+            "d": 8,
+            "h": 1.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bjokigqszn1f",
+        "name": "Approach stair -57",
+        "seq": 43,
+        "color": "#b5ab9b",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -57,
+          -0.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 19,
+            "d": 8,
+            "h": 1.5,
+            "r": 0,
+            "c": 0
           },
           "mods": []
         }
       }
     ],
-    "sketches": [],
-    "params": [],
-    "seq": 1
+    "sketches": [
+      {
+        "id": "sjohxzfloj9",
+        "name": "Terrace circle (advanced parametric sketch)",
+        "seq": 1,
+        "plane": {
+          "o": [
+            0,
+            0,
+            0
+          ],
+          "x": [
+            1,
+            0,
+            0
+          ],
+          "n": [
+            0,
+            0,
+            1
+          ]
+        },
+        "pts": [
+          {
+            "id": "pjohxz00jx5",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "ents": [
+          {
+            "id": "ejohxzr1v96",
+            "t": "circle",
+            "c": "pjohxz00jx5",
+            "r": 56
+          }
+        ],
+        "cons": [
+          {
+            "id": "kjohxzdu3q7",
+            "t": "dim",
+            "k": "dia",
+            "e1": "ejohxzr1v96",
+            "v": 112,
+            "off": [
+              42.199999999999996,
+              42.199999999999996
+            ],
+            "name": "d1"
+          },
+          {
+            "id": "kjohxz39to8",
+            "t": "origin",
+            "p": "pjohxz00jx5"
+          }
+        ],
+        "hidden": true
+      }
+    ],
+    "planes": [],
+    "joints": [],
+    "params": []
   }
 }
