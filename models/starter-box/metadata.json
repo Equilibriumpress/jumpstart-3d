@@ -1,0 +1,9 @@
+{
+  "id": "starter-box",
+  "title": "Starter box",
+  "description": "Editable native JumpStart 3D CAD project and matching JSON recipe.",
+  "units": "mm",
+  "licence": "CC0-1.0",
+  "author": "Equilibrium Press",
+  "source": "models/starter-box/recipe.json"
+}

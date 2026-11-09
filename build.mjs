@@ -113,6 +113,8 @@ const singleShell = shell.replace(fontMarker, () => '<style id="js3d-fonts">' + 
 rmSync(docs, { recursive: true, force: true });
 mkdirSync(docs, { recursive: true });
 writeFileSync(join(docs, "index.html"), siteShell);
+// Equilibrium Press: copy native editable GitHub model library into the static Pages output.
+cpSync(join(root, "models"), join(docs, "models"), { recursive: true });
 cpSync(join(src, "fonts"), join(docs, "fonts"), { recursive: true });
 cpSync(join(root, "LICENSES", "OFL-1.1-fonts.txt"), join(docs, "fonts", "OFL.txt")); // the license travels with the fonts
 writeFileSync(join(docs, "app.js"), app);

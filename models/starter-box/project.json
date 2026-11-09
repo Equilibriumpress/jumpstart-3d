@@ -1,0 +1,50 @@
+{
+  "app": "jumpstart-3d",
+  "version": 1,
+  "doc": {
+    "name": "Starter box",
+    "mode": "beginner",
+    "bodies": [
+      {
+        "id": "b1",
+        "name": "Starter box",
+        "seq": 1,
+        "color": "#2878b8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 60,
+            "d": 40,
+            "h": 25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      }
+    ],
+    "sketches": [],
+    "params": []
+  }
+}
