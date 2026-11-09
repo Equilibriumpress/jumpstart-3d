@@ -7,7 +7,7 @@
       "description": "Editable 60 × 40 × 25 mm CAD starter model.",
       "project": "models/starter-box/project.json",
       "recipe": "models/starter-box/recipe.json",
-      "preview": null,
+      "preview": "models/starter-box/preview.png",
       "tags": [
         "demo",
         "parametric"
