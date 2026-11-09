@@ -37,7 +37,7 @@
       "description": "Een trapgevelachtig grachtenpand met klassieke ramen, voordeur, pannendak en dakkapellen. Gebouwd met eenvoudige primitives.",
       "project": "models/test-grachtenpand/project.json",
       "recipe": "models/test-grachtenpand/recipe.json",
-      "preview": null,
+      "preview": "models/test-grachtenpand/preview.png",
       "tags": [
         "experiment",
         "architectuur",
@@ -52,7 +52,7 @@
       "description": "Een brug uit één hoofdvolume waarin drie echte cilindrische gewelfopeningen worden uitgesneden via de bestaande CAD-boolean.",
       "project": "models/test-drieboogsbrug/project.json",
       "recipe": "models/test-drieboogsbrug/recipe.json",
-      "preview": null,
+      "preview": "models/test-drieboogsbrug/preview.png",
       "tags": [
         "experiment",
         "architectuur",
@@ -67,7 +67,7 @@
       "description": "Een rond paviljoen met zuilenkring en koepel. De fundering wordt als echte parametrische schets geëxtrudeerd.",
       "project": "models/test-koepelpaviljoen/project.json",
       "recipe": "models/test-koepelpaviljoen/recipe.json",
-      "preview": null,
+      "preview": "models/test-koepelpaviljoen/preview.png",
       "tags": [
         "experiment",
         "architectuur",
