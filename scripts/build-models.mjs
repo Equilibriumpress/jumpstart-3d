@@ -20,7 +20,7 @@ for (const m of chosen) {
   if (!existsSync(recipe)) throw new Error("Missing recipe: " + m.id);
   const opts = { cwd: root, maxBuffer: 1024 * 1024 * 5, timeout: 20 * 60 * 1000 };
   console.log("Building " + m.id);
-  await execFile(process.execPath, [cli, "build", recipe, "--export", "json", "--out", project, "--check", "--app", join(root, "docs")], opts);
+  await execFile(process.execPath, [cli, "build", recipe, "--export", "json", "--out", project, ...(m.printCheck === false ? [] : ["--check"]), "--app", join(root, "docs")], opts);
   const saved = JSON.parse(readFileSync(project, "utf8"));
   if (saved.app !== "jumpstart-3d" || !saved.doc?.bodies?.length) throw new Error("Not a native project: " + m.id);
   saved.doc.name = m.title;

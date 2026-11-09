@@ -1,0 +1,40 @@
+{
+  "id": "rijksmuseum-amsterdam",
+  "title": "Rijksmuseum Amsterdam | Architectural Study",
+  "author": "Equilibrium Press",
+  "year": 2026,
+  "license": "CC0-1.0",
+  "category": "Architectural scale study",
+  "accuracy": "Illustrative massing model, not a measured survey. Approximate 1:500 dimensions. Do not use for construction or manufacturing.",
+  "scale": "1:500 approximate",
+  "units": "millimetres",
+  "buildingArchitect": "Pierre Cuypers",
+  "originalOpened": 1885,
+  "geometry": {
+    "editable": true,
+    "source": "recipe.json",
+    "parts": 315,
+    "recipeSteps": 319,
+    "materials": {
+      "brick": "#9B4837",
+      "brick2": "#7B382E",
+      "mortar": "#E6CEAC",
+      "limestone": "#D8CAB2",
+      "slate": "#354657",
+      "slate2": "#475A68",
+      "window": "#37627A",
+      "glass": "#6C9DAC",
+      "bronze": "#C4A46C",
+      "stone": "#B4B0A4",
+      "road": "#777E81",
+      "ground": "#CFC9B8",
+      "grass": "#69836A",
+      "gold": "#C5A059"
+    }
+  },
+  "referenceUrls": [
+    "https://www.rijksmuseum.nl/en/visit/inside-the-museum/the-building",
+    "https://commons.wikimedia.org/wiki/Category:Rijksmuseum_Amsterdam_-_Main_Building"
+  ],
+  "textures": "Original procedural geometry, no third-party photos or assets"
+}

@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "models": [
     {
+      "id": "rijksmuseum-amsterdam",
+      "title": "Rijksmuseum Amsterdam",
+      "description": "Architectural 3D study of Pierre Cuypers' Rijksmuseum: twin towers, open central passage, roof ridges, galleries, stone bands and glazing. Editable native CAD geometry; illustrative proportions.",
+      "project": "models/rijksmuseum-amsterdam/project.json",
+      "recipe": "models/rijksmuseum-amsterdam/recipe.json",
+      "preview": "models/rijksmuseum-amsterdam/preview.png",
+      "tags": [
+        "architecture",
+        "Amsterdam",
+        "museum",
+        "Cuypers",
+        "advanced"
+      ],
+      "published": true,
+      "printCheck": false
+    },
+    {
       "id": "starter-box",
       "title": "Starter box",
       "description": "Editable 60 × 40 × 25 mm CAD starter model.",
