@@ -82,7 +82,7 @@
       "description": "A/B-test: echte raam- en deuropeningen, diepe kozijnen, natuursteen, getrapte gevel, baksteen- en leisteentexturen.",
       "project": "models/test-grachtenpand-realistisch/project.json",
       "recipe": "models/test-grachtenpand-realistisch/recipe.json",
-      "preview": null,
+      "preview": "models/test-grachtenpand-realistisch/preview.png",
       "tags": [
         "experiment",
         "architectuur",
