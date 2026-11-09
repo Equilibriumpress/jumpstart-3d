@@ -297,11 +297,11 @@
           },
           "at": [
             -23,
-            23,
-            "#354657"
+            0,
+            23
           ],
-          "color": "West central spine roof",
-          "name": "013 undefined"
+          "color": "#354657",
+          "name": "013 West central spine roof"
         }
       ],
       "as": "p13"
@@ -2091,11 +2091,11 @@
           },
           "at": [
             23,
-            23,
-            "#354657"
+            0,
+            23
           ],
-          "color": "East central spine roof",
-          "name": "097 undefined"
+          "color": "#354657",
+          "name": "097 East central spine roof"
         }
       ],
       "as": "p97"
