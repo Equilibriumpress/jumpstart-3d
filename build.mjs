@@ -10,7 +10,7 @@
 // src/meshstep.html, src/chisel.html) are committed already built (the site fetches them from docs/helpers/; the single file has them inline); see
 // tools/helpers/README.md to regenerate them.
 
-import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, statSync, readdirSync, realpathSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, statSync, readdirSync, realpathSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { build } from "esbuild";
 import { createHash } from "node:crypto"; // jumpstart-3d: offline
@@ -114,7 +114,7 @@ rmSync(docs, { recursive: true, force: true });
 mkdirSync(docs, { recursive: true });
 writeFileSync(join(docs, "index.html"), siteShell);
 // Equilibrium Press: copy native editable GitHub model library into the static Pages output.
-cpSync(join(root, "models"), join(docs, "models"), { recursive: true });
+if (existsSync(join(root, "models"))) cpSync(join(root, "models"), join(docs, "models"), { recursive: true });
 cpSync(join(src, "fonts"), join(docs, "fonts"), { recursive: true });
 cpSync(join(root, "LICENSES", "OFL-1.1-fonts.txt"), join(docs, "fonts", "OFL.txt")); // the license travels with the fonts
 writeFileSync(join(docs, "app.js"), app);
