@@ -1,0 +1,52 @@
+{
+  "app": "jumpstart-3d",
+  "version": 1,
+  "doc": {
+    "v": 1,
+    "id": "placeholder-b",
+    "name": "Grachtenpand realistische versie",
+    "mode": "beginner",
+    "seq": 1,
+    "bodies": [
+      {
+        "id": "placeholder-geometry",
+        "name": "Pending actual engine build",
+        "color": "#925344",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 43,
+            "d": 35,
+            "h": 62,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      }
+    ],
+    "sketches": [],
+    "params": []
+  }
+}

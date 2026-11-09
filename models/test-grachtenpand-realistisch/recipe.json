@@ -1,0 +1,3565 @@
+{
+  "jumpstart": "recipe",
+  "version": 1,
+  "needs": "1.12",
+  "steps": [
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 62,
+            "d": 54,
+            "h": 2
+          },
+          "at": [
+            0,
+            0,
+            -2
+          ],
+          "color": "#e2d6bd",
+          "name": "Basement terrace"
+        }
+      ],
+      "as": "b1"
+    },
+    {
+      "call": "setMode",
+      "args": [
+        "advanced"
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 43,
+            "d": 35,
+            "h": 62
+          },
+          "at": [
+            0,
+            0,
+            0
+          ],
+          "color": "#925344",
+          "name": "Main masonry with genuine recessed openings"
+        }
+      ],
+      "as": "wall"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 7.2,
+            "h": 10.8
+          },
+          "at": [
+            -13.7,
+            -17.6,
+            20.25
+          ],
+          "hole": true,
+          "color": "#925344",
+          "name": "Recess row1 x-13.7"
+        }
+      ],
+      "as": "cut1"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 7.2,
+            "h": 10.8
+          },
+          "at": [
+            13.7,
+            -17.6,
+            20.25
+          ],
+          "hole": true,
+          "color": "#925344",
+          "name": "Recess row1 x13.7"
+        }
+      ],
+      "as": "cut2"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 7.2,
+            "h": 10.8
+          },
+          "at": [
+            -13.7,
+            -17.6,
+            33.05
+          ],
+          "hole": true,
+          "color": "#925344",
+          "name": "Recess row2 x-13.7"
+        }
+      ],
+      "as": "cut3"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 7.2,
+            "h": 10.8
+          },
+          "at": [
+            0,
+            -17.6,
+            33.05
+          ],
+          "hole": true,
+          "color": "#925344",
+          "name": "Recess row2 x0"
+        }
+      ],
+      "as": "cut4"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 7.2,
+            "h": 10.8
+          },
+          "at": [
+            13.7,
+            -17.6,
+            33.05
+          ],
+          "hole": true,
+          "color": "#925344",
+          "name": "Recess row2 x13.7"
+        }
+      ],
+      "as": "cut5"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 7.2,
+            "h": 10.8
+          },
+          "at": [
+            -13.7,
+            -17.6,
+            45.85
+          ],
+          "hole": true,
+          "color": "#925344",
+          "name": "Recess row3 x-13.7"
+        }
+      ],
+      "as": "cut6"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 7.2,
+            "h": 10.8
+          },
+          "at": [
+            0,
+            -17.6,
+            45.85
+          ],
+          "hole": true,
+          "color": "#925344",
+          "name": "Recess row3 x0"
+        }
+      ],
+      "as": "cut7"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 7.2,
+            "h": 10.8
+          },
+          "at": [
+            13.7,
+            -17.6,
+            45.85
+          ],
+          "hole": true,
+          "color": "#925344",
+          "name": "Recess row3 x13.7"
+        }
+      ],
+      "as": "cut8"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 12.5,
+            "d": 7.2,
+            "h": 19.8
+          },
+          "at": [
+            0,
+            -17.6,
+            0
+          ],
+          "hole": true,
+          "color": "#925344",
+          "name": "Real entrance recess"
+        }
+      ],
+      "as": "cutDoor"
+    },
+    {
+      "call": "ready",
+      "args": []
+    },
+    {
+      "call": "group",
+      "args": [
+        [
+          "$wall",
+          "$cut1",
+          "$cut2",
+          "$cut3",
+          "$cut4",
+          "$cut5",
+          "$cut6",
+          "$cut7",
+          "$cut8",
+          "$cutDoor"
+        ],
+        {
+          "name": "Solid masonry with nine true architectural recesses"
+        }
+      ],
+      "as": "facade"
+    },
+    {
+      "call": "ready",
+      "args": []
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 48,
+            "d": 37,
+            "h": 1.3
+          },
+          "at": [
+            0,
+            0,
+            61.5
+          ],
+          "color": "#e2d6bd",
+          "name": "Roof cornice"
+        }
+      ],
+      "as": "b3"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 50,
+            "d": 41,
+            "h": 21
+          },
+          "at": [
+            0,
+            0,
+            63
+          ],
+          "color": "#3e4a54",
+          "name": "Steep gable roof"
+        }
+      ],
+      "as": "roof"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 43,
+            "d": 1.2,
+            "h": 2.8
+          },
+          "at": [
+            0,
+            -17.8,
+            18
+          ],
+          "color": "#e2d6bd",
+          "name": "Facade plinth belt"
+        }
+      ],
+      "as": "b5"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 43,
+            "d": 1.1,
+            "h": 2.2
+          },
+          "at": [
+            0,
+            -17.8,
+            39
+          ],
+          "color": "#e2d6bd",
+          "name": "Facade upper stone belt"
+        }
+      ],
+      "as": "b6"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 11,
+            "d": 0.45,
+            "h": 19
+          },
+          "at": [
+            0,
+            -14.05,
+            0
+          ],
+          "color": "#463b36",
+          "name": "Historic canal house entrance"
+        }
+      ],
+      "as": "b7"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 12.5,
+            "d": 2,
+            "h": 1.3
+          },
+          "at": [
+            0,
+            -19,
+            18.8
+          ],
+          "color": "#e2d6bd",
+          "name": "Entrance lintel"
+        }
+      ],
+      "as": "b8"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.4,
+            "d": 0.25,
+            "h": 10.5
+          },
+          "at": [
+            0,
+            -14.4,
+            4.1
+          ],
+          "color": "#31546b",
+          "name": "Entrance glazing"
+        }
+      ],
+      "as": "b9"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 1.5,
+            "d": 1.5,
+            "h": 1.5
+          },
+          "at": [
+            4,
+            -14.95,
+            9
+          ],
+          "color": "#c7a96d",
+          "name": "Door brass knob"
+        }
+      ],
+      "as": "b10"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 20,
+            "d": 13,
+            "h": 1.5
+          },
+          "at": [
+            0,
+            -27,
+            -1.5
+          ],
+          "color": "#e2d6bd",
+          "name": "Entrance stair step"
+        }
+      ],
+      "as": "b11"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -14.02,
+            20.5
+          ],
+          "color": "#31546b",
+          "name": "Recessed glazing r1x-13.7"
+        }
+      ],
+      "as": "b12"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            20.15
+          ],
+          "color": "#e4d5b8",
+          "name": "Sill r1x-13.7"
+        }
+      ],
+      "as": "b13"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            30.1
+          ],
+          "color": "#e4d5b8",
+          "name": "Lintel r1x-13.7"
+        }
+      ],
+      "as": "b14"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -16.05,
+            20.5
+          ],
+          "color": "#cfb996",
+          "name": "Mullion r1x-13.7"
+        }
+      ],
+      "as": "b15"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7
+          },
+          "at": [
+            -13.7,
+            -16.05,
+            25.8
+          ],
+          "color": "#cfb996",
+          "name": "Window transom r1x-13.7"
+        }
+      ],
+      "as": "b16"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -14.02,
+            20.5
+          ],
+          "color": "#31546b",
+          "name": "Recessed glazing r1x13.7"
+        }
+      ],
+      "as": "b17"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            20.15
+          ],
+          "color": "#e4d5b8",
+          "name": "Sill r1x13.7"
+        }
+      ],
+      "as": "b18"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            30.1
+          ],
+          "color": "#e4d5b8",
+          "name": "Lintel r1x13.7"
+        }
+      ],
+      "as": "b19"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -16.05,
+            20.5
+          ],
+          "color": "#cfb996",
+          "name": "Mullion r1x13.7"
+        }
+      ],
+      "as": "b20"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7
+          },
+          "at": [
+            13.7,
+            -16.05,
+            25.8
+          ],
+          "color": "#cfb996",
+          "name": "Window transom r1x13.7"
+        }
+      ],
+      "as": "b21"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -14.02,
+            33.3
+          ],
+          "color": "#31546b",
+          "name": "Recessed glazing r2x-13.7"
+        }
+      ],
+      "as": "b22"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            32.949999999999996
+          ],
+          "color": "#e4d5b8",
+          "name": "Sill r2x-13.7"
+        }
+      ],
+      "as": "b23"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            42.9
+          ],
+          "color": "#e4d5b8",
+          "name": "Lintel r2x-13.7"
+        }
+      ],
+      "as": "b24"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -16.05,
+            33.3
+          ],
+          "color": "#cfb996",
+          "name": "Mullion r2x-13.7"
+        }
+      ],
+      "as": "b25"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7
+          },
+          "at": [
+            -13.7,
+            -16.05,
+            38.599999999999994
+          ],
+          "color": "#cfb996",
+          "name": "Window transom r2x-13.7"
+        }
+      ],
+      "as": "b26"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8
+          },
+          "at": [
+            0,
+            -14.02,
+            33.3
+          ],
+          "color": "#31546b",
+          "name": "Recessed glazing r2x0"
+        }
+      ],
+      "as": "b27"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            0,
+            -18.8,
+            32.949999999999996
+          ],
+          "color": "#e4d5b8",
+          "name": "Sill r2x0"
+        }
+      ],
+      "as": "b28"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            0,
+            -18.8,
+            42.9
+          ],
+          "color": "#e4d5b8",
+          "name": "Lintel r2x0"
+        }
+      ],
+      "as": "b29"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8
+          },
+          "at": [
+            0,
+            -16.05,
+            33.3
+          ],
+          "color": "#cfb996",
+          "name": "Mullion r2x0"
+        }
+      ],
+      "as": "b30"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7
+          },
+          "at": [
+            0,
+            -16.05,
+            38.599999999999994
+          ],
+          "color": "#cfb996",
+          "name": "Window transom r2x0"
+        }
+      ],
+      "as": "b31"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -14.02,
+            33.3
+          ],
+          "color": "#31546b",
+          "name": "Recessed glazing r2x13.7"
+        }
+      ],
+      "as": "b32"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            32.949999999999996
+          ],
+          "color": "#e4d5b8",
+          "name": "Sill r2x13.7"
+        }
+      ],
+      "as": "b33"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            42.9
+          ],
+          "color": "#e4d5b8",
+          "name": "Lintel r2x13.7"
+        }
+      ],
+      "as": "b34"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -16.05,
+            33.3
+          ],
+          "color": "#cfb996",
+          "name": "Mullion r2x13.7"
+        }
+      ],
+      "as": "b35"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7
+          },
+          "at": [
+            13.7,
+            -16.05,
+            38.599999999999994
+          ],
+          "color": "#cfb996",
+          "name": "Window transom r2x13.7"
+        }
+      ],
+      "as": "b36"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -14.02,
+            46.1
+          ],
+          "color": "#31546b",
+          "name": "Recessed glazing r3x-13.7"
+        }
+      ],
+      "as": "b37"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            45.75
+          ],
+          "color": "#e4d5b8",
+          "name": "Sill r3x-13.7"
+        }
+      ],
+      "as": "b38"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            55.7
+          ],
+          "color": "#e4d5b8",
+          "name": "Lintel r3x-13.7"
+        }
+      ],
+      "as": "b39"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -16.05,
+            46.1
+          ],
+          "color": "#cfb996",
+          "name": "Mullion r3x-13.7"
+        }
+      ],
+      "as": "b40"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7
+          },
+          "at": [
+            -13.7,
+            -16.05,
+            51.4
+          ],
+          "color": "#cfb996",
+          "name": "Window transom r3x-13.7"
+        }
+      ],
+      "as": "b41"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8
+          },
+          "at": [
+            0,
+            -14.02,
+            46.1
+          ],
+          "color": "#31546b",
+          "name": "Recessed glazing r3x0"
+        }
+      ],
+      "as": "b42"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            0,
+            -18.8,
+            45.75
+          ],
+          "color": "#e4d5b8",
+          "name": "Sill r3x0"
+        }
+      ],
+      "as": "b43"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            0,
+            -18.8,
+            55.7
+          ],
+          "color": "#e4d5b8",
+          "name": "Lintel r3x0"
+        }
+      ],
+      "as": "b44"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8
+          },
+          "at": [
+            0,
+            -16.05,
+            46.1
+          ],
+          "color": "#cfb996",
+          "name": "Mullion r3x0"
+        }
+      ],
+      "as": "b45"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7
+          },
+          "at": [
+            0,
+            -16.05,
+            51.4
+          ],
+          "color": "#cfb996",
+          "name": "Window transom r3x0"
+        }
+      ],
+      "as": "b46"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.38,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -14.02,
+            46.1
+          ],
+          "color": "#31546b",
+          "name": "Recessed glazing r3x13.7"
+        }
+      ],
+      "as": "b47"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            45.75
+          ],
+          "color": "#e4d5b8",
+          "name": "Sill r3x13.7"
+        }
+      ],
+      "as": "b48"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            55.7
+          ],
+          "color": "#e4d5b8",
+          "name": "Lintel r3x13.7"
+        }
+      ],
+      "as": "b49"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 0.85,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -16.05,
+            46.1
+          ],
+          "color": "#cfb996",
+          "name": "Mullion r3x13.7"
+        }
+      ],
+      "as": "b50"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.85,
+            "h": 0.7
+          },
+          "at": [
+            13.7,
+            -16.05,
+            51.4
+          ],
+          "color": "#cfb996",
+          "name": "Window transom r3x13.7"
+        }
+      ],
+      "as": "b51"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 2.3,
+            "h": 6.5
+          },
+          "at": [
+            -11,
+            -12,
+            69.8
+          ],
+          "color": "#88493d",
+          "name": "Dormer -11"
+        }
+      ],
+      "as": "b52"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4.5,
+            "d": 0.9,
+            "h": 4.5
+          },
+          "at": [
+            -11,
+            -13.7,
+            71
+          ],
+          "color": "#31546b",
+          "name": "Dormer window -11"
+        }
+      ],
+      "as": "b53"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 8,
+            "d": 3.5,
+            "h": 3.8
+          },
+          "at": [
+            -11,
+            -12,
+            76.2
+          ],
+          "color": "#374956",
+          "name": "Dormer gable -11"
+        }
+      ],
+      "as": "b54"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 2.3,
+            "h": 6.5
+          },
+          "at": [
+            11,
+            -12,
+            69.8
+          ],
+          "color": "#88493d",
+          "name": "Dormer 11"
+        }
+      ],
+      "as": "b55"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4.5,
+            "d": 0.9,
+            "h": 4.5
+          },
+          "at": [
+            11,
+            -13.7,
+            71
+          ],
+          "color": "#31546b",
+          "name": "Dormer window 11"
+        }
+      ],
+      "as": "b56"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 8,
+            "d": 3.5,
+            "h": 3.8
+          },
+          "at": [
+            11,
+            -12,
+            76.2
+          ],
+          "color": "#374956",
+          "name": "Dormer gable 11"
+        }
+      ],
+      "as": "b57"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 2.4,
+            "h": 53
+          },
+          "at": [
+            -21,
+            -18,
+            8
+          ],
+          "color": "#e2d6bd",
+          "name": "Vertical corner quoin -21"
+        }
+      ],
+      "as": "b58"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 2.4,
+            "h": 53
+          },
+          "at": [
+            21,
+            -18,
+            8
+          ],
+          "color": "#e2d6bd",
+          "name": "Vertical corner quoin 21"
+        }
+      ],
+      "as": "b59"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            -18.25,
+            -16.17,
+            20.45
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess left reveal level1 x-13.7"
+        }
+      ],
+      "as": "extra1"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            -9.149999999999999,
+            -16.17,
+            20.45
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess right reveal level1 x-13.7"
+        }
+      ],
+      "as": "extra2"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -16.17,
+            30.25
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window header level1 x-13.7"
+        }
+      ],
+      "as": "extra3"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5
+          },
+          "at": [
+            -13.7,
+            -16.17,
+            20.25
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window base level1 x-13.7"
+        }
+      ],
+      "as": "extra4"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            -15.799999999999999,
+            -15.15,
+            20.5
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level1 x-13.7 dx-2.1"
+        }
+      ],
+      "as": "extra5"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            -11.6,
+            -15.15,
+            20.5
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level1 x-13.7 dx2.1"
+        }
+      ],
+      "as": "extra6"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55
+          },
+          "at": [
+            -13.7,
+            -15.15,
+            23.75
+          ],
+          "color": "#cfb996",
+          "name": "Lower glass horizontal division level1 x-13.7"
+        }
+      ],
+      "as": "extra7"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            9.149999999999999,
+            -16.17,
+            20.45
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess left reveal level1 x13.7"
+        }
+      ],
+      "as": "extra8"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            18.25,
+            -16.17,
+            20.45
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess right reveal level1 x13.7"
+        }
+      ],
+      "as": "extra9"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -16.17,
+            30.25
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window header level1 x13.7"
+        }
+      ],
+      "as": "extra10"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5
+          },
+          "at": [
+            13.7,
+            -16.17,
+            20.25
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window base level1 x13.7"
+        }
+      ],
+      "as": "extra11"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            11.6,
+            -15.15,
+            20.5
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level1 x13.7 dx-2.1"
+        }
+      ],
+      "as": "extra12"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            15.799999999999999,
+            -15.15,
+            20.5
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level1 x13.7 dx2.1"
+        }
+      ],
+      "as": "extra13"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55
+          },
+          "at": [
+            13.7,
+            -15.15,
+            23.75
+          ],
+          "color": "#cfb996",
+          "name": "Lower glass horizontal division level1 x13.7"
+        }
+      ],
+      "as": "extra14"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            -18.25,
+            -16.17,
+            33.25
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess left reveal level2 x-13.7"
+        }
+      ],
+      "as": "extra15"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            -9.149999999999999,
+            -16.17,
+            33.25
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess right reveal level2 x-13.7"
+        }
+      ],
+      "as": "extra16"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -16.17,
+            43.05
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window header level2 x-13.7"
+        }
+      ],
+      "as": "extra17"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5
+          },
+          "at": [
+            -13.7,
+            -16.17,
+            33.05
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window base level2 x-13.7"
+        }
+      ],
+      "as": "extra18"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            -15.799999999999999,
+            -15.15,
+            33.3
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level2 x-13.7 dx-2.1"
+        }
+      ],
+      "as": "extra19"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            -11.6,
+            -15.15,
+            33.3
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level2 x-13.7 dx2.1"
+        }
+      ],
+      "as": "extra20"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55
+          },
+          "at": [
+            -13.7,
+            -15.15,
+            36.55
+          ],
+          "color": "#cfb996",
+          "name": "Lower glass horizontal division level2 x-13.7"
+        }
+      ],
+      "as": "extra21"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            -4.55,
+            -16.17,
+            33.25
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess left reveal level2 x0"
+        }
+      ],
+      "as": "extra22"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            4.55,
+            -16.17,
+            33.25
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess right reveal level2 x0"
+        }
+      ],
+      "as": "extra23"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75
+          },
+          "at": [
+            0,
+            -16.17,
+            43.05
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window header level2 x0"
+        }
+      ],
+      "as": "extra24"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5
+          },
+          "at": [
+            0,
+            -16.17,
+            33.05
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window base level2 x0"
+        }
+      ],
+      "as": "extra25"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            -2.1,
+            -15.15,
+            33.3
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level2 x0 dx-2.1"
+        }
+      ],
+      "as": "extra26"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            2.1,
+            -15.15,
+            33.3
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level2 x0 dx2.1"
+        }
+      ],
+      "as": "extra27"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55
+          },
+          "at": [
+            0,
+            -15.15,
+            36.55
+          ],
+          "color": "#cfb996",
+          "name": "Lower glass horizontal division level2 x0"
+        }
+      ],
+      "as": "extra28"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            9.149999999999999,
+            -16.17,
+            33.25
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess left reveal level2 x13.7"
+        }
+      ],
+      "as": "extra29"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            18.25,
+            -16.17,
+            33.25
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess right reveal level2 x13.7"
+        }
+      ],
+      "as": "extra30"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -16.17,
+            43.05
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window header level2 x13.7"
+        }
+      ],
+      "as": "extra31"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5
+          },
+          "at": [
+            13.7,
+            -16.17,
+            33.05
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window base level2 x13.7"
+        }
+      ],
+      "as": "extra32"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            11.6,
+            -15.15,
+            33.3
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level2 x13.7 dx-2.1"
+        }
+      ],
+      "as": "extra33"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            15.799999999999999,
+            -15.15,
+            33.3
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level2 x13.7 dx2.1"
+        }
+      ],
+      "as": "extra34"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55
+          },
+          "at": [
+            13.7,
+            -15.15,
+            36.55
+          ],
+          "color": "#cfb996",
+          "name": "Lower glass horizontal division level2 x13.7"
+        }
+      ],
+      "as": "extra35"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            -18.25,
+            -16.17,
+            46.050000000000004
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess left reveal level3 x-13.7"
+        }
+      ],
+      "as": "extra36"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            -9.149999999999999,
+            -16.17,
+            46.050000000000004
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess right reveal level3 x-13.7"
+        }
+      ],
+      "as": "extra37"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -16.17,
+            55.85
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window header level3 x-13.7"
+        }
+      ],
+      "as": "extra38"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5
+          },
+          "at": [
+            -13.7,
+            -16.17,
+            45.85
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window base level3 x-13.7"
+        }
+      ],
+      "as": "extra39"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            -15.799999999999999,
+            -15.15,
+            46.1
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level3 x-13.7 dx-2.1"
+        }
+      ],
+      "as": "extra40"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            -11.6,
+            -15.15,
+            46.1
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level3 x-13.7 dx2.1"
+        }
+      ],
+      "as": "extra41"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55
+          },
+          "at": [
+            -13.7,
+            -15.15,
+            49.35
+          ],
+          "color": "#cfb996",
+          "name": "Lower glass horizontal division level3 x-13.7"
+        }
+      ],
+      "as": "extra42"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            -4.55,
+            -16.17,
+            46.050000000000004
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess left reveal level3 x0"
+        }
+      ],
+      "as": "extra43"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            4.55,
+            -16.17,
+            46.050000000000004
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess right reveal level3 x0"
+        }
+      ],
+      "as": "extra44"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75
+          },
+          "at": [
+            0,
+            -16.17,
+            55.85
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window header level3 x0"
+        }
+      ],
+      "as": "extra45"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5
+          },
+          "at": [
+            0,
+            -16.17,
+            45.85
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window base level3 x0"
+        }
+      ],
+      "as": "extra46"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            -2.1,
+            -15.15,
+            46.1
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level3 x0 dx-2.1"
+        }
+      ],
+      "as": "extra47"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            2.1,
+            -15.15,
+            46.1
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level3 x0 dx2.1"
+        }
+      ],
+      "as": "extra48"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55
+          },
+          "at": [
+            0,
+            -15.15,
+            49.35
+          ],
+          "color": "#cfb996",
+          "name": "Lower glass horizontal division level3 x0"
+        }
+      ],
+      "as": "extra49"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            9.149999999999999,
+            -16.17,
+            46.050000000000004
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess left reveal level3 x13.7"
+        }
+      ],
+      "as": "extra50"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.8,
+            "d": 3.5,
+            "h": 10.5
+          },
+          "at": [
+            18.25,
+            -16.17,
+            46.050000000000004
+          ],
+          "color": "#e4d5b8",
+          "name": "Stone recess right reveal level3 x13.7"
+        }
+      ],
+      "as": "extra51"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -16.17,
+            55.85
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window header level3 x13.7"
+        }
+      ],
+      "as": "extra52"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9.7,
+            "d": 3.5,
+            "h": 0.5
+          },
+          "at": [
+            13.7,
+            -16.17,
+            45.85
+          ],
+          "color": "#e4d5b8",
+          "name": "Deep stone window base level3 x13.7"
+        }
+      ],
+      "as": "extra53"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            11.6,
+            -15.15,
+            46.1
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level3 x13.7 dx-2.1"
+        }
+      ],
+      "as": "extra54"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 0.7,
+            "h": 9.7
+          },
+          "at": [
+            15.799999999999999,
+            -15.15,
+            46.1
+          ],
+          "color": "#cfb996",
+          "name": "Wood frame division level3 x13.7 dx2.1"
+        }
+      ],
+      "as": "extra55"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.1,
+            "d": 0.7,
+            "h": 0.55
+          },
+          "at": [
+            13.7,
+            -15.15,
+            49.35
+          ],
+          "color": "#cfb996",
+          "name": "Lower glass horizontal division level3 x13.7"
+        }
+      ],
+      "as": "extra56"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.95,
+            "d": 4.2,
+            "h": 19.5
+          },
+          "at": [
+            -6.2,
+            -16,
+            0
+          ],
+          "color": "#e4d5b8",
+          "name": "Portal deep stone jamb -6.2"
+        }
+      ],
+      "as": "extra57"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.95,
+            "d": 4.2,
+            "h": 19.5
+          },
+          "at": [
+            6.2,
+            -16,
+            0
+          ],
+          "color": "#e4d5b8",
+          "name": "Portal deep stone jamb 6.2"
+        }
+      ],
+      "as": "extra58"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 14,
+            "d": 4.1,
+            "h": 0.9
+          },
+          "at": [
+            0,
+            -16.5,
+            19.35
+          ],
+          "color": "#e4d5b8",
+          "name": "Portal stone lintel"
+        }
+      ],
+      "as": "extra59"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 0.8,
+            "h": 15
+          },
+          "at": [
+            0,
+            -15.3,
+            2
+          ],
+          "color": "#cfb996",
+          "name": "Entrance timber central divider"
+        }
+      ],
+      "as": "extra60"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6
+          },
+          "at": [
+            -19,
+            -21.7,
+            62
+          ],
+          "color": "#925344",
+          "name": "Stepped gable tier 0 side -1"
+        }
+      ],
+      "as": "extra61"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7
+          },
+          "at": [
+            -19,
+            -21.7,
+            66.52
+          ],
+          "color": "#e4d5b8",
+          "name": "Stepped gable stone cap tier 0 side -1"
+        }
+      ],
+      "as": "extra62"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6
+          },
+          "at": [
+            19,
+            -21.7,
+            62
+          ],
+          "color": "#925344",
+          "name": "Stepped gable tier 0 side 1"
+        }
+      ],
+      "as": "extra63"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7
+          },
+          "at": [
+            19,
+            -21.7,
+            66.52
+          ],
+          "color": "#e4d5b8",
+          "name": "Stepped gable stone cap tier 0 side 1"
+        }
+      ],
+      "as": "extra64"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6
+          },
+          "at": [
+            -14,
+            -21.7,
+            66
+          ],
+          "color": "#925344",
+          "name": "Stepped gable tier 1 side -1"
+        }
+      ],
+      "as": "extra65"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7
+          },
+          "at": [
+            -14,
+            -21.7,
+            70.52
+          ],
+          "color": "#e4d5b8",
+          "name": "Stepped gable stone cap tier 1 side -1"
+        }
+      ],
+      "as": "extra66"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6
+          },
+          "at": [
+            14,
+            -21.7,
+            66
+          ],
+          "color": "#925344",
+          "name": "Stepped gable tier 1 side 1"
+        }
+      ],
+      "as": "extra67"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7
+          },
+          "at": [
+            14,
+            -21.7,
+            70.52
+          ],
+          "color": "#e4d5b8",
+          "name": "Stepped gable stone cap tier 1 side 1"
+        }
+      ],
+      "as": "extra68"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6
+          },
+          "at": [
+            -9,
+            -21.7,
+            70
+          ],
+          "color": "#925344",
+          "name": "Stepped gable tier 2 side -1"
+        }
+      ],
+      "as": "extra69"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7
+          },
+          "at": [
+            -9,
+            -21.7,
+            74.52
+          ],
+          "color": "#e4d5b8",
+          "name": "Stepped gable stone cap tier 2 side -1"
+        }
+      ],
+      "as": "extra70"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 2.2,
+            "h": 4.6
+          },
+          "at": [
+            9,
+            -21.7,
+            70
+          ],
+          "color": "#925344",
+          "name": "Stepped gable tier 2 side 1"
+        }
+      ],
+      "as": "extra71"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8,
+            "d": 2.7,
+            "h": 0.7
+          },
+          "at": [
+            9,
+            -21.7,
+            74.52
+          ],
+          "color": "#e4d5b8",
+          "name": "Stepped gable stone cap tier 2 side 1"
+        }
+      ],
+      "as": "extra72"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8,
+            "d": 2.2,
+            "h": 4.6
+          },
+          "at": [
+            -4,
+            -21.7,
+            74
+          ],
+          "color": "#925344",
+          "name": "Stepped gable tier 3 side -1"
+        }
+      ],
+      "as": "extra73"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9,
+            "d": 2.7,
+            "h": 0.7
+          },
+          "at": [
+            -4,
+            -21.7,
+            78.52
+          ],
+          "color": "#e4d5b8",
+          "name": "Stepped gable stone cap tier 3 side -1"
+        }
+      ],
+      "as": "extra74"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8,
+            "d": 2.2,
+            "h": 4.6
+          },
+          "at": [
+            4,
+            -21.7,
+            74
+          ],
+          "color": "#925344",
+          "name": "Stepped gable tier 3 side 1"
+        }
+      ],
+      "as": "extra75"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 9,
+            "d": 2.7,
+            "h": 0.7
+          },
+          "at": [
+            4,
+            -21.7,
+            78.52
+          ],
+          "color": "#e4d5b8",
+          "name": "Stepped gable stone cap tier 3 side 1"
+        }
+      ],
+      "as": "extra76"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10,
+            "d": 2.4,
+            "h": 6.3
+          },
+          "at": [
+            0,
+            -21.7,
+            78
+          ],
+          "color": "#925344",
+          "name": "Central stepped gable crest"
+        }
+      ],
+      "as": "extra77"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 12.5,
+            "d": 2.7,
+            "h": 1.1
+          },
+          "at": [
+            0,
+            -21.7,
+            84.2
+          ],
+          "color": "#e4d5b8",
+          "name": "Central carved gable top cap"
+        }
+      ],
+      "as": "extra78"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 6,
+            "d": 6,
+            "h": 0.9
+          },
+          "at": [
+            0,
+            -24,
+            77
+          ],
+          "color": "#cfb996",
+          "name": "Circular attic oculus"
+        }
+      ],
+      "as": "oculus"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$oculus",
+        "x",
+        90,
+        {
+          "about": [
+            0,
+            -24,
+            77.45
+          ]
+        }
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6,
+            "d": 6,
+            "h": 14
+          },
+          "at": [
+            17,
+            12,
+            70
+          ],
+          "color": "#925344",
+          "name": "Historic masonry chimney stack"
+        }
+      ],
+      "as": "extra79"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.2,
+            "d": 7.2,
+            "h": 1.5
+          },
+          "at": [
+            17,
+            12,
+            84
+          ],
+          "color": "#e4d5b8",
+          "name": "Chimney crown stone course"
+        }
+      ],
+      "as": "extra80"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            -19.2,
+            -18,
+            11
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x-19.2 z11.0"
+        }
+      ],
+      "as": "extra81"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            -19.2,
+            -18,
+            19.2
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x-19.2 z19.2"
+        }
+      ],
+      "as": "extra82"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            -19.2,
+            -18,
+            27.4
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x-19.2 z27.4"
+        }
+      ],
+      "as": "extra83"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            -19.2,
+            -18,
+            35.599999999999994
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x-19.2 z35.6"
+        }
+      ],
+      "as": "extra84"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            -19.2,
+            -18,
+            43.8
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x-19.2 z43.8"
+        }
+      ],
+      "as": "extra85"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            -19.2,
+            -18,
+            52
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x-19.2 z52.0"
+        }
+      ],
+      "as": "extra86"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            19.2,
+            -18,
+            11
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x19.2 z11.0"
+        }
+      ],
+      "as": "extra87"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            19.2,
+            -18,
+            19.2
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x19.2 z19.2"
+        }
+      ],
+      "as": "extra88"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            19.2,
+            -18,
+            27.4
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x19.2 z27.4"
+        }
+      ],
+      "as": "extra89"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            19.2,
+            -18,
+            35.599999999999994
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x19.2 z35.6"
+        }
+      ],
+      "as": "extra90"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            19.2,
+            -18,
+            43.8
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x19.2 z43.8"
+        }
+      ],
+      "as": "extra91"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 1.2,
+            "h": 1.25
+          },
+          "at": [
+            19.2,
+            -18,
+            52
+          ],
+          "color": "#e4d5b8",
+          "name": "Limestone quoin x19.2 z52.0"
+        }
+      ],
+      "as": "extra92"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6,
+            "d": 1.2,
+            "h": 0.7
+          },
+          "at": [
+            -11,
+            -14,
+            72
+          ],
+          "color": "#e4d5b8",
+          "name": "Dormer stone sill -11"
+        }
+      ],
+      "as": "extra93"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.6,
+            "d": 1.2,
+            "h": 0.7
+          },
+          "at": [
+            -11,
+            -14,
+            75.8
+          ],
+          "color": "#e4d5b8",
+          "name": "Dormer roof trim -11"
+        }
+      ],
+      "as": "extra94"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6,
+            "d": 1.2,
+            "h": 0.7
+          },
+          "at": [
+            11,
+            -14,
+            72
+          ],
+          "color": "#e4d5b8",
+          "name": "Dormer stone sill 11"
+        }
+      ],
+      "as": "extra95"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.6,
+            "d": 1.2,
+            "h": 0.7
+          },
+          "at": [
+            11,
+            -14,
+            75.8
+          ],
+          "color": "#e4d5b8",
+          "name": "Dormer roof trim 11"
+        }
+      ],
+      "as": "extra96"
+    },
+    {
+      "call": "ready",
+      "args": []
+    },
+    {
+      "call": "texture",
+      "args": [
+        "$roof",
+        {
+          "texture": "slate",
+          "size": 10,
+          "depth": 0.16,
+          "mapping": "triplanar",
+          "faces": "all"
+        }
+      ]
+    },
+    {
+      "call": "texture",
+      "args": [
+        "$facade",
+        {
+          "texture": "bricks",
+          "size": 18,
+          "depth": 0.15,
+          "mapping": "planar",
+          "faces": "front"
+        }
+      ]
+    },
+    {
+      "call": "ready",
+      "args": []
+    }
+  ]
+}

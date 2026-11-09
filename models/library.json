@@ -75,6 +75,24 @@
       ],
       "published": false,
       "printCheck": false
+    },
+    {
+      "id": "test-grachtenpand-realistisch",
+      "title": "Amsterdams grachtenpand – realistische gevelproef",
+      "description": "A/B-test: echte raam- en deuropeningen, diepe kozijnen, natuursteen, getrapte gevel, baksteen- en leisteentexturen.",
+      "project": "models/test-grachtenpand-realistisch/project.json",
+      "recipe": "models/test-grachtenpand-realistisch/recipe.json",
+      "preview": null,
+      "tags": [
+        "experiment",
+        "architectuur",
+        "gevel",
+        "realistisch",
+        "advanced",
+        "ab-test"
+      ],
+      "published": false,
+      "printCheck": false
     }
   ]
 }
