@@ -1,3 +1,5 @@
+> **Equilibrium Press fork:** The original JumpStart 3D CAD editor is retained. This fork adds a GitHub-hosted library of editable native models and ChatGPT authoring recipes. After GitHub Pages is enabled, open the [CAD editor](https://equilibriumpress.github.io/jumpstart-3d/) or the [model library](https://equilibriumpress.github.io/jumpstart-3d/library/). The source workflow is documented in [AGENTS.md](AGENTS.md) and [docs-equilibrium/WORKFLOW.md](docs-equilibrium/WORKFLOW.md). Changes in the public editor remain local until exported and committed through GitHub.
+
 # JumpStart 3D
 
 [![JumpStart 3D: 3D CAD in your browser](src/og-image.png)](https://maxsikorski.github.io/jumpstart-3d/)

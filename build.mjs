@@ -115,6 +115,11 @@ mkdirSync(docs, { recursive: true });
 writeFileSync(join(docs, "index.html"), siteShell);
 // Equilibrium Press: copy native editable GitHub model library into the static Pages output.
 if (existsSync(join(root, "models"))) cpSync(join(root, "models"), join(docs, "models"), { recursive: true });
+// Equilibrium Press: optional public catalog, separate from the original CAD editor.
+if (existsSync(join(root, "equilibrium-library", "index.html"))) {
+  mkdirSync(join(docs, "library"), { recursive: true });
+  cpSync(join(root, "equilibrium-library", "index.html"), join(docs, "library", "index.html"));
+}
 cpSync(join(src, "fonts"), join(docs, "fonts"), { recursive: true });
 cpSync(join(root, "LICENSES", "OFL-1.1-fonts.txt"), join(docs, "fonts", "OFL.txt")); // the license travels with the fonts
 writeFileSync(join(docs, "app.js"), app);
