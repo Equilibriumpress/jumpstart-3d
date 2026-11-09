@@ -1,0 +1,23 @@
+{
+  "jumpstart": "recipe",
+  "version": 1,
+  "needs": "1.9",
+  "steps": [
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 60,
+            "d": 40,
+            "h": 25
+          },
+          "name": "Starter box",
+          "color": "#2878b8"
+        }
+      ],
+      "as": "box"
+    }
+  ]
+}

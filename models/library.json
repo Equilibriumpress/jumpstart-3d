@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "id": "starter-box",
+      "title": "Starter box",
+      "description": "Editable 60 × 40 × 25 mm CAD starter model.",
+      "project": "models/starter-box/project.json",
+      "recipe": "models/starter-box/recipe.json",
+      "preview": null,
+      "tags": [
+        "demo",
+        "parametric"
+      ],
+      "published": true
+    }
+  ]
+}
