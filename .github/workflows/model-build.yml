@@ -12,9 +12,6 @@ on:
       - "equilibrium/model-*"
     paths:
       - "models/**/recipe.json"
-      - "models/library.json"
-      - "scripts/build-models.mjs"
-      - ".github/workflows/model-build.yml"
 
 permissions:
   contents: write
