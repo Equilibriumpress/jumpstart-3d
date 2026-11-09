@@ -28,3 +28,7 @@ Canonical editable deliverable: `project.json`, generated through `node scripts/
 - [Wikimedia Commons: exterior architectural references](https://commons.wikimedia.org/wiki/Category:Rijksmuseum_Amsterdam_-_Main_Building)
 
 Author: Equilibrium Press, 2026. Original procedural geometry.
+
+## Gecontroleerde uitvoer
+
+De GitHub Actions-workflow `rijksmuseum-assets.yml` genereert en controleert met de bestaande JumpStart CAD-engine het native `project.json`, de echte `preview.png` en een GLB-export (`model.glb`). De bron is het reproduceerbare `recipe.json`. Deze assets zijn met de PR te beoordelen en blijven na merge beschikbaar via GitHub Pages.
