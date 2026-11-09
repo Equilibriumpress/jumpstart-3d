@@ -47,6 +47,7 @@ import { initChisel } from "./chisel.js";
 import { initMeshDetail } from "./meshdetail.js";
 import { initPrinterPreview } from "./printerpreview.js"; // jumpstart-3d: printer plate
 import { initBridge } from "./bridge.js"; // jumpstart-3d: scripting bridge
+import { initEquilibriumDeepLinks } from "./equilibrium-loader.js"; // Equilibrium Press: optional GitHub model loader
 import { initRunScript } from "./runscript.js"; // jumpstart-3d: run script
 import { initCodeCad } from "./codecad.js"; // jumpstart-3d: Code CAD
 import { initChat } from "./chat.js"; // jumpstart-3d: chat inside the app
@@ -1574,3 +1575,4 @@ initRunScript(app); // jumpstart-3d: run script. the Run script… menu entry; r
 initChat(app); // jumpstart-3d: chat inside the app. the AI button and panel; idle until clicked
 initReport(app); // jumpstart-3d: report. Report a problem (Open/Export menu and About); the app sends nothing
 initShareLink(app); // jumpstart-3d: share link. Share link… and Import shared link (Open/Export menu); the link stays in the address, nothing is uploaded
+initEquilibriumDeepLinks(app); // Equilibrium Press: optional ?project=slug deep link
