@@ -1,0 +1,50 @@
+{
+  "app": "jumpstart-3d",
+  "version": 1,
+  "doc": {
+    "v": 1,
+    "id": "prototype-test-koepelpaviljoen",
+    "name": "Klassiek koepelpaviljoen",
+    "mode": "beginner",
+    "bodies": [
+      {
+        "id": "placeholder-1",
+        "name": "Lower plinth bevel ring",
+        "color": "#ddd5c2",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 97,
+            "d": 97,
+            "h": 3
+          },
+          "mods": []
+        }
+      }
+    ],
+    "sketches": [],
+    "params": [],
+    "seq": 1
+  }
+}

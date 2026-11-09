@@ -30,6 +30,51 @@
         "parametric"
       ],
       "published": true
+    },
+    {
+      "id": "test-grachtenpand",
+      "title": "Amsterdams grachtenpand",
+      "description": "Een trapgevelachtig grachtenpand met klassieke ramen, voordeur, pannendak en dakkapellen. Gebouwd met eenvoudige primitives.",
+      "project": "models/test-grachtenpand/project.json",
+      "recipe": "models/test-grachtenpand/recipe.json",
+      "preview": null,
+      "tags": [
+        "experiment",
+        "architectuur",
+        "beginner"
+      ],
+      "published": false,
+      "printCheck": false
+    },
+    {
+      "id": "test-drieboogsbrug",
+      "title": "Stenen brug met drie bogen",
+      "description": "Een brug uit één hoofdvolume waarin drie echte cilindrische gewelfopeningen worden uitgesneden via de bestaande CAD-boolean.",
+      "project": "models/test-drieboogsbrug/project.json",
+      "recipe": "models/test-drieboogsbrug/recipe.json",
+      "preview": null,
+      "tags": [
+        "experiment",
+        "architectuur",
+        "boolean"
+      ],
+      "published": false,
+      "printCheck": false
+    },
+    {
+      "id": "test-koepelpaviljoen",
+      "title": "Klassiek koepelpaviljoen",
+      "description": "Een rond paviljoen met zuilenkring en koepel. De fundering wordt als echte parametrische schets geëxtrudeerd.",
+      "project": "models/test-koepelpaviljoen/project.json",
+      "recipe": "models/test-koepelpaviljoen/recipe.json",
+      "preview": null,
+      "tags": [
+        "experiment",
+        "architectuur",
+        "advanced"
+      ],
+      "published": false,
+      "printCheck": false
     }
   ]
 }

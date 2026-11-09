@@ -1,0 +1,905 @@
+{
+  "jumpstart": "recipe",
+  "version": 1,
+  "needs": "1.12",
+  "steps": [
+    {
+      "call": "setMode",
+      "args": [
+        "advanced"
+      ]
+    },
+    {
+      "call": "sketch",
+      "args": [
+        {
+          "on": "XY",
+          "name": "Terrace circle (advanced parametric sketch)",
+          "shapes": [
+            {
+              "type": "circle",
+              "center": [
+                0,
+                0
+              ],
+              "diameter": 112
+            }
+          ]
+        }
+      ],
+      "as": "foundation"
+    },
+    {
+      "call": "extrude",
+      "args": [
+        {
+          "sketch": "$foundation.sketch",
+          "dist": 3,
+          "name": "Circular foundation with editable sketch"
+        }
+      ],
+      "as": "base"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 97,
+            "d": 97,
+            "h": 3
+          },
+          "at": [
+            0,
+            0,
+            3
+          ],
+          "color": "#ddd5c2",
+          "name": "Lower plinth bevel ring"
+        }
+      ],
+      "as": "b4"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 89,
+            "d": 89,
+            "h": 4
+          },
+          "at": [
+            0,
+            0,
+            6
+          ],
+          "color": "#c6b69a",
+          "name": "Column terrace"
+        }
+      ],
+      "as": "b5"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 91,
+            "d": 91,
+            "h": 4
+          },
+          "at": [
+            0,
+            0,
+            55
+          ],
+          "color": "#ddd5c2",
+          "name": "Circular classical entablature"
+        }
+      ],
+      "as": "b6"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 95,
+            "d": 95,
+            "h": 3
+          },
+          "at": [
+            0,
+            0,
+            59
+          ],
+          "color": "#c6b69a",
+          "name": "Circular dome footing"
+        }
+      ],
+      "as": "b7"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7,
+            "d": 7,
+            "h": 3
+          },
+          "at": [
+            38,
+            0,
+            10
+          ],
+          "color": "#c6b69a",
+          "name": "Column 1 base"
+        }
+      ],
+      "as": "b8"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39
+          },
+          "at": [
+            38,
+            0,
+            13
+          ],
+          "color": "#ddd5c2",
+          "name": "Column 1 shaft"
+        }
+      ],
+      "as": "b9"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3
+          },
+          "at": [
+            38,
+            0,
+            52
+          ],
+          "color": "#c6b69a",
+          "name": "Column 1 capital"
+        }
+      ],
+      "as": "b10"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7,
+            "d": 7,
+            "h": 3
+          },
+          "at": [
+            30.74,
+            22.34,
+            10
+          ],
+          "color": "#c6b69a",
+          "name": "Column 2 base"
+        }
+      ],
+      "as": "b11"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39
+          },
+          "at": [
+            30.74,
+            22.34,
+            13
+          ],
+          "color": "#ddd5c2",
+          "name": "Column 2 shaft"
+        }
+      ],
+      "as": "b12"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3
+          },
+          "at": [
+            30.74,
+            22.34,
+            52
+          ],
+          "color": "#c6b69a",
+          "name": "Column 2 capital"
+        }
+      ],
+      "as": "b13"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7,
+            "d": 7,
+            "h": 3
+          },
+          "at": [
+            11.74,
+            36.14,
+            10
+          ],
+          "color": "#c6b69a",
+          "name": "Column 3 base"
+        }
+      ],
+      "as": "b14"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39
+          },
+          "at": [
+            11.74,
+            36.14,
+            13
+          ],
+          "color": "#ddd5c2",
+          "name": "Column 3 shaft"
+        }
+      ],
+      "as": "b15"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3
+          },
+          "at": [
+            11.74,
+            36.14,
+            52
+          ],
+          "color": "#c6b69a",
+          "name": "Column 3 capital"
+        }
+      ],
+      "as": "b16"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7,
+            "d": 7,
+            "h": 3
+          },
+          "at": [
+            -11.74,
+            36.14,
+            10
+          ],
+          "color": "#c6b69a",
+          "name": "Column 4 base"
+        }
+      ],
+      "as": "b17"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39
+          },
+          "at": [
+            -11.74,
+            36.14,
+            13
+          ],
+          "color": "#ddd5c2",
+          "name": "Column 4 shaft"
+        }
+      ],
+      "as": "b18"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3
+          },
+          "at": [
+            -11.74,
+            36.14,
+            52
+          ],
+          "color": "#c6b69a",
+          "name": "Column 4 capital"
+        }
+      ],
+      "as": "b19"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7,
+            "d": 7,
+            "h": 3
+          },
+          "at": [
+            -30.74,
+            22.34,
+            10
+          ],
+          "color": "#c6b69a",
+          "name": "Column 5 base"
+        }
+      ],
+      "as": "b20"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39
+          },
+          "at": [
+            -30.74,
+            22.34,
+            13
+          ],
+          "color": "#ddd5c2",
+          "name": "Column 5 shaft"
+        }
+      ],
+      "as": "b21"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3
+          },
+          "at": [
+            -30.74,
+            22.34,
+            52
+          ],
+          "color": "#c6b69a",
+          "name": "Column 5 capital"
+        }
+      ],
+      "as": "b22"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7,
+            "d": 7,
+            "h": 3
+          },
+          "at": [
+            -38,
+            0,
+            10
+          ],
+          "color": "#c6b69a",
+          "name": "Column 6 base"
+        }
+      ],
+      "as": "b23"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39
+          },
+          "at": [
+            -38,
+            0,
+            13
+          ],
+          "color": "#ddd5c2",
+          "name": "Column 6 shaft"
+        }
+      ],
+      "as": "b24"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3
+          },
+          "at": [
+            -38,
+            0,
+            52
+          ],
+          "color": "#c6b69a",
+          "name": "Column 6 capital"
+        }
+      ],
+      "as": "b25"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7,
+            "d": 7,
+            "h": 3
+          },
+          "at": [
+            -30.74,
+            -22.34,
+            10
+          ],
+          "color": "#c6b69a",
+          "name": "Column 7 base"
+        }
+      ],
+      "as": "b26"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39
+          },
+          "at": [
+            -30.74,
+            -22.34,
+            13
+          ],
+          "color": "#ddd5c2",
+          "name": "Column 7 shaft"
+        }
+      ],
+      "as": "b27"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3
+          },
+          "at": [
+            -30.74,
+            -22.34,
+            52
+          ],
+          "color": "#c6b69a",
+          "name": "Column 7 capital"
+        }
+      ],
+      "as": "b28"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7,
+            "d": 7,
+            "h": 3
+          },
+          "at": [
+            -11.74,
+            -36.14,
+            10
+          ],
+          "color": "#c6b69a",
+          "name": "Column 8 base"
+        }
+      ],
+      "as": "b29"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39
+          },
+          "at": [
+            -11.74,
+            -36.14,
+            13
+          ],
+          "color": "#ddd5c2",
+          "name": "Column 8 shaft"
+        }
+      ],
+      "as": "b30"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3
+          },
+          "at": [
+            -11.74,
+            -36.14,
+            52
+          ],
+          "color": "#c6b69a",
+          "name": "Column 8 capital"
+        }
+      ],
+      "as": "b31"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7,
+            "d": 7,
+            "h": 3
+          },
+          "at": [
+            11.74,
+            -36.14,
+            10
+          ],
+          "color": "#c6b69a",
+          "name": "Column 9 base"
+        }
+      ],
+      "as": "b32"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39
+          },
+          "at": [
+            11.74,
+            -36.14,
+            13
+          ],
+          "color": "#ddd5c2",
+          "name": "Column 9 shaft"
+        }
+      ],
+      "as": "b33"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3
+          },
+          "at": [
+            11.74,
+            -36.14,
+            52
+          ],
+          "color": "#c6b69a",
+          "name": "Column 9 capital"
+        }
+      ],
+      "as": "b34"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7,
+            "d": 7,
+            "h": 3
+          },
+          "at": [
+            30.74,
+            -22.34,
+            10
+          ],
+          "color": "#c6b69a",
+          "name": "Column 10 base"
+        }
+      ],
+      "as": "b35"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 5.6,
+            "d": 5.6,
+            "h": 39
+          },
+          "at": [
+            30.74,
+            -22.34,
+            13
+          ],
+          "color": "#ddd5c2",
+          "name": "Column 10 shaft"
+        }
+      ],
+      "as": "b36"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 8.3,
+            "d": 8.3,
+            "h": 3
+          },
+          "at": [
+            30.74,
+            -22.34,
+            52
+          ],
+          "color": "#c6b69a",
+          "name": "Column 10 capital"
+        }
+      ],
+      "as": "b37"
+    },
+    {
+      "call": "add",
+      "args": [
+        "hemisphere",
+        {
+          "size": {
+            "w": 93,
+            "d": 93,
+            "h": 46.5
+          },
+          "at": [
+            0,
+            0,
+            62
+          ],
+          "color": "#607b79",
+          "name": "Copper dome"
+        }
+      ],
+      "as": "b38"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 20,
+            "d": 20,
+            "h": 2
+          },
+          "at": [
+            0,
+            0,
+            106
+          ],
+          "color": "#bb9865",
+          "name": "Lantern base ring"
+        }
+      ],
+      "as": "b39"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 13,
+            "d": 13,
+            "h": 12
+          },
+          "at": [
+            0,
+            0,
+            108
+          ],
+          "color": "#ddd5c2",
+          "name": "Central lantern drum"
+        }
+      ],
+      "as": "b40"
+    },
+    {
+      "call": "add",
+      "args": [
+        "hemisphere",
+        {
+          "size": {
+            "w": 19,
+            "d": 19,
+            "h": 9.5
+          },
+          "at": [
+            0,
+            0,
+            120
+          ],
+          "color": "#607b79",
+          "name": "Lantern half dome"
+        }
+      ],
+      "as": "b41"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 2.2,
+            "d": 2.2,
+            "h": 7
+          },
+          "at": [
+            0,
+            0,
+            129
+          ],
+          "color": "#bb9865",
+          "name": "Copper finial"
+        }
+      ],
+      "as": "b42"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 19,
+            "d": 8,
+            "h": 1.5
+          },
+          "at": [
+            0,
+            -51,
+            -0.3
+          ],
+          "color": "#b5ab9b",
+          "name": "Approach stair -51"
+        }
+      ],
+      "as": "b43"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 19,
+            "d": 8,
+            "h": 1.5
+          },
+          "at": [
+            0,
+            -57,
+            -0.3
+          ],
+          "color": "#b5ab9b",
+          "name": "Approach stair -57"
+        }
+      ],
+      "as": "b44"
+    }
+  ]
+}

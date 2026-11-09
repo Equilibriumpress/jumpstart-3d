@@ -1,0 +1,1246 @@
+{
+  "jumpstart": "recipe",
+  "version": 1,
+  "needs": "1.12",
+  "steps": [
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 62,
+            "d": 54,
+            "h": 2
+          },
+          "at": [
+            0,
+            0,
+            -2
+          ],
+          "color": "#e2d6bd",
+          "name": "Basement terrace"
+        }
+      ],
+      "as": "b1"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 43,
+            "d": 35,
+            "h": 62
+          },
+          "at": [
+            0,
+            0,
+            0
+          ],
+          "color": "#88493d",
+          "name": "Main canal house masonry"
+        }
+      ],
+      "as": "b2"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 48,
+            "d": 37,
+            "h": 1.3
+          },
+          "at": [
+            0,
+            0,
+            61.5
+          ],
+          "color": "#e2d6bd",
+          "name": "Roof cornice"
+        }
+      ],
+      "as": "b3"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 50,
+            "d": 41,
+            "h": 21
+          },
+          "at": [
+            0,
+            0,
+            63
+          ],
+          "color": "#374956",
+          "name": "Steep gable roof"
+        }
+      ],
+      "as": "b4"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 43,
+            "d": 1.2,
+            "h": 2.8
+          },
+          "at": [
+            0,
+            -17.8,
+            18
+          ],
+          "color": "#e2d6bd",
+          "name": "Facade plinth belt"
+        }
+      ],
+      "as": "b5"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 43,
+            "d": 1.1,
+            "h": 2.2
+          },
+          "at": [
+            0,
+            -17.8,
+            39
+          ],
+          "color": "#e2d6bd",
+          "name": "Facade upper stone belt"
+        }
+      ],
+      "as": "b6"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 11,
+            "d": 1.5,
+            "h": 19
+          },
+          "at": [
+            0,
+            -18.6,
+            0
+          ],
+          "color": "#3c555d",
+          "name": "Historic canal house entrance"
+        }
+      ],
+      "as": "b7"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 12.5,
+            "d": 2,
+            "h": 1.3
+          },
+          "at": [
+            0,
+            -19,
+            18.8
+          ],
+          "color": "#e2d6bd",
+          "name": "Entrance lintel"
+        }
+      ],
+      "as": "b8"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 6.4,
+            "d": 0.6,
+            "h": 10.5
+          },
+          "at": [
+            0,
+            -19.6,
+            4.1
+          ],
+          "color": "#31526d",
+          "name": "Entrance glazing"
+        }
+      ],
+      "as": "b9"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 1.5,
+            "d": 1.5,
+            "h": 1.5
+          },
+          "at": [
+            4,
+            -20.1,
+            9
+          ],
+          "color": "#b98b5d",
+          "name": "Door brass knob"
+        }
+      ],
+      "as": "b10"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 20,
+            "d": 13,
+            "h": 1.5
+          },
+          "at": [
+            0,
+            -27,
+            -1.5
+          ],
+          "color": "#e2d6bd",
+          "name": "Entrance stair step"
+        }
+      ],
+      "as": "b11"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -18.15,
+            20.5
+          ],
+          "color": "#45738a",
+          "name": "Window r1x-13.7"
+        }
+      ],
+      "as": "b12"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            20.15
+          ],
+          "color": "#e2d6bd",
+          "name": "Sill r1x-13.7"
+        }
+      ],
+      "as": "b13"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            30.1
+          ],
+          "color": "#e2d6bd",
+          "name": "Lintel r1x-13.7"
+        }
+      ],
+      "as": "b14"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -18.5,
+            20.5
+          ],
+          "color": "#e2d6bd",
+          "name": "Mullion r1x-13.7"
+        }
+      ],
+      "as": "b15"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7
+          },
+          "at": [
+            -13.7,
+            -18.5,
+            25.8
+          ],
+          "color": "#e2d6bd",
+          "name": "Window transom r1x-13.7"
+        }
+      ],
+      "as": "b16"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -18.15,
+            20.5
+          ],
+          "color": "#45738a",
+          "name": "Window r1x13.7"
+        }
+      ],
+      "as": "b17"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            20.15
+          ],
+          "color": "#e2d6bd",
+          "name": "Sill r1x13.7"
+        }
+      ],
+      "as": "b18"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            30.1
+          ],
+          "color": "#e2d6bd",
+          "name": "Lintel r1x13.7"
+        }
+      ],
+      "as": "b19"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -18.5,
+            20.5
+          ],
+          "color": "#e2d6bd",
+          "name": "Mullion r1x13.7"
+        }
+      ],
+      "as": "b20"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7
+          },
+          "at": [
+            13.7,
+            -18.5,
+            25.8
+          ],
+          "color": "#e2d6bd",
+          "name": "Window transom r1x13.7"
+        }
+      ],
+      "as": "b21"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -18.15,
+            33.3
+          ],
+          "color": "#45738a",
+          "name": "Window r2x-13.7"
+        }
+      ],
+      "as": "b22"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            32.949999999999996
+          ],
+          "color": "#e2d6bd",
+          "name": "Sill r2x-13.7"
+        }
+      ],
+      "as": "b23"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            42.9
+          ],
+          "color": "#e2d6bd",
+          "name": "Lintel r2x-13.7"
+        }
+      ],
+      "as": "b24"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -18.5,
+            33.3
+          ],
+          "color": "#e2d6bd",
+          "name": "Mullion r2x-13.7"
+        }
+      ],
+      "as": "b25"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7
+          },
+          "at": [
+            -13.7,
+            -18.5,
+            38.599999999999994
+          ],
+          "color": "#e2d6bd",
+          "name": "Window transom r2x-13.7"
+        }
+      ],
+      "as": "b26"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8
+          },
+          "at": [
+            0,
+            -18.15,
+            33.3
+          ],
+          "color": "#45738a",
+          "name": "Window r2x0"
+        }
+      ],
+      "as": "b27"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            0,
+            -18.8,
+            32.949999999999996
+          ],
+          "color": "#e2d6bd",
+          "name": "Sill r2x0"
+        }
+      ],
+      "as": "b28"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            0,
+            -18.8,
+            42.9
+          ],
+          "color": "#e2d6bd",
+          "name": "Lintel r2x0"
+        }
+      ],
+      "as": "b29"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8
+          },
+          "at": [
+            0,
+            -18.5,
+            33.3
+          ],
+          "color": "#e2d6bd",
+          "name": "Mullion r2x0"
+        }
+      ],
+      "as": "b30"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7
+          },
+          "at": [
+            0,
+            -18.5,
+            38.599999999999994
+          ],
+          "color": "#e2d6bd",
+          "name": "Window transom r2x0"
+        }
+      ],
+      "as": "b31"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -18.15,
+            33.3
+          ],
+          "color": "#45738a",
+          "name": "Window r2x13.7"
+        }
+      ],
+      "as": "b32"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            32.949999999999996
+          ],
+          "color": "#e2d6bd",
+          "name": "Sill r2x13.7"
+        }
+      ],
+      "as": "b33"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            42.9
+          ],
+          "color": "#e2d6bd",
+          "name": "Lintel r2x13.7"
+        }
+      ],
+      "as": "b34"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -18.5,
+            33.3
+          ],
+          "color": "#e2d6bd",
+          "name": "Mullion r2x13.7"
+        }
+      ],
+      "as": "b35"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7
+          },
+          "at": [
+            13.7,
+            -18.5,
+            38.599999999999994
+          ],
+          "color": "#e2d6bd",
+          "name": "Window transom r2x13.7"
+        }
+      ],
+      "as": "b36"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -18.15,
+            46.1
+          ],
+          "color": "#45738a",
+          "name": "Window r3x-13.7"
+        }
+      ],
+      "as": "b37"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            45.75
+          ],
+          "color": "#e2d6bd",
+          "name": "Sill r3x-13.7"
+        }
+      ],
+      "as": "b38"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            -13.7,
+            -18.8,
+            55.7
+          ],
+          "color": "#e2d6bd",
+          "name": "Lintel r3x-13.7"
+        }
+      ],
+      "as": "b39"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8
+          },
+          "at": [
+            -13.7,
+            -18.5,
+            46.1
+          ],
+          "color": "#e2d6bd",
+          "name": "Mullion r3x-13.7"
+        }
+      ],
+      "as": "b40"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7
+          },
+          "at": [
+            -13.7,
+            -18.5,
+            51.4
+          ],
+          "color": "#e2d6bd",
+          "name": "Window transom r3x-13.7"
+        }
+      ],
+      "as": "b41"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8
+          },
+          "at": [
+            0,
+            -18.15,
+            46.1
+          ],
+          "color": "#45738a",
+          "name": "Window r3x0"
+        }
+      ],
+      "as": "b42"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            0,
+            -18.8,
+            45.75
+          ],
+          "color": "#e2d6bd",
+          "name": "Sill r3x0"
+        }
+      ],
+      "as": "b43"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            0,
+            -18.8,
+            55.7
+          ],
+          "color": "#e2d6bd",
+          "name": "Lintel r3x0"
+        }
+      ],
+      "as": "b44"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8
+          },
+          "at": [
+            0,
+            -18.5,
+            46.1
+          ],
+          "color": "#e2d6bd",
+          "name": "Mullion r3x0"
+        }
+      ],
+      "as": "b45"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7
+          },
+          "at": [
+            0,
+            -18.5,
+            51.4
+          ],
+          "color": "#e2d6bd",
+          "name": "Window transom r3x0"
+        }
+      ],
+      "as": "b46"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 0.95,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -18.15,
+            46.1
+          ],
+          "color": "#45738a",
+          "name": "Window r3x13.7"
+        }
+      ],
+      "as": "b47"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            45.75
+          ],
+          "color": "#e2d6bd",
+          "name": "Sill r3x13.7"
+        }
+      ],
+      "as": "b48"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 10.8,
+            "d": 1.5,
+            "h": 0.75
+          },
+          "at": [
+            13.7,
+            -18.8,
+            55.7
+          ],
+          "color": "#e2d6bd",
+          "name": "Lintel r3x13.7"
+        }
+      ],
+      "as": "b49"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.7,
+            "d": 1.45,
+            "h": 9.8
+          },
+          "at": [
+            13.7,
+            -18.5,
+            46.1
+          ],
+          "color": "#e2d6bd",
+          "name": "Mullion r3x13.7"
+        }
+      ],
+      "as": "b50"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.4,
+            "d": 1.45,
+            "h": 0.7
+          },
+          "at": [
+            13.7,
+            -18.5,
+            51.4
+          ],
+          "color": "#e2d6bd",
+          "name": "Window transom r3x13.7"
+        }
+      ],
+      "as": "b51"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 2.3,
+            "h": 6.5
+          },
+          "at": [
+            -11,
+            -12,
+            69.8
+          ],
+          "color": "#88493d",
+          "name": "Dormer -11"
+        }
+      ],
+      "as": "b52"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4.5,
+            "d": 0.9,
+            "h": 4.5
+          },
+          "at": [
+            -11,
+            -13.7,
+            71
+          ],
+          "color": "#45738a",
+          "name": "Dormer window -11"
+        }
+      ],
+      "as": "b53"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 8,
+            "d": 3.5,
+            "h": 3.8
+          },
+          "at": [
+            -11,
+            -12,
+            76.2
+          ],
+          "color": "#374956",
+          "name": "Dormer gable -11"
+        }
+      ],
+      "as": "b54"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7,
+            "d": 2.3,
+            "h": 6.5
+          },
+          "at": [
+            11,
+            -12,
+            69.8
+          ],
+          "color": "#88493d",
+          "name": "Dormer 11"
+        }
+      ],
+      "as": "b55"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4.5,
+            "d": 0.9,
+            "h": 4.5
+          },
+          "at": [
+            11,
+            -13.7,
+            71
+          ],
+          "color": "#45738a",
+          "name": "Dormer window 11"
+        }
+      ],
+      "as": "b56"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 8,
+            "d": 3.5,
+            "h": 3.8
+          },
+          "at": [
+            11,
+            -12,
+            76.2
+          ],
+          "color": "#374956",
+          "name": "Dormer gable 11"
+        }
+      ],
+      "as": "b57"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 2.4,
+            "h": 53
+          },
+          "at": [
+            -21,
+            -18,
+            8
+          ],
+          "color": "#e2d6bd",
+          "name": "Vertical corner quoin -21"
+        }
+      ],
+      "as": "b58"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 2.4,
+            "h": 53
+          },
+          "at": [
+            21,
+            -18,
+            8
+          ],
+          "color": "#e2d6bd",
+          "name": "Vertical corner quoin 21"
+        }
+      ],
+      "as": "b59"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Stenen brug met drie bogen",
+  "author": "Equilibrium Press",
+  "license": "CC0-1.0",
+  "year": 2026,
+  "purpose": "Architecture model variety test",
+  "method": "Boolean: uitsparingen en rotaties",
+  "description": "Een brug uit één hoofdvolume waarin drie echte cilindrische gewelfopeningen worden uitgesneden via de bestaande CAD-boolean.",
+  "accuracy": "Original illustrative geometry, not a measured construction drawing",
+  "test": true
+}

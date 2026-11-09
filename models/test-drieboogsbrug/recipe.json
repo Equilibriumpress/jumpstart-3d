@@ -1,0 +1,724 @@
+{
+  "jumpstart": "recipe",
+  "version": 1,
+  "needs": "1.12",
+  "steps": [
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 181,
+            "d": 95,
+            "h": 1.1
+          },
+          "at": [
+            0,
+            0,
+            -2
+          ],
+          "color": "#547d9d",
+          "name": "River surface"
+        }
+      ],
+      "as": "b1"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 163,
+            "d": 37,
+            "h": 31
+          },
+          "at": [
+            0,
+            0,
+            0
+          ],
+          "color": "#c3ad86",
+          "name": "Arch bridge solid body"
+        }
+      ],
+      "as": "bridge"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 31,
+            "d": 31,
+            "h": 52
+          },
+          "at": [
+            -52,
+            0,
+            -22
+          ],
+          "color": "#c3ad86",
+          "name": "Vault cutter -52"
+        }
+      ],
+      "as": "cut0"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$cut0",
+        "x",
+        90,
+        {
+          "about": [
+            -52,
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "call": "setHole",
+      "args": [
+        "$cut0",
+        true
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 31,
+            "d": 31,
+            "h": 52
+          },
+          "at": [
+            0,
+            0,
+            -22
+          ],
+          "color": "#c3ad86",
+          "name": "Vault cutter 0"
+        }
+      ],
+      "as": "cut52"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$cut52",
+        "x",
+        90,
+        {
+          "about": [
+            0,
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "call": "setHole",
+      "args": [
+        "$cut52",
+        true
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 31,
+            "d": 31,
+            "h": 52
+          },
+          "at": [
+            52,
+            0,
+            -22
+          ],
+          "color": "#c3ad86",
+          "name": "Vault cutter 52"
+        }
+      ],
+      "as": "cut104"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$cut104",
+        "x",
+        90,
+        {
+          "about": [
+            52,
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "call": "setHole",
+      "args": [
+        "$cut104",
+        true
+      ]
+    },
+    {
+      "call": "ready",
+      "args": []
+    },
+    {
+      "call": "group",
+      "args": [
+        "$bridge",
+        "$cut0",
+        "$cut52",
+        "$cut104",
+        {
+          "name": "Stone bridge with three true tunnel openings"
+        }
+      ],
+      "as": "arches"
+    },
+    {
+      "call": "ready",
+      "args": []
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 169,
+            "d": 43,
+            "h": 3
+          },
+          "at": [
+            0,
+            0,
+            31
+          ],
+          "color": "#a59072",
+          "name": "Continuous bridge deck"
+        }
+      ],
+      "as": "b15"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 169,
+            "d": 3.2,
+            "h": 8
+          },
+          "at": [
+            0,
+            -20,
+            34
+          ],
+          "color": "#c3ad86",
+          "name": "Stone parapet y-20"
+        }
+      ],
+      "as": "b16"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 172,
+            "d": 4.5,
+            "h": 1.2
+          },
+          "at": [
+            0,
+            -20,
+            42
+          ],
+          "color": "#e1d0b2",
+          "name": "Parapet coping y-20"
+        }
+      ],
+      "as": "b17"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            -74,
+            -20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel -74 y-20"
+        }
+      ],
+      "as": "b18"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            -47,
+            -20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel -47 y-20"
+        }
+      ],
+      "as": "b19"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            -20,
+            -20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel -20 y-20"
+        }
+      ],
+      "as": "b20"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            7,
+            -20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel 7 y-20"
+        }
+      ],
+      "as": "b21"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            34,
+            -20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel 34 y-20"
+        }
+      ],
+      "as": "b22"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            61,
+            -20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel 61 y-20"
+        }
+      ],
+      "as": "b23"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 169,
+            "d": 3.2,
+            "h": 8
+          },
+          "at": [
+            0,
+            20,
+            34
+          ],
+          "color": "#c3ad86",
+          "name": "Stone parapet y20"
+        }
+      ],
+      "as": "b24"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 172,
+            "d": 4.5,
+            "h": 1.2
+          },
+          "at": [
+            0,
+            20,
+            42
+          ],
+          "color": "#e1d0b2",
+          "name": "Parapet coping y20"
+        }
+      ],
+      "as": "b25"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            -74,
+            20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel -74 y20"
+        }
+      ],
+      "as": "b26"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            -47,
+            20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel -47 y20"
+        }
+      ],
+      "as": "b27"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            -20,
+            20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel -20 y20"
+        }
+      ],
+      "as": "b28"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            7,
+            20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel 7 y20"
+        }
+      ],
+      "as": "b29"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            34,
+            20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel 34 y20"
+        }
+      ],
+      "as": "b30"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2,
+            "d": 3.5,
+            "h": 6
+          },
+          "at": [
+            61,
+            20,
+            34
+          ],
+          "color": "#94816a",
+          "name": "Parapet panel 61 y20"
+        }
+      ],
+      "as": "b31"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3
+          },
+          "at": [
+            -52,
+            -19,
+            18.8
+          ],
+          "color": "#e1d0b2",
+          "name": "Front arch keystone -52"
+        }
+      ],
+      "as": "b32"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3
+          },
+          "at": [
+            -52,
+            19,
+            18.8
+          ],
+          "color": "#e1d0b2",
+          "name": "Rear arch keystone -52"
+        }
+      ],
+      "as": "b33"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3
+          },
+          "at": [
+            0,
+            -19,
+            18.8
+          ],
+          "color": "#e1d0b2",
+          "name": "Front arch keystone 0"
+        }
+      ],
+      "as": "b34"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3
+          },
+          "at": [
+            0,
+            19,
+            18.8
+          ],
+          "color": "#e1d0b2",
+          "name": "Rear arch keystone 0"
+        }
+      ],
+      "as": "b35"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3
+          },
+          "at": [
+            52,
+            -19,
+            18.8
+          ],
+          "color": "#e1d0b2",
+          "name": "Front arch keystone 52"
+        }
+      ],
+      "as": "b36"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 1.8,
+            "h": 2.3
+          },
+          "at": [
+            52,
+            19,
+            18.8
+          ],
+          "color": "#e1d0b2",
+          "name": "Rear arch keystone 52"
+        }
+      ],
+      "as": "b37"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 14,
+            "d": 44,
+            "h": 4
+          },
+          "at": [
+            -75,
+            0,
+            27
+          ],
+          "color": "#e1d0b2",
+          "name": "Abutment top -75"
+        }
+      ],
+      "as": "b38"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 14,
+            "d": 44,
+            "h": 4
+          },
+          "at": [
+            75,
+            0,
+            27
+          ],
+          "color": "#e1d0b2",
+          "name": "Abutment top 75"
+        }
+      ],
+      "as": "b39"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "app": "jumpstart-3d",
+  "version": 1,
+  "doc": {
+    "v": 1,
+    "id": "prototype-test-grachtenpand",
+    "name": "Amsterdams grachtenpand",
+    "mode": "beginner",
+    "bodies": [
+      {
+        "id": "placeholder-1",
+        "name": "Basement terrace",
+        "color": "#e2d6bd",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 62,
+            "d": 54,
+            "h": 2
+          },
+          "mods": []
+        }
+      }
+    ],
+    "sketches": [],
+    "params": [],
+    "seq": 1
+  }
+}

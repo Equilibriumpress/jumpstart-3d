@@ -1,0 +1,50 @@
+{
+  "app": "jumpstart-3d",
+  "version": 1,
+  "doc": {
+    "v": 1,
+    "id": "prototype-test-drieboogsbrug",
+    "name": "Stenen brug met drie bogen",
+    "mode": "beginner",
+    "bodies": [
+      {
+        "id": "placeholder-1",
+        "name": "River surface",
+        "color": "#547d9d",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 181,
+            "d": 95,
+            "h": 1.1
+          },
+          "mods": []
+        }
+      }
+    ],
+    "sketches": [],
+    "params": [],
+    "seq": 1
+  }
+}
