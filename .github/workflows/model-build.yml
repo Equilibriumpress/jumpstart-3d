@@ -1,0 +1,61 @@
+name: Build editable CAD models
+
+on:
+  workflow_dispatch:
+    inputs:
+      model_id:
+        description: "Model slug, empty for all"
+        required: false
+        type: string
+  push:
+    branches:
+      - "equilibrium/model-*"
+    paths:
+      - "models/**/recipe.json"
+      - "models/library.json"
+      - "scripts/build-models.mjs"
+      - ".github/workflows/model-build.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: model-build-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm ci --prefix mcp
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - name: Generate native project and exact CAD preview
+        env:
+          MODEL_ID: ${{ inputs.model_id }}
+        run: |
+          if [ -n "$MODEL_ID" ]; then node scripts/build-models.mjs "--id=$MODEL_ID"; else node scripts/build-models.mjs; fi
+      - run: node scripts/validate-models.mjs
+      - name: Commit generated assets to the feature branch
+        if: github.ref != 'refs/heads/main'
+        run: |
+          git add models
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Generate native JumpStart project files and previews"
+          git push
+      - name: Upload generated assets for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: cad-models
+          path: models/
