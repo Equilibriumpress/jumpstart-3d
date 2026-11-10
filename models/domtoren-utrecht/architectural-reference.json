@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "title": "Domtoren architecture reference",
+  "scale": "1:500",
+  "axes": [
+    "east-west",
+    "north-south",
+    "vertical"
+  ],
+  "confidence": "Design estimate except sourced elevations and heights",
+  "published": {
+    "totalHeightM": 112.32,
+    "firstSquareM": 38.6,
+    "secondSquareM": 29.48,
+    "lanternM": 26,
+    "spireTipM": 106.75,
+    "baseWidthM": 19.3,
+    "upperWidthM": 16.34
+  },
+  "levelsMm": {
+    "firstSquareTop": 77.2,
+    "secondSquareTop": 136.16,
+    "transitionTop": 138,
+    "lanternBase": 140.35,
+    "lanternCrown": 190,
+    "spireTop": 213.5,
+    "finialTop": 224.64
+  },
+  "estimatesMm": {
+    "lowerLancetCenters": [
+      -10.7,
+      10.7
+    ],
+    "lowerLancetSill": 41,
+    "lowerLancetSpring": 65,
+    "lowerLancetTip": 72,
+    "secondGalleryOpeningSill": 92,
+    "secondGalleryOpeningTop": 113,
+    "clockCenter": 124.1,
+    "lanternPierRadius": 12,
+    "lanternArchSpring": 159.5,
+    "lanternArchPeak": 179,
+    "lanternTraceries": 3,
+    "spireRibs": 8
+  },
+  "sourceLinks": [
+    "https://erfgoed.utrecht.nl/verhalen/domtoren",
+    "https://erfgoed.utrecht.nl/verhalen/bouw-van-de-domtoren",
+    "https://commons.wikimedia.org/wiki/File:HUA-216778-Opstand_van_de_westgevel_van_de_derde_geleding_en_de_derde_omgang_met_spits_van_de_Domtoren_te_Utrecht.jpg",
+    "https://commons.wikimedia.org/wiki/File:HUA-214477-Opstand_van_de_westgevel_met_wijzerplaat_van_de_tweede_geleding_van_de_Domtoren_te_Utrecht.jpg",
+    "https://commons.wikimedia.org/wiki/Category:Architectural_drawings_of_Utrecht_Dom_church",
+    "https://www.domtoren.nl/het-verhaal/restauratie/"
+  ],
+  "limits": [
+    "Visual ratios only, not pixel traced",
+    "No site survey or photogrammetric registration",
+    "Historical and contemporary profiles vary; validate 2024 restoration details"
+  ],
+  "modelContract": [
+    "Native JSON directly authored by ChatGPT",
+    "All features editable as independent solids or native groups",
+    "Open eight-sided lantern and full-height 224.64 mm",
+    "No GitHub Actions for model creation",
+    "Sync models and catalog to static gh-pages"
+  ]
+}
