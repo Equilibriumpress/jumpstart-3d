@@ -19,7 +19,8 @@
     .grid{margin:26px 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:20px}
     .card{background:white;border:1px solid #dce2e8;border-radius:13px;overflow:hidden;box-shadow:0 4px 14px rgba(17,31,49,.04)}
     .preview{aspect-ratio:4/3;background:linear-gradient(135deg,#dbe7f2,#f5f7fa);display:grid;place-items:center;overflow:hidden}
-    .preview img{height:100%;width:100%;object-fit:contain}
+    .preview{position:relative}.preview img{height:100%;width:100%;object-fit:contain}
+    .schematic-caption{position:absolute;left:8px;bottom:8px;background:#1c3042e6;color:white;padding:4px 7px;font-size:11px;border-radius:5px}
     .placeholder{font-size:62px;color:#497ca8}
     .details{padding:18px}.details h2{font-size:19px;line-height:1.2;margin:0 0 8px}
     .details p{margin:0 0 12px;color:#586679;font-size:14px;min-height:42px}
@@ -65,6 +66,13 @@
         image.src = "../" + m.preview;
         image.alt = "CAD preview: " + m.title;
         preview.append(image);
+      } else if (m.illustration === "models/" + m.id + "/schematic.svg") {
+        const img = node("img");
+        img.loading = "lazy";
+        img.src = "../" + m.illustration;
+        img.alt = "Schematic facade, not a CAD screenshot: " + m.title;
+        preview.append(img);
+        preview.append(node("span","schematic-caption","Schematic · not a CAD render"));
       } else preview.append(node("span","placeholder","⬡"));
       details.append(node("h2","",m.title),node("p","",m.description || ""));
       const tags = node("div","tags");
