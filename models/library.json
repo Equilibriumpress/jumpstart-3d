@@ -7,7 +7,7 @@
       "description": "ChatGPT-authored editable 1:500 CAD study of Utrecht's Domtoren. The native project includes a real cut-through lower passage, 8 open lantern piers and distinct tiered parts. Detailed geometry remains illustrative.",
       "project": "models/domtoren-utrecht/project.json",
       "recipe": "models/domtoren-utrecht/recipe.json",
-      "preview": null,
+      "preview": "models/domtoren-utrecht/preview.png",
       "tags": [
         "architecture",
         "Domtoren",
