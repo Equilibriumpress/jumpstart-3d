@@ -23,11 +23,15 @@
       "metal": "#7B7565",
       "gold": "#B9A369"
     },
-    "nativeBodies": 491,
+    "nativeBodies": 715,
     "generation": "Authored directly as native JumpStart 3D project JSON by ChatGPT; no GitHub Actions or external CAD build",
     "lanternDetailBodies": 264,
-    "stage": "PR13 pointed facade recesses and archivolts",
-    "actualLowerLancetCuts": 16
+    "stage": "PR14 architectural detail",
+    "actualLowerLancetCuts": 16,
+    "clocks": 4,
+    "balusters": 72,
+    "masonryCourseBands": 64,
+    "roofRibs": 8
   },
   "references": [
     "https://erfgoed.utrecht.nl/verhalen/domtoren",
