@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" role="img" aria-label="Schematic Domtoren Utrecht study, not a CAD screenshot">
+<defs><linearGradient id="s" x2="0" y2="1"><stop stop-color="#cbdde9"/><stop offset="1" stop-color="#f5f0e6"/></linearGradient><linearGradient id="t" x2="1" y2="0"><stop stop-color="#a99986"/><stop offset=".5" stop-color="#dacbb2"/><stop offset="1" stop-color="#b7a88e"/></linearGradient></defs>
+<rect width="360" height="480" fill="url(#s)"/><ellipse cx="180" cy="449" rx="90" ry="9" fill="#8495a1" opacity=".25"/>
+<g fill="url(#t)" stroke="#847765" stroke-width="1.5"><rect x="109" y="263" width="142" height="184"/><rect x="123" y="162" width="114" height="101"/><path d="M105 264h150v7H105zM100 445h160v5H100zM119 161h122v8H119z"/></g>
+<g fill="#3e4f5b" stroke="#e8dbc5" stroke-width="2"><path d="M161 447v-36q19-40 38 0v36z M126 383v-45q12-27 24 0v45z M210 383v-45q12-27 24 0v45z M130 231v-40q12-25 24 0v40z M206 231v-40q12-25 24 0v40z"/></g>
+<g stroke="#d5c2a5" stroke-width="2" fill="none"><path d="M110 295h140M110 369h140M123 178h114M107 265h146"/><path d="M116 272v170M244 272v170" stroke-width="3"/></g>
+<circle cx="180" cy="238" r="15" fill="#e8dcc3" stroke="#796e5e" stroke-width="3"/><circle cx="180" cy="238" r="10" fill="none" stroke="#8b7d68"/><path d="M180 238l6-6M180 238v-8" stroke="#47413a" stroke-width="2"/>
+<g fill="url(#t)" stroke="#887764" stroke-width="1.5"><rect x="139" y="89" width="82" height="72"/><path d="M134 162h92v7h-92zM134 88h92v5h-92z"/></g>
+<g fill="#d9e8ef" stroke="#f1e1c6" stroke-width="2.5"><path d="M144 158v-40q9-26 18 0v40zM164 158v-40q9-26 18 0v40zM184 158v-40q9-26 18 0v40zM204 158v-40q8-26 16 0v40z"/></g><path d="M141 150h77M141 144h77" stroke="#a99a80" stroke-width="2"/>
+<path d="M145 90L180 25 215 90z" fill="#515b60" stroke="#3a4751" stroke-width="2"/><path d="M145 90L180 25 215 90M180 25v65" stroke="#9bacae" fill="none"/><path d="M180 26V7m-6 10h12" stroke="#987b4a" stroke-width="2"/>
+<text x="18" y="25" font-family="system-ui,sans-serif" font-size="12" fill="#334b60" font-weight="700">DOMTOREN UTRECHT</text><text x="18" y="39" font-family="system-ui,sans-serif" font-size="8.5" fill="#536e7e">SCHEMATIC • 1:500 CAD STUDY</text></svg>

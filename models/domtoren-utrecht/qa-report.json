@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-10",
+  "method": "Static validation of ChatGPT-authored native JSON; no browser engine execution",
+  "checks": {
+    "bodyCount": 715,
+    "uniqueIDs": true,
+    "finiteMatrices": true,
+    "groups": 2,
+    "lowerCutters": 18,
+    "lanternPiers": 8,
+    "lanternArchSegments": 96,
+    "openRosettes": 8,
+    "clockHourMarks": 48,
+    "balusters": 72,
+    "heightMm": 224.64,
+    "projectBytes": 207830
+  },
+  "status": "structure pass, browser render unverified",
+  "limitations": [
+    "No measured survey",
+    "OpenCascade geometry and mesh export have not been visually tested",
+    "SVG is a schematic illustration, not 3D preview",
+    "No PBR textures or verified photorealism"
+  ]
+}

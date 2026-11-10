@@ -23,8 +23,15 @@
       "metal": "#7B7565",
       "gold": "#B9A369"
     },
-    "nativeBodies": 87,
-    "generation": "Authored directly as native JumpStart 3D project JSON by ChatGPT; no GitHub Actions or external CAD build"
+    "nativeBodies": 715,
+    "generation": "Authored directly as native JumpStart 3D project JSON by ChatGPT; no GitHub Actions or external CAD build",
+    "lanternDetailBodies": 264,
+    "stage": "PR15 QA and library presentation",
+    "actualLowerLancetCuts": 16,
+    "clocks": 4,
+    "balusters": 72,
+    "masonryCourseBands": 64,
+    "roofRibs": 8
   },
   "references": [
     "https://erfgoed.utrecht.nl/verhalen/domtoren",
@@ -34,7 +41,9 @@
   "assets": "All source geometry is stored in project.json; no image preview or GLB is claimed. GLB available on browser export.",
   "validation": {
     "structural": true,
-    "engineRender": "not yet visually verified in live Pages editor",
-    "notes": "CAD solids and booleans require runtime validation in browser"
+    "browserRender": "unverified",
+    "visualScreenshot": "not produced",
+    "preview": "schematic 2D SVG, not CAD screenshot",
+    "projectBytes": 207830
   }
 }
