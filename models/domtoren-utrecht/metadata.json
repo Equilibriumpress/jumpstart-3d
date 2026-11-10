@@ -23,8 +23,10 @@
       "metal": "#7B7565",
       "gold": "#B9A369"
     },
-    "nativeBodies": 87,
-    "generation": "Authored directly as native JumpStart 3D project JSON by ChatGPT; no GitHub Actions or external CAD build"
+    "nativeBodies": 351,
+    "generation": "Authored directly as native JumpStart 3D project JSON by ChatGPT; no GitHub Actions or external CAD build",
+    "lanternDetailBodies": 264,
+    "stage": "PR12 open lantern detailing"
   },
   "references": [
     "https://erfgoed.utrecht.nl/verhalen/domtoren",
@@ -34,7 +36,7 @@
   "assets": "All source geometry is stored in project.json; no image preview or GLB is claimed. GLB available on browser export.",
   "validation": {
     "structural": true,
-    "engineRender": "not yet visually verified in live Pages editor",
+    "engineRender": "Browser test pending",
     "notes": "CAD solids and booleans require runtime validation in browser"
   }
 }
