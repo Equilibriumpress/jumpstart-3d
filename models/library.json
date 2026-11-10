@@ -16,7 +16,8 @@
         "architectural-study"
       ],
       "published": true,
-      "printCheck": false
+      "printCheck": false,
+      "illustration": "models/domtoren-utrecht/schematic.svg"
     },
     {
       "id": "rijksmuseum-amsterdam",
