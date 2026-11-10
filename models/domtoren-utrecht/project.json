@@ -7,7 +7,7 @@
     "name": "Domtoren Utrecht | Architecture study",
     "mode": "beginner",
     "created": 1794283200000,
-    "seq": 359,
+    "seq": 515,
     "grid": 1,
     "bodies": [
       {
@@ -139,6 +139,550 @@
               ],
               "hole": true,
               "name": "03 Through-passage pointed crown",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 24.2,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -10.7,
+                18.95,
+                41.5,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower N -10.7 recess",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "roof",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 6.8
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -10.7,
+                18.95,
+                65.7,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower N -10.7 pointed cut",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 24.2,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                10.7,
+                18.95,
+                41.5,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower N 10.7 recess",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "roof",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 6.8
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                10.7,
+                18.95,
+                65.7,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower N 10.7 pointed cut",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 24.2,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -10.7,
+                -18.95,
+                41.5,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower S -10.7 recess",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "roof",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 6.8
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -10.7,
+                -18.95,
+                65.7,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower S -10.7 pointed cut",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 24.2,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                10.7,
+                -18.95,
+                41.5,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower S 10.7 recess",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "roof",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 6.8
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                10.7,
+                -18.95,
+                65.7,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower S 10.7 pointed cut",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 3.9,
+                  "d": 3.8,
+                  "h": 24.2,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                18.95,
+                -10.7,
+                41.5,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower E -10.7 recess",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "roof",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 6.8
+                },
+                "mods": []
+              },
+              "m": [
+                0,
+                1,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                18.95,
+                -10.7,
+                65.7,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower E -10.7 pointed cut",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 3.9,
+                  "d": 3.8,
+                  "h": 24.2,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                18.95,
+                10.7,
+                41.5,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower E 10.7 recess",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "roof",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 6.8
+                },
+                "mods": []
+              },
+              "m": [
+                0,
+                1,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                18.95,
+                10.7,
+                65.7,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower E 10.7 pointed cut",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 3.9,
+                  "d": 3.8,
+                  "h": 24.2,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -18.95,
+                -10.7,
+                41.5,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower W -10.7 recess",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "roof",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 6.8
+                },
+                "mods": []
+              },
+              "m": [
+                0,
+                1,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -18.95,
+                -10.7,
+                65.7,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower W -10.7 pointed cut",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 3.9,
+                  "d": 3.8,
+                  "h": 24.2,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -18.95,
+                10.7,
+                41.5,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower W 10.7 recess",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "roof",
+                "p": {
+                  "w": 3.8,
+                  "d": 3.9,
+                  "h": 6.8
+                },
+                "mods": []
+              },
+              "m": [
+                0,
+                1,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -18.95,
+                10.7,
+                65.7,
+                1
+              ],
+              "hole": true,
+              "name": "True lancet lower W 10.7 pointed cut",
               "color": "#66594D"
             }
           ],
@@ -825,598 +1369,6 @@
             "h": 1.25,
             "r": 0,
             "c": 0
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0023",
-        "name": "Recessed gothic lancet first square -1 -10.7",
-        "seq": 23,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          -10.7,
-          -19.45,
-          42,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "box",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 27,
-            "r": 0,
-            "c": 0
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0024",
-        "name": "Pointed lancet cap first square -1 -10.7",
-        "seq": 24,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          -10.7,
-          -19.45,
-          69,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "roof",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 3.1
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0025",
-        "name": "Recessed gothic lancet first square -1 10.7",
-        "seq": 25,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          10.7,
-          -19.45,
-          42,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "box",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 27,
-            "r": 0,
-            "c": 0
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0026",
-        "name": "Pointed lancet cap first square -1 10.7",
-        "seq": 26,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          10.7,
-          -19.45,
-          69,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "roof",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 3.1
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0027",
-        "name": "Recessed gothic lancet first square 1 -10.7",
-        "seq": 27,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          -10.7,
-          19.45,
-          42,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "box",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 27,
-            "r": 0,
-            "c": 0
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0028",
-        "name": "Pointed lancet cap first square 1 -10.7",
-        "seq": 28,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          -10.7,
-          19.45,
-          69,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "roof",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 3.1
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0029",
-        "name": "Recessed gothic lancet first square 1 10.7",
-        "seq": 29,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          10.7,
-          19.45,
-          42,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "box",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 27,
-            "r": 0,
-            "c": 0
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0030",
-        "name": "Pointed lancet cap first square 1 10.7",
-        "seq": 30,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          10.7,
-          19.45,
-          69,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "roof",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 3.1
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0031",
-        "name": "Side recessed lancet first square -1 -10.7",
-        "seq": 31,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          -19.45,
-          -10.7,
-          42,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "box",
-          "p": {
-            "w": 0.6,
-            "d": 4,
-            "h": 27,
-            "r": 0,
-            "c": 0
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0032",
-        "name": "Side pointed lancet first square -1 -10.7",
-        "seq": 32,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          0,
-          1,
-          0,
-          0,
-          -1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          -19.45,
-          -10.7,
-          69,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "roof",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 3.1
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0033",
-        "name": "Side recessed lancet first square -1 10.7",
-        "seq": 33,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          -19.45,
-          10.7,
-          42,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "box",
-          "p": {
-            "w": 0.6,
-            "d": 4,
-            "h": 27,
-            "r": 0,
-            "c": 0
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0034",
-        "name": "Side pointed lancet first square -1 10.7",
-        "seq": 34,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          0,
-          1,
-          0,
-          0,
-          -1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          -19.45,
-          10.7,
-          69,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "roof",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 3.1
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0035",
-        "name": "Side recessed lancet first square 1 -10.7",
-        "seq": 35,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          19.45,
-          -10.7,
-          42,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "box",
-          "p": {
-            "w": 0.6,
-            "d": 4,
-            "h": 27,
-            "r": 0,
-            "c": 0
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0036",
-        "name": "Side pointed lancet first square 1 -10.7",
-        "seq": 36,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          0,
-          1,
-          0,
-          0,
-          -1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          19.45,
-          -10.7,
-          69,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "roof",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 3.1
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0037",
-        "name": "Side recessed lancet first square 1 10.7",
-        "seq": 37,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          19.45,
-          10.7,
-          42,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "box",
-          "p": {
-            "w": 0.6,
-            "d": 4,
-            "h": 27,
-            "r": 0,
-            "c": 0
-          },
-          "mods": []
-        }
-      },
-      {
-        "id": "bdom0038",
-        "name": "Side pointed lancet first square 1 10.7",
-        "seq": 38,
-        "color": "#66594D",
-        "hole": false,
-        "hidden": false,
-        "m": [
-          0,
-          1,
-          0,
-          0,
-          -1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          19.45,
-          10.7,
-          69,
-          1
-        ],
-        "node": {
-          "t": "prim",
-          "kind": "roof",
-          "p": {
-            "w": 4,
-            "d": 0.6,
-            "h": 3.1
           },
           "mods": []
         }
@@ -13576,6 +13528,5934 @@
             "w": 0.54,
             "d": 0.42,
             "h": 3.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00360",
+        "name": "Moulded window arch N -10.7 course 1",
+        "seq": 360,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.9762,
+          0,
+          0.21687,
+          0,
+          0.21687,
+          0,
+          0.9762,
+          0,
+          -12.75,
+          19.55,
+          65.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00361",
+        "name": "Moulded window arch N -10.7 course 2",
+        "seq": 361,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.9648,
+          0,
+          0.26297,
+          0,
+          0.26297,
+          0,
+          0.9648,
+          0,
+          -12.2375,
+          19.55,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00362",
+        "name": "Moulded window arch N -10.7 course 3",
+        "seq": 362,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.95956,
+          0,
+          0.28149,
+          0,
+          0.28149,
+          0,
+          0.95956,
+          0,
+          -11.725,
+          19.55,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00363",
+        "name": "Moulded window arch N -10.7 course 4",
+        "seq": 363,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.95578,
+          0,
+          0.29407,
+          0,
+          0.29407,
+          0,
+          0.95578,
+          0,
+          -11.2125,
+          19.55,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00364",
+        "name": "Moulded window arch N -10.7 course 5",
+        "seq": 364,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.95578,
+          0,
+          0.29407,
+          0,
+          0.29407,
+          0,
+          -0.95578,
+          0,
+          -10.7,
+          19.55,
+          73.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00365",
+        "name": "Moulded window arch N -10.7 course 6",
+        "seq": 365,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.95956,
+          0,
+          0.28149,
+          0,
+          0.28149,
+          0,
+          -0.95956,
+          0,
+          -10.1875,
+          19.55,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00366",
+        "name": "Moulded window arch N -10.7 course 7",
+        "seq": 366,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.9648,
+          0,
+          0.26297,
+          0,
+          0.26297,
+          0,
+          -0.9648,
+          0,
+          -9.675,
+          19.55,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00367",
+        "name": "Moulded window arch N -10.7 course 8",
+        "seq": 367,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.9762,
+          0,
+          0.21687,
+          0,
+          0.21687,
+          0,
+          -0.9762,
+          0,
+          -9.1625,
+          19.55,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00368",
+        "name": "Window jamb N -10.7 -1",
+        "seq": 368,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -12.75,
+          19.55,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00369",
+        "name": "Window jamb N -10.7 1",
+        "seq": 369,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -8.65,
+          19.55,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00370",
+        "name": "Window slender mullion N -10.7",
+        "seq": 370,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -10.7,
+          19.55,
+          45.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.42,
+            "d": 0.38,
+            "h": 20.4,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00371",
+        "name": "Moulded window arch N 10.7 course 1",
+        "seq": 371,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.9762,
+          0,
+          0.21687,
+          0,
+          0.21687,
+          0,
+          0.9762,
+          0,
+          8.65,
+          19.55,
+          65.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00372",
+        "name": "Moulded window arch N 10.7 course 2",
+        "seq": 372,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.9648,
+          0,
+          0.26297,
+          0,
+          0.26297,
+          0,
+          0.9648,
+          0,
+          9.1625,
+          19.55,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00373",
+        "name": "Moulded window arch N 10.7 course 3",
+        "seq": 373,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.95956,
+          0,
+          0.28149,
+          0,
+          0.28149,
+          0,
+          0.95956,
+          0,
+          9.675,
+          19.55,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00374",
+        "name": "Moulded window arch N 10.7 course 4",
+        "seq": 374,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.95578,
+          0,
+          0.29407,
+          0,
+          0.29407,
+          0,
+          0.95578,
+          0,
+          10.1875,
+          19.55,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00375",
+        "name": "Moulded window arch N 10.7 course 5",
+        "seq": 375,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.95578,
+          0,
+          0.29407,
+          0,
+          0.29407,
+          0,
+          -0.95578,
+          0,
+          10.7,
+          19.55,
+          73.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00376",
+        "name": "Moulded window arch N 10.7 course 6",
+        "seq": 376,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.95956,
+          0,
+          0.28149,
+          0,
+          0.28149,
+          0,
+          -0.95956,
+          0,
+          11.2125,
+          19.55,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00377",
+        "name": "Moulded window arch N 10.7 course 7",
+        "seq": 377,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.9648,
+          0,
+          0.26297,
+          0,
+          0.26297,
+          0,
+          -0.9648,
+          0,
+          11.725,
+          19.55,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00378",
+        "name": "Moulded window arch N 10.7 course 8",
+        "seq": 378,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.9762,
+          0,
+          0.21687,
+          0,
+          0.21687,
+          0,
+          -0.9762,
+          0,
+          12.2375,
+          19.55,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00379",
+        "name": "Window jamb N 10.7 -1",
+        "seq": 379,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          8.65,
+          19.55,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00380",
+        "name": "Window jamb N 10.7 1",
+        "seq": 380,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          12.75,
+          19.55,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00381",
+        "name": "Window slender mullion N 10.7",
+        "seq": 381,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          10.7,
+          19.55,
+          45.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.42,
+            "d": 0.38,
+            "h": 20.4,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00382",
+        "name": "Full-depth portal stone ogive N course 1",
+        "seq": 382,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.87247,
+          0,
+          0.48866,
+          0,
+          0.48866,
+          0,
+          0.87247,
+          0,
+          -4.28,
+          19.6,
+          14.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.75171,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00383",
+        "name": "Full-depth portal stone ogive N course 2",
+        "seq": 383,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.82416,
+          0,
+          0.56636,
+          0,
+          0.56636,
+          0,
+          0.82416,
+          0,
+          -3.424,
+          19.6,
+          16.32832,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.51142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00384",
+        "name": "Full-depth portal stone ogive N course 3",
+        "seq": 384,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.80399,
+          0,
+          0.59464,
+          0,
+          0.59464,
+          0,
+          0.80399,
+          0,
+          -2.568,
+          19.6,
+          17.57397,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.43952,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00385",
+        "name": "Full-depth portal stone ogive N course 4",
+        "seq": 385,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.79015,
+          0,
+          0.61291,
+          0,
+          0.61291,
+          0,
+          0.79015,
+          0,
+          -1.712,
+          19.6,
+          18.73133,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.39661,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00386",
+        "name": "Full-depth portal stone ogive N course 5",
+        "seq": 386,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.77948,
+          0,
+          0.62643,
+          0,
+          0.62643,
+          0,
+          0.77948,
+          0,
+          -0.856,
+          19.6,
+          19.83486,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.36648,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00387",
+        "name": "Full-depth portal stone ogive N course 6",
+        "seq": 387,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.77948,
+          0,
+          0.62643,
+          0,
+          0.62643,
+          0,
+          -0.77948,
+          0,
+          0,
+          19.6,
+          20.9,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.36648,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00388",
+        "name": "Full-depth portal stone ogive N course 7",
+        "seq": 388,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.79015,
+          0,
+          0.61291,
+          0,
+          0.61291,
+          0,
+          -0.79015,
+          0,
+          0.856,
+          19.6,
+          19.83486,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.39661,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00389",
+        "name": "Full-depth portal stone ogive N course 8",
+        "seq": 389,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.80399,
+          0,
+          0.59464,
+          0,
+          0.59464,
+          0,
+          -0.80399,
+          0,
+          1.712,
+          19.6,
+          18.73133,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.43952,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00390",
+        "name": "Full-depth portal stone ogive N course 9",
+        "seq": 390,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.82416,
+          0,
+          0.56636,
+          0,
+          0.56636,
+          0,
+          -0.82416,
+          0,
+          2.568,
+          19.6,
+          17.57397,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.51142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00391",
+        "name": "Full-depth portal stone ogive N course 10",
+        "seq": 391,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.87247,
+          0,
+          0.48866,
+          0,
+          0.48866,
+          0,
+          -0.87247,
+          0,
+          3.424,
+          19.6,
+          16.32832,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.75171,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00392",
+        "name": "Portal archivolt jamb N x-4.28",
+        "seq": 392,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.28,
+          19.6,
+          0.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.85,
+            "d": 0.72,
+            "h": 14.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00393",
+        "name": "Portal archivolt jamb N x4.28",
+        "seq": 393,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.28,
+          19.6,
+          0.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.85,
+            "d": 0.72,
+            "h": 14.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00394",
+        "name": "Second-stage main Gothic arch N course 1",
+        "seq": 394,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.93942,
+          0,
+          0.34278,
+          0,
+          0.34278,
+          0,
+          0.93942,
+          0,
+          -3.5,
+          16.61,
+          111.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.55268,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00395",
+        "name": "Second-stage main Gothic arch N course 2",
+        "seq": 395,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.91271,
+          0,
+          0.40861,
+          0,
+          0.40861,
+          0,
+          0.91271,
+          0,
+          -2.625,
+          16.61,
+          113.59803,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.14142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00396",
+        "name": "Second-stage main Gothic arch N course 3",
+        "seq": 396,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.90088,
+          0,
+          0.43407,
+          0,
+          0.43407,
+          0,
+          0.90088,
+          0,
+          -1.75,
+          16.61,
+          115.55253,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.01578,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00397",
+        "name": "Second-stage main Gothic arch N course 4",
+        "seq": 397,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -0.89251,
+          0,
+          0.45102,
+          0,
+          0.45102,
+          0,
+          0.89251,
+          0,
+          -0.875,
+          16.61,
+          117.3685,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94003,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00398",
+        "name": "Second-stage main Gothic arch N course 5",
+        "seq": 398,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.89251,
+          0,
+          0.45102,
+          0,
+          0.45102,
+          0,
+          -0.89251,
+          0,
+          0,
+          16.61,
+          119.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94003,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00399",
+        "name": "Second-stage main Gothic arch N course 6",
+        "seq": 399,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.90088,
+          0,
+          0.43407,
+          0,
+          0.43407,
+          0,
+          -0.90088,
+          0,
+          0.875,
+          16.61,
+          117.3685,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.01578,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00400",
+        "name": "Second-stage main Gothic arch N course 7",
+        "seq": 400,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.91271,
+          0,
+          0.40861,
+          0,
+          0.40861,
+          0,
+          -0.91271,
+          0,
+          1.75,
+          16.61,
+          115.55253,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.14142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00401",
+        "name": "Second-stage main Gothic arch N course 8",
+        "seq": 401,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          0.93942,
+          0,
+          0.34278,
+          0,
+          0.34278,
+          0,
+          -0.93942,
+          0,
+          2.625,
+          16.61,
+          113.59803,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.55268,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00402",
+        "name": "Second-stage facade mullion N -3.5",
+        "seq": 402,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -3.5,
+          16.61,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00403",
+        "name": "Second-stage facade mullion N 0",
+        "seq": 403,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          16.61,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00404",
+        "name": "Second-stage facade mullion N 3.5",
+        "seq": 404,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3.5,
+          16.61,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00405",
+        "name": "Moulded window arch S -10.7 course 1",
+        "seq": 405,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.9762,
+          0,
+          -0.21687,
+          0,
+          0.21687,
+          0,
+          0.9762,
+          0,
+          -12.75,
+          -19.55,
+          65.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00406",
+        "name": "Moulded window arch S -10.7 course 2",
+        "seq": 406,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.9648,
+          0,
+          -0.26297,
+          0,
+          0.26297,
+          0,
+          0.9648,
+          0,
+          -12.2375,
+          -19.55,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00407",
+        "name": "Moulded window arch S -10.7 course 3",
+        "seq": 407,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.95956,
+          0,
+          -0.28149,
+          0,
+          0.28149,
+          0,
+          0.95956,
+          0,
+          -11.725,
+          -19.55,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00408",
+        "name": "Moulded window arch S -10.7 course 4",
+        "seq": 408,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.95578,
+          0,
+          -0.29407,
+          0,
+          0.29407,
+          0,
+          0.95578,
+          0,
+          -11.2125,
+          -19.55,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00409",
+        "name": "Moulded window arch S -10.7 course 5",
+        "seq": 409,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.95578,
+          0,
+          -0.29407,
+          0,
+          0.29407,
+          0,
+          -0.95578,
+          0,
+          -10.7,
+          -19.55,
+          73.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00410",
+        "name": "Moulded window arch S -10.7 course 6",
+        "seq": 410,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.95956,
+          0,
+          -0.28149,
+          0,
+          0.28149,
+          0,
+          -0.95956,
+          0,
+          -10.1875,
+          -19.55,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00411",
+        "name": "Moulded window arch S -10.7 course 7",
+        "seq": 411,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.9648,
+          0,
+          -0.26297,
+          0,
+          0.26297,
+          0,
+          -0.9648,
+          0,
+          -9.675,
+          -19.55,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00412",
+        "name": "Moulded window arch S -10.7 course 8",
+        "seq": 412,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.9762,
+          0,
+          -0.21687,
+          0,
+          0.21687,
+          0,
+          -0.9762,
+          0,
+          -9.1625,
+          -19.55,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00413",
+        "name": "Window jamb S -10.7 -1",
+        "seq": 413,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -12.75,
+          -19.55,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00414",
+        "name": "Window jamb S -10.7 1",
+        "seq": 414,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -8.65,
+          -19.55,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00415",
+        "name": "Window slender mullion S -10.7",
+        "seq": 415,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -10.7,
+          -19.55,
+          45.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.42,
+            "d": 0.38,
+            "h": 20.4,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00416",
+        "name": "Moulded window arch S 10.7 course 1",
+        "seq": 416,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.9762,
+          0,
+          -0.21687,
+          0,
+          0.21687,
+          0,
+          0.9762,
+          0,
+          8.65,
+          -19.55,
+          65.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00417",
+        "name": "Moulded window arch S 10.7 course 2",
+        "seq": 417,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.9648,
+          0,
+          -0.26297,
+          0,
+          0.26297,
+          0,
+          0.9648,
+          0,
+          9.1625,
+          -19.55,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00418",
+        "name": "Moulded window arch S 10.7 course 3",
+        "seq": 418,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.95956,
+          0,
+          -0.28149,
+          0,
+          0.28149,
+          0,
+          0.95956,
+          0,
+          9.675,
+          -19.55,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00419",
+        "name": "Moulded window arch S 10.7 course 4",
+        "seq": 419,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.95578,
+          0,
+          -0.29407,
+          0,
+          0.29407,
+          0,
+          0.95578,
+          0,
+          10.1875,
+          -19.55,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00420",
+        "name": "Moulded window arch S 10.7 course 5",
+        "seq": 420,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.95578,
+          0,
+          -0.29407,
+          0,
+          0.29407,
+          0,
+          -0.95578,
+          0,
+          10.7,
+          -19.55,
+          73.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00421",
+        "name": "Moulded window arch S 10.7 course 6",
+        "seq": 421,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.95956,
+          0,
+          -0.28149,
+          0,
+          0.28149,
+          0,
+          -0.95956,
+          0,
+          11.2125,
+          -19.55,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00422",
+        "name": "Moulded window arch S 10.7 course 7",
+        "seq": 422,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.9648,
+          0,
+          -0.26297,
+          0,
+          0.26297,
+          0,
+          -0.9648,
+          0,
+          11.725,
+          -19.55,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00423",
+        "name": "Moulded window arch S 10.7 course 8",
+        "seq": 423,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.9762,
+          0,
+          -0.21687,
+          0,
+          0.21687,
+          0,
+          -0.9762,
+          0,
+          12.2375,
+          -19.55,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00424",
+        "name": "Window jamb S 10.7 -1",
+        "seq": 424,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          8.65,
+          -19.55,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00425",
+        "name": "Window jamb S 10.7 1",
+        "seq": 425,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          12.75,
+          -19.55,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00426",
+        "name": "Window slender mullion S 10.7",
+        "seq": 426,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          10.7,
+          -19.55,
+          45.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.42,
+            "d": 0.38,
+            "h": 20.4,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00427",
+        "name": "Full-depth portal stone ogive S course 1",
+        "seq": 427,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.87247,
+          0,
+          -0.48866,
+          0,
+          0.48866,
+          0,
+          0.87247,
+          0,
+          -4.28,
+          -19.6,
+          14.8,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.75171,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00428",
+        "name": "Full-depth portal stone ogive S course 2",
+        "seq": 428,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.82416,
+          0,
+          -0.56636,
+          0,
+          0.56636,
+          0,
+          0.82416,
+          0,
+          -3.424,
+          -19.6,
+          16.32832,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.51142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00429",
+        "name": "Full-depth portal stone ogive S course 3",
+        "seq": 429,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.80399,
+          0,
+          -0.59464,
+          0,
+          0.59464,
+          0,
+          0.80399,
+          0,
+          -2.568,
+          -19.6,
+          17.57397,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.43952,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00430",
+        "name": "Full-depth portal stone ogive S course 4",
+        "seq": 430,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.79015,
+          0,
+          -0.61291,
+          0,
+          0.61291,
+          0,
+          0.79015,
+          0,
+          -1.712,
+          -19.6,
+          18.73133,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.39661,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00431",
+        "name": "Full-depth portal stone ogive S course 5",
+        "seq": 431,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.77948,
+          0,
+          -0.62643,
+          0,
+          0.62643,
+          0,
+          0.77948,
+          0,
+          -0.856,
+          -19.6,
+          19.83486,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.36648,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00432",
+        "name": "Full-depth portal stone ogive S course 6",
+        "seq": 432,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.77948,
+          0,
+          -0.62643,
+          0,
+          0.62643,
+          0,
+          -0.77948,
+          0,
+          0,
+          -19.6,
+          20.9,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.36648,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00433",
+        "name": "Full-depth portal stone ogive S course 7",
+        "seq": 433,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.79015,
+          0,
+          -0.61291,
+          0,
+          0.61291,
+          0,
+          -0.79015,
+          0,
+          0.856,
+          -19.6,
+          19.83486,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.39661,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00434",
+        "name": "Full-depth portal stone ogive S course 8",
+        "seq": 434,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.80399,
+          0,
+          -0.59464,
+          0,
+          0.59464,
+          0,
+          -0.80399,
+          0,
+          1.712,
+          -19.6,
+          18.73133,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.43952,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00435",
+        "name": "Full-depth portal stone ogive S course 9",
+        "seq": 435,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.82416,
+          0,
+          -0.56636,
+          0,
+          0.56636,
+          0,
+          -0.82416,
+          0,
+          2.568,
+          -19.6,
+          17.57397,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.51142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00436",
+        "name": "Full-depth portal stone ogive S course 10",
+        "seq": 436,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.87247,
+          0,
+          -0.48866,
+          0,
+          0.48866,
+          0,
+          -0.87247,
+          0,
+          3.424,
+          -19.6,
+          16.32832,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.75171,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00437",
+        "name": "Portal archivolt jamb S x-4.28",
+        "seq": 437,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.28,
+          -19.6,
+          0.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.85,
+            "d": 0.72,
+            "h": 14.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00438",
+        "name": "Portal archivolt jamb S x4.28",
+        "seq": 438,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.28,
+          -19.6,
+          0.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.85,
+            "d": 0.72,
+            "h": 14.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00439",
+        "name": "Second-stage main Gothic arch S course 1",
+        "seq": 439,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.93942,
+          0,
+          -0.34278,
+          0,
+          0.34278,
+          0,
+          0.93942,
+          0,
+          -3.5,
+          -16.61,
+          111.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.55268,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00440",
+        "name": "Second-stage main Gothic arch S course 2",
+        "seq": 440,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.91271,
+          0,
+          -0.40861,
+          0,
+          0.40861,
+          0,
+          0.91271,
+          0,
+          -2.625,
+          -16.61,
+          113.59803,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.14142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00441",
+        "name": "Second-stage main Gothic arch S course 3",
+        "seq": 441,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.90088,
+          0,
+          -0.43407,
+          0,
+          0.43407,
+          0,
+          0.90088,
+          0,
+          -1.75,
+          -16.61,
+          115.55253,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.01578,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00442",
+        "name": "Second-stage main Gothic arch S course 4",
+        "seq": 442,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          0.89251,
+          0,
+          -0.45102,
+          0,
+          0.45102,
+          0,
+          0.89251,
+          0,
+          -0.875,
+          -16.61,
+          117.3685,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94003,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00443",
+        "name": "Second-stage main Gothic arch S course 5",
+        "seq": 443,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.89251,
+          0,
+          -0.45102,
+          0,
+          0.45102,
+          0,
+          -0.89251,
+          0,
+          0,
+          -16.61,
+          119.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94003,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00444",
+        "name": "Second-stage main Gothic arch S course 6",
+        "seq": 444,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.90088,
+          0,
+          -0.43407,
+          0,
+          0.43407,
+          0,
+          -0.90088,
+          0,
+          0.875,
+          -16.61,
+          117.3685,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.01578,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00445",
+        "name": "Second-stage main Gothic arch S course 7",
+        "seq": 445,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.91271,
+          0,
+          -0.40861,
+          0,
+          0.40861,
+          0,
+          -0.91271,
+          0,
+          1.75,
+          -16.61,
+          115.55253,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.14142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00446",
+        "name": "Second-stage main Gothic arch S course 8",
+        "seq": 446,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          -0.93942,
+          0,
+          -0.34278,
+          0,
+          0.34278,
+          0,
+          -0.93942,
+          0,
+          2.625,
+          -16.61,
+          113.59803,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.55268,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00447",
+        "name": "Second-stage facade mullion S -3.5",
+        "seq": 447,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -3.5,
+          -16.61,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00448",
+        "name": "Second-stage facade mullion S 0",
+        "seq": 448,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -16.61,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00449",
+        "name": "Second-stage facade mullion S 3.5",
+        "seq": 449,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3.5,
+          -16.61,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00450",
+        "name": "Moulded window arch E -10.7 course 1",
+        "seq": 450,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.9762,
+          -0.21687,
+          0,
+          0,
+          0.21687,
+          0.9762,
+          0,
+          19.55,
+          -12.75,
+          65.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00451",
+        "name": "Moulded window arch E -10.7 course 2",
+        "seq": 451,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.9648,
+          -0.26297,
+          0,
+          0,
+          0.26297,
+          0.9648,
+          0,
+          19.55,
+          -12.2375,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00452",
+        "name": "Moulded window arch E -10.7 course 3",
+        "seq": 452,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.95956,
+          -0.28149,
+          0,
+          0,
+          0.28149,
+          0.95956,
+          0,
+          19.55,
+          -11.725,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00453",
+        "name": "Moulded window arch E -10.7 course 4",
+        "seq": 453,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.95578,
+          -0.29407,
+          0,
+          0,
+          0.29407,
+          0.95578,
+          0,
+          19.55,
+          -11.2125,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00454",
+        "name": "Moulded window arch E -10.7 course 5",
+        "seq": 454,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.95578,
+          -0.29407,
+          0,
+          0,
+          0.29407,
+          -0.95578,
+          0,
+          19.55,
+          -10.7,
+          73.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00455",
+        "name": "Moulded window arch E -10.7 course 6",
+        "seq": 455,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.95956,
+          -0.28149,
+          0,
+          0,
+          0.28149,
+          -0.95956,
+          0,
+          19.55,
+          -10.1875,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00456",
+        "name": "Moulded window arch E -10.7 course 7",
+        "seq": 456,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.9648,
+          -0.26297,
+          0,
+          0,
+          0.26297,
+          -0.9648,
+          0,
+          19.55,
+          -9.675,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00457",
+        "name": "Moulded window arch E -10.7 course 8",
+        "seq": 457,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.9762,
+          -0.21687,
+          0,
+          0,
+          0.21687,
+          -0.9762,
+          0,
+          19.55,
+          -9.1625,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00458",
+        "name": "Window jamb E -10.7 -1",
+        "seq": 458,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.55,
+          -12.75,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00459",
+        "name": "Window jamb E -10.7 1",
+        "seq": 459,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.55,
+          -8.65,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00460",
+        "name": "Window slender mullion E -10.7",
+        "seq": 460,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.55,
+          -10.7,
+          45.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.42,
+            "d": 0.38,
+            "h": 20.4,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00461",
+        "name": "Moulded window arch E 10.7 course 1",
+        "seq": 461,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.9762,
+          -0.21687,
+          0,
+          0,
+          0.21687,
+          0.9762,
+          0,
+          19.55,
+          8.65,
+          65.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00462",
+        "name": "Moulded window arch E 10.7 course 2",
+        "seq": 462,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.9648,
+          -0.26297,
+          0,
+          0,
+          0.26297,
+          0.9648,
+          0,
+          19.55,
+          9.1625,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00463",
+        "name": "Moulded window arch E 10.7 course 3",
+        "seq": 463,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.95956,
+          -0.28149,
+          0,
+          0,
+          0.28149,
+          0.95956,
+          0,
+          19.55,
+          9.675,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00464",
+        "name": "Moulded window arch E 10.7 course 4",
+        "seq": 464,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.95578,
+          -0.29407,
+          0,
+          0,
+          0.29407,
+          0.95578,
+          0,
+          19.55,
+          10.1875,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00465",
+        "name": "Moulded window arch E 10.7 course 5",
+        "seq": 465,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.95578,
+          -0.29407,
+          0,
+          0,
+          0.29407,
+          -0.95578,
+          0,
+          19.55,
+          10.7,
+          73.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00466",
+        "name": "Moulded window arch E 10.7 course 6",
+        "seq": 466,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.95956,
+          -0.28149,
+          0,
+          0,
+          0.28149,
+          -0.95956,
+          0,
+          19.55,
+          11.2125,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00467",
+        "name": "Moulded window arch E 10.7 course 7",
+        "seq": 467,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.9648,
+          -0.26297,
+          0,
+          0,
+          0.26297,
+          -0.9648,
+          0,
+          19.55,
+          11.725,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00468",
+        "name": "Moulded window arch E 10.7 course 8",
+        "seq": 468,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.9762,
+          -0.21687,
+          0,
+          0,
+          0.21687,
+          -0.9762,
+          0,
+          19.55,
+          12.2375,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00469",
+        "name": "Window jamb E 10.7 -1",
+        "seq": 469,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.55,
+          8.65,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00470",
+        "name": "Window jamb E 10.7 1",
+        "seq": 470,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.55,
+          12.75,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00471",
+        "name": "Window slender mullion E 10.7",
+        "seq": 471,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.55,
+          10.7,
+          45.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.42,
+            "d": 0.38,
+            "h": 20.4,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00472",
+        "name": "Second-stage main Gothic arch E course 1",
+        "seq": 472,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.93942,
+          -0.34278,
+          0,
+          0,
+          0.34278,
+          0.93942,
+          0,
+          16.61,
+          -3.5,
+          111.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.55268,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00473",
+        "name": "Second-stage main Gothic arch E course 2",
+        "seq": 473,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.91271,
+          -0.40861,
+          0,
+          0,
+          0.40861,
+          0.91271,
+          0,
+          16.61,
+          -2.625,
+          113.59803,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.14142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00474",
+        "name": "Second-stage main Gothic arch E course 3",
+        "seq": 474,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.90088,
+          -0.43407,
+          0,
+          0,
+          0.43407,
+          0.90088,
+          0,
+          16.61,
+          -1.75,
+          115.55253,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.01578,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00475",
+        "name": "Second-stage main Gothic arch E course 4",
+        "seq": 475,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0.89251,
+          -0.45102,
+          0,
+          0,
+          0.45102,
+          0.89251,
+          0,
+          16.61,
+          -0.875,
+          117.3685,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94003,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00476",
+        "name": "Second-stage main Gothic arch E course 5",
+        "seq": 476,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.89251,
+          -0.45102,
+          0,
+          0,
+          0.45102,
+          -0.89251,
+          0,
+          16.61,
+          0,
+          119.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94003,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00477",
+        "name": "Second-stage main Gothic arch E course 6",
+        "seq": 477,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.90088,
+          -0.43407,
+          0,
+          0,
+          0.43407,
+          -0.90088,
+          0,
+          16.61,
+          0.875,
+          117.3685,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.01578,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00478",
+        "name": "Second-stage main Gothic arch E course 7",
+        "seq": 478,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.91271,
+          -0.40861,
+          0,
+          0,
+          0.40861,
+          -0.91271,
+          0,
+          16.61,
+          1.75,
+          115.55253,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.14142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00479",
+        "name": "Second-stage main Gothic arch E course 8",
+        "seq": 479,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -0.93942,
+          -0.34278,
+          0,
+          0,
+          0.34278,
+          -0.93942,
+          0,
+          16.61,
+          2.625,
+          113.59803,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.55268,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00480",
+        "name": "Second-stage facade mullion E -3.5",
+        "seq": 480,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          16.61,
+          -3.5,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00481",
+        "name": "Second-stage facade mullion E 0",
+        "seq": 481,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          16.61,
+          0,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00482",
+        "name": "Second-stage facade mullion E 3.5",
+        "seq": 482,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          16.61,
+          3.5,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00483",
+        "name": "Moulded window arch W -10.7 course 1",
+        "seq": 483,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.9762,
+          0.21687,
+          0,
+          0,
+          0.21687,
+          0.9762,
+          0,
+          -19.55,
+          -12.75,
+          65.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00484",
+        "name": "Moulded window arch W -10.7 course 2",
+        "seq": 484,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.9648,
+          0.26297,
+          0,
+          0,
+          0.26297,
+          0.9648,
+          0,
+          -19.55,
+          -12.2375,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00485",
+        "name": "Moulded window arch W -10.7 course 3",
+        "seq": 485,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.95956,
+          0.28149,
+          0,
+          0,
+          0.28149,
+          0.95956,
+          0,
+          -19.55,
+          -11.725,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00486",
+        "name": "Moulded window arch W -10.7 course 4",
+        "seq": 486,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.95578,
+          0.29407,
+          0,
+          0,
+          0.29407,
+          0.95578,
+          0,
+          -19.55,
+          -11.2125,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00487",
+        "name": "Moulded window arch W -10.7 course 5",
+        "seq": 487,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.95578,
+          0.29407,
+          0,
+          0,
+          0.29407,
+          -0.95578,
+          0,
+          -19.55,
+          -10.7,
+          73.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00488",
+        "name": "Moulded window arch W -10.7 course 6",
+        "seq": 488,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.95956,
+          0.28149,
+          0,
+          0,
+          0.28149,
+          -0.95956,
+          0,
+          -19.55,
+          -10.1875,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00489",
+        "name": "Moulded window arch W -10.7 course 7",
+        "seq": 489,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.9648,
+          0.26297,
+          0,
+          0,
+          0.26297,
+          -0.9648,
+          0,
+          -19.55,
+          -9.675,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00490",
+        "name": "Moulded window arch W -10.7 course 8",
+        "seq": 490,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.9762,
+          0.21687,
+          0,
+          0,
+          0.21687,
+          -0.9762,
+          0,
+          -19.55,
+          -9.1625,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00491",
+        "name": "Window jamb W -10.7 -1",
+        "seq": 491,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.55,
+          -12.75,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00492",
+        "name": "Window jamb W -10.7 1",
+        "seq": 492,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.55,
+          -8.65,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00493",
+        "name": "Window slender mullion W -10.7",
+        "seq": 493,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.55,
+          -10.7,
+          45.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.42,
+            "d": 0.38,
+            "h": 20.4,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00494",
+        "name": "Moulded window arch W 10.7 course 1",
+        "seq": 494,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.9762,
+          0.21687,
+          0,
+          0,
+          0.21687,
+          0.9762,
+          0,
+          -19.55,
+          8.65,
+          65.7,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00495",
+        "name": "Moulded window arch W 10.7 course 2",
+        "seq": 495,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.9648,
+          0.26297,
+          0,
+          0,
+          0.26297,
+          0.9648,
+          0,
+          -19.55,
+          9.1625,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00496",
+        "name": "Moulded window arch W 10.7 course 3",
+        "seq": 496,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.95956,
+          0.28149,
+          0,
+          0,
+          0.28149,
+          0.95956,
+          0,
+          -19.55,
+          9.675,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00497",
+        "name": "Moulded window arch W 10.7 course 4",
+        "seq": 497,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.95578,
+          0.29407,
+          0,
+          0,
+          0.29407,
+          0.95578,
+          0,
+          -19.55,
+          10.1875,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00498",
+        "name": "Moulded window arch W 10.7 course 5",
+        "seq": 498,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.95578,
+          0.29407,
+          0,
+          0,
+          0.29407,
+          -0.95578,
+          0,
+          -19.55,
+          10.7,
+          73.3,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.7428,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00499",
+        "name": "Moulded window arch W 10.7 course 6",
+        "seq": 499,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.95956,
+          0.28149,
+          0,
+          0,
+          0.28149,
+          -0.95956,
+          0,
+          -19.55,
+          11.2125,
+          71.63426,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.82064,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00500",
+        "name": "Moulded window arch W 10.7 course 7",
+        "seq": 500,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.9648,
+          0.26297,
+          0,
+          0,
+          0.26297,
+          -0.9648,
+          0,
+          -19.55,
+          11.725,
+          69.88724,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94886,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00501",
+        "name": "Moulded window arch W 10.7 course 8",
+        "seq": 501,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.9762,
+          0.21687,
+          0,
+          0,
+          0.21687,
+          -0.9762,
+          0,
+          -19.55,
+          12.2375,
+          68.00697,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.36321,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00502",
+        "name": "Window jamb W 10.7 -1",
+        "seq": 502,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.55,
+          8.65,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00503",
+        "name": "Window jamb W 10.7 1",
+        "seq": 503,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.55,
+          12.75,
+          41.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.7,
+            "d": 0.58,
+            "h": 24.5,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00504",
+        "name": "Window slender mullion W 10.7",
+        "seq": 504,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.55,
+          10.7,
+          45.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.42,
+            "d": 0.38,
+            "h": 20.4,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00505",
+        "name": "Second-stage main Gothic arch W course 1",
+        "seq": 505,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.93942,
+          0.34278,
+          0,
+          0,
+          0.34278,
+          0.93942,
+          0,
+          -16.61,
+          -3.5,
+          111.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.55268,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00506",
+        "name": "Second-stage main Gothic arch W course 2",
+        "seq": 506,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.91271,
+          0.40861,
+          0,
+          0,
+          0.40861,
+          0.91271,
+          0,
+          -16.61,
+          -2.625,
+          113.59803,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.14142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00507",
+        "name": "Second-stage main Gothic arch W course 3",
+        "seq": 507,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.90088,
+          0.43407,
+          0,
+          0,
+          0.43407,
+          0.90088,
+          0,
+          -16.61,
+          -1.75,
+          115.55253,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.01578,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00508",
+        "name": "Second-stage main Gothic arch W course 4",
+        "seq": 508,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -0.89251,
+          0.45102,
+          0,
+          0,
+          0.45102,
+          0.89251,
+          0,
+          -16.61,
+          -0.875,
+          117.3685,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94003,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00509",
+        "name": "Second-stage main Gothic arch W course 5",
+        "seq": 509,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.89251,
+          0.45102,
+          0,
+          0,
+          0.45102,
+          -0.89251,
+          0,
+          -16.61,
+          0,
+          119.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 1.94003,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00510",
+        "name": "Second-stage main Gothic arch W course 6",
+        "seq": 510,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.90088,
+          0.43407,
+          0,
+          0,
+          0.43407,
+          -0.90088,
+          0,
+          -16.61,
+          0.875,
+          117.3685,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.01578,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00511",
+        "name": "Second-stage main Gothic arch W course 7",
+        "seq": 511,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.91271,
+          0.40861,
+          0,
+          0,
+          0.40861,
+          -0.91271,
+          0,
+          -16.61,
+          1.75,
+          115.55253,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.14142,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00512",
+        "name": "Second-stage main Gothic arch W course 8",
+        "seq": 512,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0.93942,
+          0.34278,
+          0,
+          0,
+          0.34278,
+          -0.93942,
+          0,
+          -16.61,
+          2.625,
+          113.59803,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.62,
+            "d": 0.55,
+            "h": 2.55268,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00513",
+        "name": "Second-stage facade mullion W -3.5",
+        "seq": 513,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -16.61,
+          -3.5,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00514",
+        "name": "Second-stage facade mullion W 0",
+        "seq": 514,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -16.61,
+          0,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom00515",
+        "name": "Second-stage facade mullion W 3.5",
+        "seq": 515,
+        "color": "#DDD0B8",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -16.61,
+          3.5,
+          92.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.73,
+            "d": 0.66,
+            "h": 19,
             "r": 0,
             "c": 0
           },
