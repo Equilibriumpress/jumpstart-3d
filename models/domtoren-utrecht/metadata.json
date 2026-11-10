@@ -41,9 +41,14 @@
   "assets": "All source geometry is stored in project.json; no image preview or GLB is claimed. GLB available on browser export.",
   "validation": {
     "structural": true,
-    "browserRender": "unverified",
-    "visualScreenshot": "not produced",
+    "browserRender": "verified using headless Chromium on live Pages",
+    "visualScreenshot": "genuine JS3D.screenshotDataURL({fit:true,width:750})",
     "preview": "schematic 2D SVG, not CAD screenshot",
-    "projectBytes": 207830
+    "projectBytes": 207830,
+    "visibleNativeBodies": 715,
+    "openCascadeBodyErrors": 0,
+    "previewFile": "preview.png",
+    "previewSizeBytes": 292531,
+    "verifiedAt": "2026-11-10"
   }
 }

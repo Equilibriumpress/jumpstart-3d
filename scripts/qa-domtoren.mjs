@@ -14,6 +14,7 @@ ok(base?.node?.t==="group"&&base.node.children.filter(x=>x.hole).length===18,"ph
 const f=B.find(x=>x.name==="Finial stem and vane height to 112.32m");
 ok(Math.abs(f.m[14]+f.node.p.h-224.64)<1e-6,"1:500 total height");
 const item=c.models.find(x=>x.id==="domtoren-utrecht");
-ok(item?.project==="models/domtoren-utrecht/project.json"&&item?.illustration==="models/domtoren-utrecht/schematic.svg","catalog");
+ok(item?.project==="models/domtoren-utrecht/project.json"&&item?.preview==="models/domtoren-utrecht/preview.png"&&item?.illustration==="models/domtoren-utrecht/schematic.svg","catalog");
+ok(statSync(new URL("../"+item.preview,import.meta.url)).size>50000,"genuine preview file");
 ok(statSync(new URL("../"+item.project,import.meta.url)).size<8*1024*1024,"loader size");
 console.log("PASS",B.length,"editable native CAD bodies");
