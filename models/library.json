@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "models": [
     {
+      "id": "domtoren-utrecht",
+      "title": "Domtoren Utrecht | Architecture study",
+      "description": "Editable 1:500 CAD massing study of Utrecht's 112.32 m Domtoren, including true pointed through-passage, tiered square stages, an open octagonal lantern and a small eight-sided spire. Outline and facade details remain illustrative.",
+      "project": "models/domtoren-utrecht/project.json",
+      "recipe": "models/domtoren-utrecht/recipe.json",
+      "preview": "models/domtoren-utrecht/preview.png",
+      "tags": [
+        "architecture",
+        "Domtoren",
+        "Utrecht",
+        "gothic",
+        "architectural-study"
+      ],
+      "published": true,
+      "printCheck": false
+    },
+    {
       "id": "rijksmuseum-amsterdam",
       "title": "Rijksmuseum Amsterdam",
       "description": "Architectural 3D study of Pierre Cuypers' Rijksmuseum: twin towers, open central passage, roof ridges, galleries, stone bands and glazing. Editable native CAD geometry; illustrative proportions.",

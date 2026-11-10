@@ -1,0 +1,33 @@
+{
+  "id": "domtoren-utrecht",
+  "title": "Domtoren Utrecht | Architecture study",
+  "author": "Equilibrium Press",
+  "year": 2026,
+  "license": "CC0-1.0",
+  "category": "Architectural CAD study",
+  "accuracy": "Measured-height and published-width reference, illustrative footprint and ornamental detail. Not a full measured survey or validated printable object.",
+  "scale": "1:500",
+  "units": "millimetres",
+  "heightMm": 224.64,
+  "geometry": {
+    "editable": true,
+    "source": "recipe.json",
+    "recipeSteps": 103,
+    "createdSolids": 93,
+    "materialColors": {
+      "brick": "#AFA396",
+      "stone": "#D7C9B3",
+      "stone2": "#C3B49E",
+      "shadow": "#66594D",
+      "slate": "#505C5D",
+      "metal": "#7B7565",
+      "gold": "#B9A369"
+    }
+  },
+  "references": [
+    "https://erfgoed.utrecht.nl/verhalen/domtoren",
+    "https://www.dbnl.org/tekst/hasl001domv01_01/hasl001domv01_01_0006.php",
+    "https://commons.wikimedia.org/wiki/Category:Architectural_drawings_of_Utrecht_Dom_church"
+  ],
+  "assets": "Procedural geometry only; no imported third-party scans or textures."
+}
