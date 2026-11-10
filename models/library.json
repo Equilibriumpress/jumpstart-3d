@@ -4,10 +4,10 @@
     {
       "id": "domtoren-utrecht",
       "title": "Domtoren Utrecht | Architecture study",
-      "description": "Editable 1:500 CAD massing study of Utrecht's 112.32 m Domtoren, including true pointed through-passage, tiered square stages, an open octagonal lantern and a small eight-sided spire. Outline and facade details remain illustrative.",
+      "description": "ChatGPT-authored editable 1:500 CAD study of Utrecht's Domtoren. The native project includes a real cut-through lower passage, 8 open lantern piers and distinct tiered parts. Detailed geometry remains illustrative.",
       "project": "models/domtoren-utrecht/project.json",
       "recipe": "models/domtoren-utrecht/recipe.json",
-      "preview": "models/domtoren-utrecht/preview.png",
+      "preview": null,
       "tags": [
         "architecture",
         "Domtoren",

@@ -1,23 +1,24 @@
-# Domtoren Utrecht — 1:500 editable architecture study
+# Domtoren Utrecht — native editable architecture study, 1:500
 
-Model height: **224.64 mm** based on the City of Utrecht's published full height of **112.32 m**. Vertical segment and outside width sources are documented in [sources.md](sources.md) and [dimensions.json](dimensions.json). The model is an architectural massing study, **not** a measured or construction-grade reconstruction.
+This is the native JumpStart 3D project authored by ChatGPT as `project.json`. GitHub stores the file and the existing JumpStart 3D Pages editor will display it once its static Pages model source has been updated. **No GitHub Actions or pre-rendered geometry are required for the model file.**
 
-## PR 2 content
+The model uses the City of Utrecht's published total height of 112.32 metres (224.64 mm at 1:500). It is an illustrative architectural massing reconstruction, not a measured survey. See `sources.md` and `dimensions.json`.
 
-- Lower square with a *true three-dimensional, continuous pointed passage* cut through the base (roof-shaped triangular crown is deliberately provisional).
-- Representative lower corner buttresses, bands and pointed facade recess silhouettes.
-- Upper square with four physical deep recesses, corner shafts and illustrative clock faces.
-- Square-to-octagon transition, eight *distinct* open lantern supports, crown platform and finials.
-- Eight-sided pyramidal spire and vane to 224.64 mm at 1:500.
+## What is modeled
 
-The native JSON is the canonical editable model. The GLB is a visual export, not a substitute for the CAD source. The source recipe uses only allowlisted bridge calls. All modeled elements retain separate names where geometry permits. The two boolean groups remain editable and can be ungrouped to revise passage/recess profiles.
+- One genuinely cut-through, pointed-roof passage in the first square level
+- Lower buttresses, bands and illustrative lancet recess silhouettes
+- Second square level with four genuinely cut-in facade recesses
+- Square-to-octagon transition
+- Eight separate open-lantern pillars, capital bands, crown, pinnacles
+- Eight-sided spire, finial and vane at the intended total model height
 
-## Verification
+The parts remain native, named and editable. `recipe.json` is retained as a model-generation record; `project.json` is the actual runtime file.
 
-Run `npm ci`, `npm ci --prefix mcp`, `npm run build`, `npx playwright install chromium`, then `node scripts/build-models.mjs --id=domtoren-utrecht`, `node scripts/validate-models.mjs`, and `node mcp/cli.mjs export models/domtoren-utrecht/project.json models/domtoren-utrecht/model.glb --app docs`.
+## Verification status
 
-Review the actual viewport image `preview.png` at three angles before progressing to PR 3. The 3D model emphasizes architectural openings rather than photograph textures.
+Structural validation: completed for native envelope, ID uniqueness, body matrices, named geometry, octagonal-pier count, group cut structure and tip height. **In-app CAD rendering, boolean evaluation and printability are not yet verified**. A genuine CAD screenshot and GLB are not included. The library uses a placeholder until one is generated from the original editor.
 
-## Limits
+## Remaining work
 
-The pier positions, octagonal detailing, wall depth, clock locations, lancets and decorative elements still need tracing from plans and elevations. Not asserted as precise. Not designed for standalone FDM printing without a subsequent manifold/support assessment.
+Detailed elevation tracing, exact facades, proper curved tracery and constructive profile work belong to PR 3. GLB and screenshots can be exported using the native app after a live browser load. The static Pages publication branch still needs to be configured or updated according to `docs-equilibrium/PAGES.md`.

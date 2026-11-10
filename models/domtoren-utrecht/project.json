@@ -1,0 +1,3567 @@
+{
+  "app": "jumpstart-3d",
+  "version": 1,
+  "doc": {
+    "v": 1,
+    "id": "ddomtorenutrecht2026",
+    "name": "Domtoren Utrecht | Architecture study",
+    "mode": "beginner",
+    "created": 1794283200000,
+    "seq": 95,
+    "grid": 1,
+    "bodies": [
+      {
+        "id": "bdom0004",
+        "name": "Lower square with pointed full-depth passage",
+        "seq": 4,
+        "color": "#AFA396",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "node": {
+          "t": "group",
+          "children": [
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 38.6,
+                  "d": 38.6,
+                  "h": 77.2,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "hole": false,
+              "name": "01 Lower square 0-38.60m",
+              "color": "#AFA396"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 8.26,
+                  "d": 40.6,
+                  "h": 14.8,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "hole": true,
+              "name": "02 Through-passage straight opening",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "roof",
+                "p": {
+                  "w": 8.26,
+                  "d": 40.6,
+                  "h": 5.7
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                14.8,
+                1
+              ],
+              "hole": true,
+              "name": "03 Through-passage pointed crown",
+              "color": "#66594D"
+            }
+          ],
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0005",
+        "name": "Portal pilaster facade -1 x-6.2",
+        "seq": 5,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -6.2,
+          -19.5,
+          2.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 1.05,
+            "d": 1.5,
+            "h": 22,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0006",
+        "name": "Lower tall buttress facade -1 x-6.2",
+        "seq": 6,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -9.610000000000001,
+          -19.45,
+          35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 1,
+            "d": 0.8,
+            "h": 30,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0007",
+        "name": "Portal pilaster facade -1 x6.2",
+        "seq": 7,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          6.2,
+          -19.5,
+          2.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 1.05,
+            "d": 1.5,
+            "h": 22,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0008",
+        "name": "Lower tall buttress facade -1 x6.2",
+        "seq": 8,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          9.610000000000001,
+          -19.45,
+          35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 1,
+            "d": 0.8,
+            "h": 30,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0009",
+        "name": "Portal pilaster facade 1 x-6.2",
+        "seq": 9,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -6.2,
+          19.5,
+          2.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 1.05,
+            "d": 1.5,
+            "h": 22,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0010",
+        "name": "Lower tall buttress facade 1 x-6.2",
+        "seq": 10,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -9.610000000000001,
+          19.45,
+          35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 1,
+            "d": 0.8,
+            "h": 30,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0011",
+        "name": "Portal pilaster facade 1 x6.2",
+        "seq": 11,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          6.2,
+          19.5,
+          2.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 1.05,
+            "d": 1.5,
+            "h": 22,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0012",
+        "name": "Lower tall buttress facade 1 x6.2",
+        "seq": 12,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          9.610000000000001,
+          19.45,
+          35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 1,
+            "d": 0.8,
+            "h": 30,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0013",
+        "name": "Lower corner buttress -1 -1",
+        "seq": 13,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -18.4,
+          -18.4,
+          0,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 71,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0014",
+        "name": "Lower corner buttress cap -1 -1",
+        "seq": 14,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -18.4,
+          -18.4,
+          24,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3,
+            "d": 3,
+            "h": 2.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0015",
+        "name": "Lower corner buttress -1 1",
+        "seq": 15,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -18.4,
+          18.4,
+          0,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 71,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0016",
+        "name": "Lower corner buttress cap -1 1",
+        "seq": 16,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -18.4,
+          18.4,
+          24,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3,
+            "d": 3,
+            "h": 2.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0017",
+        "name": "Lower corner buttress 1 -1",
+        "seq": 17,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          18.4,
+          -18.4,
+          0,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 71,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0018",
+        "name": "Lower corner buttress cap 1 -1",
+        "seq": 18,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          18.4,
+          -18.4,
+          24,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3,
+            "d": 3,
+            "h": 2.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0019",
+        "name": "Lower corner buttress 1 1",
+        "seq": 19,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          18.4,
+          18.4,
+          0,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 71,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0020",
+        "name": "Lower corner buttress cap 1 1",
+        "seq": 20,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          18.4,
+          18.4,
+          24,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3,
+            "d": 3,
+            "h": 2.3,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0021",
+        "name": "First-square moulded horizontal band z22.6",
+        "seq": 21,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          22.6,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 40.1,
+            "d": 40.1,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0022",
+        "name": "First-square moulded horizontal band z75.4",
+        "seq": 22,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          75.4,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 40.1,
+            "d": 40.1,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0023",
+        "name": "Recessed gothic lancet first square -1 -10.7",
+        "seq": 23,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -10.7,
+          -19.45,
+          42,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 27,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0024",
+        "name": "Pointed lancet cap first square -1 -10.7",
+        "seq": 24,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -10.7,
+          -19.45,
+          69,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0025",
+        "name": "Recessed gothic lancet first square -1 10.7",
+        "seq": 25,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          10.7,
+          -19.45,
+          42,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 27,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0026",
+        "name": "Pointed lancet cap first square -1 10.7",
+        "seq": 26,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          10.7,
+          -19.45,
+          69,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0027",
+        "name": "Recessed gothic lancet first square 1 -10.7",
+        "seq": 27,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -10.7,
+          19.45,
+          42,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 27,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0028",
+        "name": "Pointed lancet cap first square 1 -10.7",
+        "seq": 28,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -10.7,
+          19.45,
+          69,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0029",
+        "name": "Recessed gothic lancet first square 1 10.7",
+        "seq": 29,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          10.7,
+          19.45,
+          42,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 27,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0030",
+        "name": "Pointed lancet cap first square 1 10.7",
+        "seq": 30,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          10.7,
+          19.45,
+          69,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0031",
+        "name": "Side recessed lancet first square -1 -10.7",
+        "seq": 31,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.45,
+          -10.7,
+          42,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 4,
+            "h": 27,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0032",
+        "name": "Side pointed lancet first square -1 -10.7",
+        "seq": 32,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.45,
+          -10.7,
+          69,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0033",
+        "name": "Side recessed lancet first square -1 10.7",
+        "seq": 33,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.45,
+          10.7,
+          42,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 4,
+            "h": 27,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0034",
+        "name": "Side pointed lancet first square -1 10.7",
+        "seq": 34,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -19.45,
+          10.7,
+          69,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0035",
+        "name": "Side recessed lancet first square 1 -10.7",
+        "seq": 35,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.45,
+          -10.7,
+          42,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 4,
+            "h": 27,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0036",
+        "name": "Side pointed lancet first square 1 -10.7",
+        "seq": 36,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.45,
+          -10.7,
+          69,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0037",
+        "name": "Side recessed lancet first square 1 10.7",
+        "seq": 37,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.45,
+          10.7,
+          42,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 0.6,
+            "d": 4,
+            "h": 27,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0038",
+        "name": "Side pointed lancet first square 1 10.7",
+        "seq": 38,
+        "color": "#66594D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          19.45,
+          10.7,
+          69,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "roof",
+          "p": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0044",
+        "name": "Second square with four deep facade recesses",
+        "seq": 44,
+        "color": "#AFA396",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "node": {
+          "t": "group",
+          "children": [
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 32.68,
+                  "d": 32.68,
+                  "h": 58.96,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                77.2,
+                1
+              ],
+              "hole": false,
+              "name": "Second square 38.60-68.08m",
+              "color": "#AFA396"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 7.2,
+                  "d": 2.4,
+                  "h": 21,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                -16,
+                92,
+                1
+              ],
+              "hole": true,
+              "name": "Second-square recessed north-south facade -1",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 2.4,
+                  "d": 7.2,
+                  "h": 21,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -16,
+                0,
+                92,
+                1
+              ],
+              "hole": true,
+              "name": "Second-square recessed east-west facade -1",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 7.2,
+                  "d": 2.4,
+                  "h": 21,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                16,
+                92,
+                1
+              ],
+              "hole": true,
+              "name": "Second-square recessed north-south facade 1",
+              "color": "#66594D"
+            },
+            {
+              "node": {
+                "t": "prim",
+                "kind": "box",
+                "p": {
+                  "w": 2.4,
+                  "d": 7.2,
+                  "h": 21,
+                  "r": 0,
+                  "c": 0
+                },
+                "mods": []
+              },
+              "m": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                16,
+                0,
+                92,
+                1
+              ],
+              "hole": true,
+              "name": "Second-square recessed east-west facade 1",
+              "color": "#66594D"
+            }
+          ],
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0045",
+        "name": "Second-square base promenade",
+        "seq": 45,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          77.2,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 35.2,
+            "d": 35.2,
+            "h": 1.8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0046",
+        "name": "Second tier corner shaft -1 -1",
+        "seq": 46,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -15.55,
+          -15.55,
+          79,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 54,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0047",
+        "name": "Second tier corner shaft -1 1",
+        "seq": 47,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -15.55,
+          15.55,
+          79,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 54,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0048",
+        "name": "Second tier corner shaft 1 -1",
+        "seq": 48,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          15.55,
+          -15.55,
+          79,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 54,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0049",
+        "name": "Second tier corner shaft 1 1",
+        "seq": 49,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          15.55,
+          15.55,
+          79,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 54,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0050",
+        "name": "Second square cornice level 87",
+        "seq": 50,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          87,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 34.6,
+            "d": 34.6,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0051",
+        "name": "Second square cornice level 114",
+        "seq": 51,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          114,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 34.6,
+            "d": 34.6,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0052",
+        "name": "Second square cornice level 134.5",
+        "seq": 52,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          134.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 34.6,
+            "d": 34.6,
+            "h": 1.25,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0053",
+        "name": "Clock circular face Y -1",
+        "seq": 53,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -17.3,
+          124.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7.6,
+            "d": 7.6,
+            "h": 0.65,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0054",
+        "name": "Clock circular face X -1",
+        "seq": 54,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          -17.3,
+          0,
+          124.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7.6,
+            "d": 7.6,
+            "h": 0.65,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0055",
+        "name": "Clock circular face Y 1",
+        "seq": 55,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          17.3,
+          124.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7.6,
+            "d": 7.6,
+            "h": 0.65,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0056",
+        "name": "Clock circular face X 1",
+        "seq": 56,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          17.3,
+          0,
+          124.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 7.6,
+            "d": 7.6,
+            "h": 0.65,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0057",
+        "name": "Transition from square to octagon approx 68.08-69m",
+        "seq": 57,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          136.16,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "prism",
+          "p": {
+            "w": 28.8,
+            "d": 28.8,
+            "h": 1.84,
+            "sides": 8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0058",
+        "name": "Octagonal lantern plinth",
+        "seq": 58,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          138,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "prism",
+          "p": {
+            "w": 28.2,
+            "d": 28.2,
+            "h": 2.35,
+            "sides": 8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0059",
+        "name": "Open lantern stone pier 1",
+        "seq": 59,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.0866,
+          4.5922,
+          140.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0060",
+        "name": "Lantern pier impost 1",
+        "seq": 60,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.0866,
+          4.5922,
+          163,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0061",
+        "name": "Lantern pier capital 1",
+        "seq": 61,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.0866,
+          4.5922,
+          184.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0062",
+        "name": "Open lantern stone pier 2",
+        "seq": 62,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.5922,
+          11.0866,
+          140.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0063",
+        "name": "Lantern pier impost 2",
+        "seq": 63,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.5922,
+          11.0866,
+          163,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0064",
+        "name": "Lantern pier capital 2",
+        "seq": 64,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.5922,
+          11.0866,
+          184.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0065",
+        "name": "Open lantern stone pier 3",
+        "seq": 65,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.5922,
+          11.0866,
+          140.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0066",
+        "name": "Lantern pier impost 3",
+        "seq": 66,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.5922,
+          11.0866,
+          163,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0067",
+        "name": "Lantern pier capital 3",
+        "seq": 67,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.5922,
+          11.0866,
+          184.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0068",
+        "name": "Open lantern stone pier 4",
+        "seq": 68,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.0866,
+          4.5922,
+          140.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0069",
+        "name": "Lantern pier impost 4",
+        "seq": 69,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.0866,
+          4.5922,
+          163,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0070",
+        "name": "Lantern pier capital 4",
+        "seq": 70,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.0866,
+          4.5922,
+          184.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0071",
+        "name": "Open lantern stone pier 5",
+        "seq": 71,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.0866,
+          -4.5922,
+          140.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0072",
+        "name": "Lantern pier impost 5",
+        "seq": 72,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.0866,
+          -4.5922,
+          163,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0073",
+        "name": "Lantern pier capital 5",
+        "seq": 73,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -11.0866,
+          -4.5922,
+          184.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0074",
+        "name": "Open lantern stone pier 6",
+        "seq": 74,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.5922,
+          -11.0866,
+          140.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0075",
+        "name": "Lantern pier impost 6",
+        "seq": 75,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.5922,
+          -11.0866,
+          163,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0076",
+        "name": "Lantern pier capital 6",
+        "seq": 76,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.5922,
+          -11.0866,
+          184.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0077",
+        "name": "Open lantern stone pier 7",
+        "seq": 77,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.5922,
+          -11.0866,
+          140.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0078",
+        "name": "Lantern pier impost 7",
+        "seq": 78,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.5922,
+          -11.0866,
+          163,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0079",
+        "name": "Lantern pier capital 7",
+        "seq": 79,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.5922,
+          -11.0866,
+          184.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0080",
+        "name": "Open lantern stone pier 8",
+        "seq": 80,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.0866,
+          -4.5922,
+          140.35,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0081",
+        "name": "Lantern pier impost 8",
+        "seq": 81,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.0866,
+          -4.5922,
+          163,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0082",
+        "name": "Lantern pier capital 8",
+        "seq": 82,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          11.0866,
+          -4.5922,
+          184.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0083",
+        "name": "Lantern crown platform 95m",
+        "seq": 83,
+        "color": "#D7C9B3",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          187.55,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "prism",
+          "p": {
+            "w": 27.7,
+            "d": 27.7,
+            "h": 2.45,
+            "sides": 8,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0084",
+        "name": "Octagonal corner pinnacle 1",
+        "seq": 84,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          10.8094,
+          4.4774,
+          190,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "pyramid",
+          "p": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0085",
+        "name": "Octagonal corner pinnacle 2",
+        "seq": 85,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.4774,
+          10.8094,
+          190,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "pyramid",
+          "p": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0086",
+        "name": "Octagonal corner pinnacle 3",
+        "seq": 86,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.4774,
+          10.8094,
+          190,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "pyramid",
+          "p": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0087",
+        "name": "Octagonal corner pinnacle 4",
+        "seq": 87,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -10.8094,
+          4.4774,
+          190,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "pyramid",
+          "p": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0088",
+        "name": "Octagonal corner pinnacle 5",
+        "seq": 88,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -10.8094,
+          -4.4774,
+          190,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "pyramid",
+          "p": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0089",
+        "name": "Octagonal corner pinnacle 6",
+        "seq": 89,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -4.4774,
+          -10.8094,
+          190,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "pyramid",
+          "p": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0090",
+        "name": "Octagonal corner pinnacle 7",
+        "seq": 90,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4.4774,
+          -10.8094,
+          190,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "pyramid",
+          "p": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0091",
+        "name": "Octagonal corner pinnacle 8",
+        "seq": 91,
+        "color": "#C3B49E",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          10.8094,
+          -4.4774,
+          190,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "pyramid",
+          "p": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0092",
+        "name": "Eight-sided spire to 106.75m",
+        "seq": 92,
+        "color": "#505C5D",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          190,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "pyramid",
+          "p": {
+            "w": 19.2,
+            "d": 19.2,
+            "h": 23.5,
+            "sides": 8
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0093",
+        "name": "Finial stem and vane height to 112.32m",
+        "seq": 93,
+        "color": "#7B7565",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          213.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "cylinder",
+          "p": {
+            "w": 0.76,
+            "d": 0.76,
+            "h": 11.14,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0094",
+        "name": "Finial orb below upper vane",
+        "seq": 94,
+        "color": "#B9A369",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          218.5,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "sphere",
+          "p": {
+            "w": 1.6,
+            "d": 1.6,
+            "h": 1.6
+          },
+          "mods": []
+        }
+      },
+      {
+        "id": "bdom0095",
+        "name": "Wind vane arrow silhouette",
+        "seq": 95,
+        "color": "#B9A369",
+        "hole": false,
+        "hidden": false,
+        "m": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1.4,
+          0,
+          222.1,
+          1
+        ],
+        "node": {
+          "t": "prim",
+          "kind": "box",
+          "p": {
+            "w": 3.9,
+            "d": 0.22,
+            "h": 1.1,
+            "r": 0,
+            "c": 0
+          },
+          "mods": []
+        }
+      }
+    ],
+    "sketches": [],
+    "planes": [],
+    "joints": [],
+    "params": []
+  }
+}

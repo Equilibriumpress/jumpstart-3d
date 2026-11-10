@@ -22,12 +22,19 @@
       "slate": "#505C5D",
       "metal": "#7B7565",
       "gold": "#B9A369"
-    }
+    },
+    "nativeBodies": 87,
+    "generation": "Authored directly as native JumpStart 3D project JSON by ChatGPT; no GitHub Actions or external CAD build"
   },
   "references": [
     "https://erfgoed.utrecht.nl/verhalen/domtoren",
     "https://www.dbnl.org/tekst/hasl001domv01_01/hasl001domv01_01_0006.php",
     "https://commons.wikimedia.org/wiki/Category:Architectural_drawings_of_Utrecht_Dom_church"
   ],
-  "assets": "Procedural geometry only; no imported third-party scans or textures."
+  "assets": "All source geometry is stored in project.json; no image preview or GLB is claimed. GLB available on browser export.",
+  "validation": {
+    "structural": true,
+    "engineRender": "not yet visually verified in live Pages editor",
+    "notes": "CAD solids and booleans require runtime validation in browser"
+  }
 }
