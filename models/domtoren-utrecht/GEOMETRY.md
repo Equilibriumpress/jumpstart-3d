@@ -1,23 +1,24 @@
 # Domtoren Utrecht — geometry contract
 
-## PR 1 acceptance
+## Sources and scale
 
-- Primary datum: published 112.32 m height, 1:500 model = **224.64 mm** above street.
-- Documented square tiers: 0–77.20 mm (19.30 m outside width -> 38.60 mm); 77.20–136.16 mm (16.34 m outside width -> 32.68 mm).
-- The octagon begins near 138.00 mm (69 m) and reaches near 190.00 mm, with an approximate transition of 1.84 mm above the second square top. This is an explicit modeling assumption.
-- Spire tip 213.50 mm, cross/vane to 224.64 mm.
-- Arch opening width approximately 8.26 mm and peak at 20.50 mm.
-- True openings are required, not flat black patches. At least 8 physical lantern pillars.
-- Scale references and provisional data kept separate.
+- Published total: 112.32 m = 224.64 mm at 1:500.
+- First square: 0–77.20 mm; external width approximately 38.60 mm.
+- Second square: 77.20–136.16 mm; external width approximately 32.68 mm.
+- Octagonal transition to ~138 mm; lantern to approximately 190 mm. Historical tiers and transition figures are not entirely consistent, so these are **approximate**.
+- Spire tip 213.50 mm; finial/vane 224.64 mm.
+- Passage width ~8.26 mm, provisional apex 20.50 mm.
+- Real geometry holes, not just painted shapes, for the principal gateway and upper facade openings. Separate 8 open lantern piers.
 
-## PR 2 acceptance
+## PR 2: native model published as data
 
-- Build model exclusively through the original recipe bridge and official CAD kernel.
-- 3D opening through the lower tier, open octagonal lantern (no opaque core), and 4-sided representative articulation.
-- Named editable solids, 1:500 height, separately identifiable components.
-- Native project exported by existing CLI and real screenshot from the CAD viewport. A manually drawn PNG is not an acceptable preview.
-- New catalog entry only when native project, preview and recipe are available and validated. No published dead URL.
+- ChatGPT directly authors `project.json` in the format defined by `BRIDGE.md`.
+- `recipe.json` is retained as an auditable optional source.
+- Named editable objects and boolean cut groups survive in native JSON.
+- Confirm all IDs and transformations, dimensional scale, catalog paths and project schema before merge.
+- Real screenshot is optional; `preview:null` instructs the library to show a placeholder. Never pass an illustration off as a viewport capture.
+- A live Pages runtime/geometry verification is a separate check. No GitHub Actions requirement.
 
-## Later work, not in PR 2
+## PR 3 scope
 
-Detailed tracery, pointed arch profiles from elevations, accurate ornamentation and photorealistic materials, printable manifold assembly and full rights review of any imported scans.
+Replace approximate tracery, lancets, clock locations and ornament profiles using elevation drawings. Test in the actual browser CAD engine and capture genuine screenshots. Full-print manifold quality and photorealistic materials are separate tasks.

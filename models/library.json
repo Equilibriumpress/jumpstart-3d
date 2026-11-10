@@ -2,6 +2,23 @@
   "schemaVersion": 1,
   "models": [
     {
+      "id": "domtoren-utrecht",
+      "title": "Domtoren Utrecht | Architecture study",
+      "description": "ChatGPT-authored editable 1:500 CAD study of Utrecht's Domtoren. The native project includes a real cut-through lower passage, 8 open lantern piers and distinct tiered parts. Detailed geometry remains illustrative.",
+      "project": "models/domtoren-utrecht/project.json",
+      "recipe": "models/domtoren-utrecht/recipe.json",
+      "preview": null,
+      "tags": [
+        "architecture",
+        "Domtoren",
+        "Utrecht",
+        "gothic",
+        "architectural-study"
+      ],
+      "published": true,
+      "printCheck": false
+    },
+    {
       "id": "rijksmuseum-amsterdam",
       "title": "Rijksmuseum Amsterdam",
       "description": "Architectural 3D study of Pierre Cuypers' Rijksmuseum: twin towers, open central passage, roof ridges, galleries, stone bands and glazing. Editable native CAD geometry; illustrative proportions.",

@@ -1,0 +1,2217 @@
+{
+  "jumpstart": "recipe",
+  "version": 1,
+  "needs": "1.12",
+  "steps": [
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 38.6,
+            "d": 38.6,
+            "h": 77.2
+          },
+          "at": [
+            0,
+            0,
+            0
+          ],
+          "color": "#AFA396",
+          "name": "01 Lower square 0-38.60m",
+          "hole": false
+        }
+      ],
+      "as": "p1"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 8.26,
+            "d": 40.6,
+            "h": 14.8
+          },
+          "at": [
+            0,
+            0,
+            0
+          ],
+          "color": "#66594D",
+          "name": "02 Through-passage straight opening",
+          "hole": true
+        }
+      ],
+      "as": "p2"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 8.26,
+            "d": 40.6,
+            "h": 5.7
+          },
+          "at": [
+            0,
+            0,
+            14.8
+          ],
+          "color": "#66594D",
+          "name": "03 Through-passage pointed crown",
+          "hole": true
+        }
+      ],
+      "as": "p3"
+    },
+    {
+      "call": "group",
+      "args": [
+        [
+          "$p1",
+          "$p2",
+          "$p3"
+        ],
+        {
+          "name": "Lower square with pointed full-depth passage",
+          "op": "cut"
+        }
+      ],
+      "as": "g3"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.05,
+            "d": 1.5,
+            "h": 22
+          },
+          "at": [
+            -6.2,
+            -19.5,
+            2.5
+          ],
+          "color": "#D7C9B3",
+          "name": "Portal pilaster facade -1 x-6.2",
+          "hole": false
+        }
+      ],
+      "as": "p4"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1,
+            "d": 0.8,
+            "h": 30
+          },
+          "at": [
+            -9.610000000000001,
+            -19.45,
+            35
+          ],
+          "color": "#C3B49E",
+          "name": "Lower tall buttress facade -1 x-6.2",
+          "hole": false
+        }
+      ],
+      "as": "p5"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.05,
+            "d": 1.5,
+            "h": 22
+          },
+          "at": [
+            6.2,
+            -19.5,
+            2.5
+          ],
+          "color": "#D7C9B3",
+          "name": "Portal pilaster facade -1 x6.2",
+          "hole": false
+        }
+      ],
+      "as": "p6"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1,
+            "d": 0.8,
+            "h": 30
+          },
+          "at": [
+            9.610000000000001,
+            -19.45,
+            35
+          ],
+          "color": "#C3B49E",
+          "name": "Lower tall buttress facade -1 x6.2",
+          "hole": false
+        }
+      ],
+      "as": "p7"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.05,
+            "d": 1.5,
+            "h": 22
+          },
+          "at": [
+            -6.2,
+            19.5,
+            2.5
+          ],
+          "color": "#D7C9B3",
+          "name": "Portal pilaster facade 1 x-6.2",
+          "hole": false
+        }
+      ],
+      "as": "p8"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1,
+            "d": 0.8,
+            "h": 30
+          },
+          "at": [
+            -9.610000000000001,
+            19.45,
+            35
+          ],
+          "color": "#C3B49E",
+          "name": "Lower tall buttress facade 1 x-6.2",
+          "hole": false
+        }
+      ],
+      "as": "p9"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1.05,
+            "d": 1.5,
+            "h": 22
+          },
+          "at": [
+            6.2,
+            19.5,
+            2.5
+          ],
+          "color": "#D7C9B3",
+          "name": "Portal pilaster facade 1 x6.2",
+          "hole": false
+        }
+      ],
+      "as": "p10"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 1,
+            "d": 0.8,
+            "h": 30
+          },
+          "at": [
+            9.610000000000001,
+            19.45,
+            35
+          ],
+          "color": "#C3B49E",
+          "name": "Lower tall buttress facade 1 x6.2",
+          "hole": false
+        }
+      ],
+      "as": "p11"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 71
+          },
+          "at": [
+            -18.4,
+            -18.4,
+            0
+          ],
+          "color": "#C3B49E",
+          "name": "Lower corner buttress -1 -1",
+          "hole": false
+        }
+      ],
+      "as": "p12"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3,
+            "d": 3,
+            "h": 2.3
+          },
+          "at": [
+            -18.4,
+            -18.4,
+            24
+          ],
+          "color": "#D7C9B3",
+          "name": "Lower corner buttress cap -1 -1",
+          "hole": false
+        }
+      ],
+      "as": "p13"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 71
+          },
+          "at": [
+            -18.4,
+            18.4,
+            0
+          ],
+          "color": "#C3B49E",
+          "name": "Lower corner buttress -1 1",
+          "hole": false
+        }
+      ],
+      "as": "p14"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3,
+            "d": 3,
+            "h": 2.3
+          },
+          "at": [
+            -18.4,
+            18.4,
+            24
+          ],
+          "color": "#D7C9B3",
+          "name": "Lower corner buttress cap -1 1",
+          "hole": false
+        }
+      ],
+      "as": "p15"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 71
+          },
+          "at": [
+            18.4,
+            -18.4,
+            0
+          ],
+          "color": "#C3B49E",
+          "name": "Lower corner buttress 1 -1",
+          "hole": false
+        }
+      ],
+      "as": "p16"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3,
+            "d": 3,
+            "h": 2.3
+          },
+          "at": [
+            18.4,
+            -18.4,
+            24
+          ],
+          "color": "#D7C9B3",
+          "name": "Lower corner buttress cap 1 -1",
+          "hole": false
+        }
+      ],
+      "as": "p17"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 71
+          },
+          "at": [
+            18.4,
+            18.4,
+            0
+          ],
+          "color": "#C3B49E",
+          "name": "Lower corner buttress 1 1",
+          "hole": false
+        }
+      ],
+      "as": "p18"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3,
+            "d": 3,
+            "h": 2.3
+          },
+          "at": [
+            18.4,
+            18.4,
+            24
+          ],
+          "color": "#D7C9B3",
+          "name": "Lower corner buttress cap 1 1",
+          "hole": false
+        }
+      ],
+      "as": "p19"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 40.1,
+            "d": 40.1,
+            "h": 1.25
+          },
+          "at": [
+            0,
+            0,
+            22.6
+          ],
+          "color": "#D7C9B3",
+          "name": "First-square moulded horizontal band z22.6",
+          "hole": false
+        }
+      ],
+      "as": "p20"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 40.1,
+            "d": 40.1,
+            "h": 1.25
+          },
+          "at": [
+            0,
+            0,
+            75.4
+          ],
+          "color": "#D7C9B3",
+          "name": "First-square moulded horizontal band z75.4",
+          "hole": false
+        }
+      ],
+      "as": "p21"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 27
+          },
+          "at": [
+            -10.7,
+            -19.45,
+            42
+          ],
+          "color": "#66594D",
+          "name": "Recessed gothic lancet first square -1 -10.7",
+          "hole": false
+        }
+      ],
+      "as": "p22"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "at": [
+            -10.7,
+            -19.45,
+            69
+          ],
+          "color": "#66594D",
+          "name": "Pointed lancet cap first square -1 -10.7",
+          "hole": false
+        }
+      ],
+      "as": "p23"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 27
+          },
+          "at": [
+            10.7,
+            -19.45,
+            42
+          ],
+          "color": "#66594D",
+          "name": "Recessed gothic lancet first square -1 10.7",
+          "hole": false
+        }
+      ],
+      "as": "p24"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "at": [
+            10.7,
+            -19.45,
+            69
+          ],
+          "color": "#66594D",
+          "name": "Pointed lancet cap first square -1 10.7",
+          "hole": false
+        }
+      ],
+      "as": "p25"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 27
+          },
+          "at": [
+            -10.7,
+            19.45,
+            42
+          ],
+          "color": "#66594D",
+          "name": "Recessed gothic lancet first square 1 -10.7",
+          "hole": false
+        }
+      ],
+      "as": "p26"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "at": [
+            -10.7,
+            19.45,
+            69
+          ],
+          "color": "#66594D",
+          "name": "Pointed lancet cap first square 1 -10.7",
+          "hole": false
+        }
+      ],
+      "as": "p27"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 27
+          },
+          "at": [
+            10.7,
+            19.45,
+            42
+          ],
+          "color": "#66594D",
+          "name": "Recessed gothic lancet first square 1 10.7",
+          "hole": false
+        }
+      ],
+      "as": "p28"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "at": [
+            10.7,
+            19.45,
+            69
+          ],
+          "color": "#66594D",
+          "name": "Pointed lancet cap first square 1 10.7",
+          "hole": false
+        }
+      ],
+      "as": "p29"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 4,
+            "h": 27
+          },
+          "at": [
+            -19.45,
+            -10.7,
+            42
+          ],
+          "color": "#66594D",
+          "name": "Side recessed lancet first square -1 -10.7",
+          "hole": false
+        }
+      ],
+      "as": "p30"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "at": [
+            -19.45,
+            -10.7,
+            69
+          ],
+          "color": "#66594D",
+          "name": "Side pointed lancet first square -1 -10.7",
+          "hole": false
+        }
+      ],
+      "as": "p31"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p31",
+        "z",
+        90,
+        {
+          "about": [
+            -19.45,
+            -10.7,
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 4,
+            "h": 27
+          },
+          "at": [
+            -19.45,
+            10.7,
+            42
+          ],
+          "color": "#66594D",
+          "name": "Side recessed lancet first square -1 10.7",
+          "hole": false
+        }
+      ],
+      "as": "p32"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "at": [
+            -19.45,
+            10.7,
+            69
+          ],
+          "color": "#66594D",
+          "name": "Side pointed lancet first square -1 10.7",
+          "hole": false
+        }
+      ],
+      "as": "p33"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p33",
+        "z",
+        90,
+        {
+          "about": [
+            -19.45,
+            10.7,
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 4,
+            "h": 27
+          },
+          "at": [
+            19.45,
+            -10.7,
+            42
+          ],
+          "color": "#66594D",
+          "name": "Side recessed lancet first square 1 -10.7",
+          "hole": false
+        }
+      ],
+      "as": "p34"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "at": [
+            19.45,
+            -10.7,
+            69
+          ],
+          "color": "#66594D",
+          "name": "Side pointed lancet first square 1 -10.7",
+          "hole": false
+        }
+      ],
+      "as": "p35"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p35",
+        "z",
+        90,
+        {
+          "about": [
+            19.45,
+            -10.7,
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 0.6,
+            "d": 4,
+            "h": 27
+          },
+          "at": [
+            19.45,
+            10.7,
+            42
+          ],
+          "color": "#66594D",
+          "name": "Side recessed lancet first square 1 10.7",
+          "hole": false
+        }
+      ],
+      "as": "p36"
+    },
+    {
+      "call": "add",
+      "args": [
+        "roof",
+        {
+          "size": {
+            "w": 4,
+            "d": 0.6,
+            "h": 3.1
+          },
+          "at": [
+            19.45,
+            10.7,
+            69
+          ],
+          "color": "#66594D",
+          "name": "Side pointed lancet first square 1 10.7",
+          "hole": false
+        }
+      ],
+      "as": "p37"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p37",
+        "z",
+        90,
+        {
+          "about": [
+            19.45,
+            10.7,
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 32.68,
+            "d": 32.68,
+            "h": 58.96
+          },
+          "at": [
+            0,
+            0,
+            77.2
+          ],
+          "color": "#AFA396",
+          "name": "Second square 38.60-68.08m",
+          "hole": false
+        }
+      ],
+      "as": "p38"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.2,
+            "d": 2.4,
+            "h": 21
+          },
+          "at": [
+            0,
+            -16,
+            92
+          ],
+          "color": "#66594D",
+          "name": "Second-square recessed north-south facade -1",
+          "hole": true
+        }
+      ],
+      "as": "p39"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.4,
+            "d": 7.2,
+            "h": 21
+          },
+          "at": [
+            -16,
+            0,
+            92
+          ],
+          "color": "#66594D",
+          "name": "Second-square recessed east-west facade -1",
+          "hole": true
+        }
+      ],
+      "as": "p40"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 7.2,
+            "d": 2.4,
+            "h": 21
+          },
+          "at": [
+            0,
+            16,
+            92
+          ],
+          "color": "#66594D",
+          "name": "Second-square recessed north-south facade 1",
+          "hole": true
+        }
+      ],
+      "as": "p41"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.4,
+            "d": 7.2,
+            "h": 21
+          },
+          "at": [
+            16,
+            0,
+            92
+          ],
+          "color": "#66594D",
+          "name": "Second-square recessed east-west facade 1",
+          "hole": true
+        }
+      ],
+      "as": "p42"
+    },
+    {
+      "call": "group",
+      "args": [
+        [
+          "$p38",
+          "$p39",
+          "$p40",
+          "$p41",
+          "$p42"
+        ],
+        {
+          "name": "Second square with four deep facade recesses",
+          "op": "cut"
+        }
+      ],
+      "as": "g42"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 35.2,
+            "d": 35.2,
+            "h": 1.8
+          },
+          "at": [
+            0,
+            0,
+            77.2
+          ],
+          "color": "#D7C9B3",
+          "name": "Second-square base promenade",
+          "hole": false
+        }
+      ],
+      "as": "p43"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 54
+          },
+          "at": [
+            -15.55,
+            -15.55,
+            79
+          ],
+          "color": "#C3B49E",
+          "name": "Second tier corner shaft -1 -1",
+          "hole": false
+        }
+      ],
+      "as": "p44"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 54
+          },
+          "at": [
+            -15.55,
+            15.55,
+            79
+          ],
+          "color": "#C3B49E",
+          "name": "Second tier corner shaft -1 1",
+          "hole": false
+        }
+      ],
+      "as": "p45"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 54
+          },
+          "at": [
+            15.55,
+            -15.55,
+            79
+          ],
+          "color": "#C3B49E",
+          "name": "Second tier corner shaft 1 -1",
+          "hole": false
+        }
+      ],
+      "as": "p46"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.3,
+            "d": 2.3,
+            "h": 54
+          },
+          "at": [
+            15.55,
+            15.55,
+            79
+          ],
+          "color": "#C3B49E",
+          "name": "Second tier corner shaft 1 1",
+          "hole": false
+        }
+      ],
+      "as": "p47"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 34.6,
+            "d": 34.6,
+            "h": 1.25
+          },
+          "at": [
+            0,
+            0,
+            87
+          ],
+          "color": "#D7C9B3",
+          "name": "Second square cornice level 87",
+          "hole": false
+        }
+      ],
+      "as": "p48"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 34.6,
+            "d": 34.6,
+            "h": 1.25
+          },
+          "at": [
+            0,
+            0,
+            114
+          ],
+          "color": "#D7C9B3",
+          "name": "Second square cornice level 114",
+          "hole": false
+        }
+      ],
+      "as": "p49"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 34.6,
+            "d": 34.6,
+            "h": 1.25
+          },
+          "at": [
+            0,
+            0,
+            134.5
+          ],
+          "color": "#D7C9B3",
+          "name": "Second square cornice level 134.5",
+          "hole": false
+        }
+      ],
+      "as": "p50"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7.6,
+            "d": 7.6,
+            "h": 0.65
+          },
+          "at": [
+            0,
+            -17.3,
+            124.1
+          ],
+          "color": "#C3B49E",
+          "name": "Clock circular face Y -1",
+          "hole": false
+        }
+      ],
+      "as": "p51"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p51",
+        "x",
+        90,
+        {
+          "about": [
+            0,
+            -17.3,
+            124.1
+          ]
+        }
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7.6,
+            "d": 7.6,
+            "h": 0.65
+          },
+          "at": [
+            -17.3,
+            0,
+            124.1
+          ],
+          "color": "#C3B49E",
+          "name": "Clock circular face X -1",
+          "hole": false
+        }
+      ],
+      "as": "p52"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p52",
+        "y",
+        90,
+        {
+          "about": [
+            -17.3,
+            0,
+            124.1
+          ]
+        }
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7.6,
+            "d": 7.6,
+            "h": 0.65
+          },
+          "at": [
+            0,
+            17.3,
+            124.1
+          ],
+          "color": "#C3B49E",
+          "name": "Clock circular face Y 1",
+          "hole": false
+        }
+      ],
+      "as": "p53"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p53",
+        "x",
+        90,
+        {
+          "about": [
+            0,
+            17.3,
+            124.1
+          ]
+        }
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 7.6,
+            "d": 7.6,
+            "h": 0.65
+          },
+          "at": [
+            17.3,
+            0,
+            124.1
+          ],
+          "color": "#C3B49E",
+          "name": "Clock circular face X 1",
+          "hole": false
+        }
+      ],
+      "as": "p54"
+    },
+    {
+      "call": "rotate",
+      "args": [
+        "$p54",
+        "y",
+        90,
+        {
+          "about": [
+            17.3,
+            0,
+            124.1
+          ]
+        }
+      ]
+    },
+    {
+      "call": "add",
+      "args": [
+        "prism",
+        {
+          "size": {
+            "w": 28.8,
+            "d": 28.8,
+            "h": 1.84,
+            "sides": 8
+          },
+          "at": [
+            0,
+            0,
+            136.16
+          ],
+          "color": "#D7C9B3",
+          "name": "Transition from square to octagon approx 68.08-69m",
+          "hole": false
+        }
+      ],
+      "as": "p55"
+    },
+    {
+      "call": "add",
+      "args": [
+        "prism",
+        {
+          "size": {
+            "w": 28.2,
+            "d": 28.2,
+            "h": 2.35,
+            "sides": 8
+          },
+          "at": [
+            0,
+            0,
+            138
+          ],
+          "color": "#C3B49E",
+          "name": "Octagonal lantern plinth",
+          "hole": false
+        }
+      ],
+      "as": "p56"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2
+          },
+          "at": [
+            11.0866,
+            4.5922,
+            140.35
+          ],
+          "color": "#D7C9B3",
+          "name": "Open lantern stone pier 1",
+          "hole": false
+        }
+      ],
+      "as": "p57"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1
+          },
+          "at": [
+            11.0866,
+            4.5922,
+            163
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier impost 1",
+          "hole": false
+        }
+      ],
+      "as": "p58"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6
+          },
+          "at": [
+            11.0866,
+            4.5922,
+            184.5
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier capital 1",
+          "hole": false
+        }
+      ],
+      "as": "p59"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2
+          },
+          "at": [
+            4.5922,
+            11.0866,
+            140.35
+          ],
+          "color": "#D7C9B3",
+          "name": "Open lantern stone pier 2",
+          "hole": false
+        }
+      ],
+      "as": "p60"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1
+          },
+          "at": [
+            4.5922,
+            11.0866,
+            163
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier impost 2",
+          "hole": false
+        }
+      ],
+      "as": "p61"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6
+          },
+          "at": [
+            4.5922,
+            11.0866,
+            184.5
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier capital 2",
+          "hole": false
+        }
+      ],
+      "as": "p62"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2
+          },
+          "at": [
+            -4.5922,
+            11.0866,
+            140.35
+          ],
+          "color": "#D7C9B3",
+          "name": "Open lantern stone pier 3",
+          "hole": false
+        }
+      ],
+      "as": "p63"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1
+          },
+          "at": [
+            -4.5922,
+            11.0866,
+            163
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier impost 3",
+          "hole": false
+        }
+      ],
+      "as": "p64"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6
+          },
+          "at": [
+            -4.5922,
+            11.0866,
+            184.5
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier capital 3",
+          "hole": false
+        }
+      ],
+      "as": "p65"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2
+          },
+          "at": [
+            -11.0866,
+            4.5922,
+            140.35
+          ],
+          "color": "#D7C9B3",
+          "name": "Open lantern stone pier 4",
+          "hole": false
+        }
+      ],
+      "as": "p66"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1
+          },
+          "at": [
+            -11.0866,
+            4.5922,
+            163
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier impost 4",
+          "hole": false
+        }
+      ],
+      "as": "p67"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6
+          },
+          "at": [
+            -11.0866,
+            4.5922,
+            184.5
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier capital 4",
+          "hole": false
+        }
+      ],
+      "as": "p68"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2
+          },
+          "at": [
+            -11.0866,
+            -4.5922,
+            140.35
+          ],
+          "color": "#D7C9B3",
+          "name": "Open lantern stone pier 5",
+          "hole": false
+        }
+      ],
+      "as": "p69"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1
+          },
+          "at": [
+            -11.0866,
+            -4.5922,
+            163
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier impost 5",
+          "hole": false
+        }
+      ],
+      "as": "p70"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6
+          },
+          "at": [
+            -11.0866,
+            -4.5922,
+            184.5
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier capital 5",
+          "hole": false
+        }
+      ],
+      "as": "p71"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2
+          },
+          "at": [
+            -4.5922,
+            -11.0866,
+            140.35
+          ],
+          "color": "#D7C9B3",
+          "name": "Open lantern stone pier 6",
+          "hole": false
+        }
+      ],
+      "as": "p72"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1
+          },
+          "at": [
+            -4.5922,
+            -11.0866,
+            163
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier impost 6",
+          "hole": false
+        }
+      ],
+      "as": "p73"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6
+          },
+          "at": [
+            -4.5922,
+            -11.0866,
+            184.5
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier capital 6",
+          "hole": false
+        }
+      ],
+      "as": "p74"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2
+          },
+          "at": [
+            4.5922,
+            -11.0866,
+            140.35
+          ],
+          "color": "#D7C9B3",
+          "name": "Open lantern stone pier 7",
+          "hole": false
+        }
+      ],
+      "as": "p75"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1
+          },
+          "at": [
+            4.5922,
+            -11.0866,
+            163
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier impost 7",
+          "hole": false
+        }
+      ],
+      "as": "p76"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6
+          },
+          "at": [
+            4.5922,
+            -11.0866,
+            184.5
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier capital 7",
+          "hole": false
+        }
+      ],
+      "as": "p77"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 2.7,
+            "d": 2.7,
+            "h": 47.2
+          },
+          "at": [
+            11.0866,
+            -4.5922,
+            140.35
+          ],
+          "color": "#D7C9B3",
+          "name": "Open lantern stone pier 8",
+          "hole": false
+        }
+      ],
+      "as": "p78"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.3,
+            "d": 3.3,
+            "h": 2.1
+          },
+          "at": [
+            11.0866,
+            -4.5922,
+            163
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier impost 8",
+          "hole": false
+        }
+      ],
+      "as": "p79"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.5,
+            "d": 3.5,
+            "h": 1.6
+          },
+          "at": [
+            11.0866,
+            -4.5922,
+            184.5
+          ],
+          "color": "#C3B49E",
+          "name": "Lantern pier capital 8",
+          "hole": false
+        }
+      ],
+      "as": "p80"
+    },
+    {
+      "call": "add",
+      "args": [
+        "prism",
+        {
+          "size": {
+            "w": 27.7,
+            "d": 27.7,
+            "h": 2.45,
+            "sides": 8
+          },
+          "at": [
+            0,
+            0,
+            187.55
+          ],
+          "color": "#D7C9B3",
+          "name": "Lantern crown platform 95m",
+          "hole": false
+        }
+      ],
+      "as": "p81"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "at": [
+            10.8094,
+            4.4774,
+            190
+          ],
+          "color": "#C3B49E",
+          "name": "Octagonal corner pinnacle 1",
+          "hole": false
+        }
+      ],
+      "as": "p82"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "at": [
+            4.4774,
+            10.8094,
+            190
+          ],
+          "color": "#C3B49E",
+          "name": "Octagonal corner pinnacle 2",
+          "hole": false
+        }
+      ],
+      "as": "p83"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "at": [
+            -4.4774,
+            10.8094,
+            190
+          ],
+          "color": "#C3B49E",
+          "name": "Octagonal corner pinnacle 3",
+          "hole": false
+        }
+      ],
+      "as": "p84"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "at": [
+            -10.8094,
+            4.4774,
+            190
+          ],
+          "color": "#C3B49E",
+          "name": "Octagonal corner pinnacle 4",
+          "hole": false
+        }
+      ],
+      "as": "p85"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "at": [
+            -10.8094,
+            -4.4774,
+            190
+          ],
+          "color": "#C3B49E",
+          "name": "Octagonal corner pinnacle 5",
+          "hole": false
+        }
+      ],
+      "as": "p86"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "at": [
+            -4.4774,
+            -10.8094,
+            190
+          ],
+          "color": "#C3B49E",
+          "name": "Octagonal corner pinnacle 6",
+          "hole": false
+        }
+      ],
+      "as": "p87"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "at": [
+            4.4774,
+            -10.8094,
+            190
+          ],
+          "color": "#C3B49E",
+          "name": "Octagonal corner pinnacle 7",
+          "hole": false
+        }
+      ],
+      "as": "p88"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 2.5,
+            "d": 2.5,
+            "h": 3.8,
+            "sides": 4
+          },
+          "at": [
+            10.8094,
+            -4.4774,
+            190
+          ],
+          "color": "#C3B49E",
+          "name": "Octagonal corner pinnacle 8",
+          "hole": false
+        }
+      ],
+      "as": "p89"
+    },
+    {
+      "call": "add",
+      "args": [
+        "pyramid",
+        {
+          "size": {
+            "w": 19.2,
+            "d": 19.2,
+            "h": 23.5,
+            "sides": 8
+          },
+          "at": [
+            0,
+            0,
+            190
+          ],
+          "color": "#505C5D",
+          "name": "Eight-sided spire to 106.75m",
+          "hole": false
+        }
+      ],
+      "as": "p90"
+    },
+    {
+      "call": "add",
+      "args": [
+        "cylinder",
+        {
+          "size": {
+            "w": 0.76,
+            "d": 0.76,
+            "h": 11.14
+          },
+          "at": [
+            0,
+            0,
+            213.5
+          ],
+          "color": "#7B7565",
+          "name": "Finial stem and vane height to 112.32m",
+          "hole": false
+        }
+      ],
+      "as": "p91"
+    },
+    {
+      "call": "add",
+      "args": [
+        "sphere",
+        {
+          "size": {
+            "w": 1.6,
+            "d": 1.6,
+            "h": 1.6
+          },
+          "at": [
+            0,
+            0,
+            218.5
+          ],
+          "color": "#B9A369",
+          "name": "Finial orb below upper vane",
+          "hole": false
+        }
+      ],
+      "as": "p92"
+    },
+    {
+      "call": "add",
+      "args": [
+        "box",
+        {
+          "size": {
+            "w": 3.9,
+            "d": 0.22,
+            "h": 1.1
+          },
+          "at": [
+            1.4,
+            0,
+            222.1
+          ],
+          "color": "#B9A369",
+          "name": "Wind vane arrow silhouette",
+          "hole": false
+        }
+      ],
+      "as": "p93"
+    }
+  ]
+}

@@ -1,24 +1,19 @@
 ---
 name: equilibrium-3d
-description: Create and publish editable native JumpStart 3D CAD models through GitHub and Pages.
+description: Author editable native JumpStart 3D files with ChatGPT, store them in GitHub and open them in the existing Pages editor without requiring Actions.
 ---
 
-# Equilibrium 3D: authoring skill
+# Equilibrium 3D: ChatGPT → GitHub → Pages
 
-Read repository `AGENTS.md`, original `skills/jumpstart-3d/SKILL.md`, `BRIDGE.md` and `mcp/README.md` before modifying model sources.
+Read `AGENTS.md`, `BRIDGE.md` and the original JumpStart 3D agent skill first.
 
-## Model workflow
-1. Translate the request into measurable geometry (mm, named parts, colours, constraints). Ask only for specifications that make geometry impossible otherwise.
-2. Choose a kebab-case stable slug; add `models/<slug>/recipe.json` in the documented recipe schema. Prefer one named solid per editable part. Use `needs` to pin minimum JS3D bridge version.
-3. Use only safe, allowlisted recipe calls. Never embed arbitrary execution code or secrets in published JSON.
-4. Run `node scripts/validate-models.mjs` before a model build.
-5. In the trusted environment, run `node scripts/build-models.mjs --id=<slug>` to produce the native `project.json` and real `preview.png`. A model branch may use `.github/workflows/model-build.yml` for this.
-6. Confirm `JS3D.load(project)` works, geometry reports no error, exported GLB is nonempty, and a true screenshot displays expected parts.
-7. Update `models/library.json` with the project path, preview path, description and tags. Open a PR, report actual CI outcomes; merge only after success.
-8. Output the Pages URL `https://equilibriumpress.github.io/jumpstart-3d/?project=<slug>` after deployment is confirmed. Do not pretend Pages is live before activation.
+1. Determine documented dimensions, model scale, geometry and coordinate conventions. Distinguish measured and illustrative features.
+2. Directly author `models/<id>/project.json` according to the supported native format in `BRIDGE.md`, including named bodies, matrices and supported node structures. Preserve separately editable components.
+3. Optionally store a declarative `recipe.json` as the reproducible source, but Pages opens `project.json`, not the recipe.
+4. Statistically verify JSON, references, unique body IDs, matrix elements, allowed primitives and critical dimensions. Use the genuine in-browser JumpStart view for visual geometry checks when available.
+5. Publish the model by updating `models/library.json`. Set `preview:null` until an actual CAD screenshot exists, never make up a screenshot.
+6. Commit the files on a feature branch, review the PR and merge after available checks. **Do not trigger or require GitHub Actions** for model creation.
+7. The Pages deployment source must already contain the static JumpStart app. Update its `models/` files when the site is branch-published. A new PR on `main` alone does not update an old Actions-deployed Pages artifact.
+8. Give the Pages URL only after verifying that the model has been published and opens. Do not claim live publication from a GitHub merge alone.
 
-## Design and compatibility
-- Preserve upstream UI and CAD pipeline. Add optional integration outside the editor.
-- The native project JSON is the handoff format; a GLB is optional export, not an editable replacement.
-- Models in the public GitHub repo are public. Do not add third-party geometry without permission.
-- The original agent skill and existing tools remain available. MCP is optional for this workflow.
+The native project is the editable handoff. GLB/STL/STEP exports happen in the original browser editor.

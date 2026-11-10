@@ -1,26 +1,24 @@
 # ChatGPT → GitHub → JumpStart 3D on GitHub Pages
 
-## Purpose
+## Operating model
 
-This fork operates the original JumpStart 3D editor unchanged. ChatGPT authors declarative CAD recipes; GitHub stores those recipes, native project JSON and verified screenshots. GitHub Pages serves editable published models.
+ChatGPT authors the **native** `project.json` directly. GitHub versions that JSON and `models/library.json`. JumpStart 3D running in the visitor's browser loads the saved model. There is no required GitHub Actions job, Node build, cloud geometry generation or pre-rendered GLB for each model.
 
-## Create a new model
+## Publish a model
 
-1. Work from a feature branch, preferably `equilibrium/model-<slug>`.
-2. Read `AGENTS.md` and `skills/equilibrium-3d/SKILL.md`, preserving the original JumpStart skills.
-3. Create `models/<slug>/recipe.json` with allowlisted JS3D calls (as documented in `mcp/README.md`). Add its catalog entry to `models/library.json`.
-4. Run the existing CLI in a trusted build environment to produce `project.json` and real `preview.png`: `node scripts/build-models.mjs --id=<slug>`. The `model-build.yml` workflow can run this for model feature branches after browser dependencies are installed.
-5. Validate geometry and generated assets. Review the model preview. Open and merge a PR only after all checks pass.
-6. Once the Pages deployment succeeds, open `https://equilibriumpress.github.io/jumpstart-3d/?project=<slug>`, or browse `https://equilibriumpress.github.io/jumpstart-3d/library/`.
+1. Inspect `BRIDGE.md` and the native project format.
+2. Create `models/<slug>/project.json` as a valid `{app:"jumpstart-3d",version:1,doc:{...}}` document, with named parts and native geometry nodes.
+3. Optionally store `recipe.json`, metadata and reference documents alongside it.
+4. Add a catalog entry in `models/library.json`. Use `preview:null` if no genuine viewport screenshot exists.
+5. Check JSON syntax, catalog paths, IDs, dimensions and supported node types. When possible, open the JSON in the actual JumpStart 3D browser editor and inspect geometry.
+6. Commit to a feature branch, open a PR and merge after review. **Never treat GitHub Actions as part of this workflow.**
+7. Copy the changed `models/` files to the active **static Pages source** branch or directory, if distinct from the source branch. The Pages editor is a static application.
+8. Verify the model at `https://equilibriumpress.github.io/jumpstart-3d/?project=<slug>`. Do not claim the model has deployed until the Pages source is updated.
 
-## Browser behavior
+## Existing code
 
-A project URL fetches `models/library.json`, verifies the ID and same-origin project path, then calls the documented `JS3D.load(project)`. Invalid or unknown IDs fail closed. Normal visits without a project parameter use the original editor without change.
+`src/equilibrium-loader.js` is already able to fetch a catalog and a native project and pass the object to `JS3D.load()`. The original application performs geometry processing in the browser.
 
-Edits in the original editor are saved locally to IndexedDB as before. To publish an edited version, export the native JSON and submit a GitHub PR. No personal access token or GitHub write credential is exposed in the public app.
+The repository's old Pages workflow currently rebuilds `docs/` with GitHub Actions, and `docs/` is gitignored. See `docs-equilibrium/PAGES.md` for the required one-time static publishing migration. The model creation process must not depend on that workflow.
 
-## Hosting and licensing
-
-Pages deploys static output from the original build script, not a custom renderer. It has no server-side 3D execution. GitHub Actions may use Node and Chromium as a trusted source-build / test environment. Before the first deploy, repository settings must select Pages source **GitHub Actions**.
-
-Keep the original software attribution and AGPL-3.0 licence obligations for this fork. All models in a public GitHub repo are public.
+The original CAD engine, public source licensing and local browser editing behavior are unchanged.
