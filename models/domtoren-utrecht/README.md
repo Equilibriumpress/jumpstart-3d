@@ -22,3 +22,9 @@ Structural validation: completed for native envelope, ID uniqueness, body matric
 ## Remaining work
 
 Detailed elevation tracing, exact facades, proper curved tracery and constructive profile work belong to PR 3. GLB and screenshots can be exported using the native app after a live browser load. The static Pages publication branch still needs to be configured or updated according to `docs-equilibrium/PAGES.md`.
+
+## Browser-runtime controle en echte preview (PR 16)
+
+Op 10 november 2026 is het op Pages gepubliceerde project in Chromium geopend. JumpStart bouwde alle **715 native CAD-lichamen**, zonder geometriefoutmeldingen. De foto `preview.png` is daarna rechtstreeks gemaakt met `JS3D.screenshotDataURL({fit:true,width:750})` vanuit de werkende CAD-editor. Dit is dus een echte modelweergave en geen gegenereerde illustratie. `schematic.svg` blijft aanwezig als afzonderlijk gelabelde schemaweergave.
+
+De visuele overeenkomst met actuele bouwfoto's is nog geen nauwkeurige, ingemeten restauratie-reconstructie. De 3D-printbaarheid en GLB-export zijn niet vastgesteld.

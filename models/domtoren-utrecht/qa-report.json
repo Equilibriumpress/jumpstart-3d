@@ -16,11 +16,21 @@
     "heightMm": 224.64,
     "projectBytes": 207830
   },
-  "status": "structure pass, browser render unverified",
+  "status": "native geometry loaded and built in Chromium, 715/715 bodies, 0 reported errors",
   "limitations": [
-    "No measured survey",
-    "OpenCascade geometry and mesh export have not been visually tested",
-    "SVG is a schematic illustration, not 3D preview",
-    "No PBR textures or verified photorealism"
-  ]
+    "Architectural details are estimated, not measured facade geometry",
+    "Photoreal PBR textures and survey-grade reconstruction absent",
+    "Mesh export, printability, true 3-view comparison and exact post-2024 detail matching not verified"
+  ],
+  "browserVerification": {
+    "performed": "2026-11-10",
+    "site": "https://equilibriumpress.github.io/jumpstart-3d/?project=domtoren-utrecht",
+    "method": "Playwright Chromium, wait for JS3D.list().every(body=>body.bbox||body.error), then JS3D.screenshotDataURL({fit:true,width:750})",
+    "bodiesLoaded": 715,
+    "bodiesWithBoundingBox": 715,
+    "geometryErrors": 0,
+    "genuineCADPreview": true,
+    "previewFile": "models/domtoren-utrecht/preview.png",
+    "previewBytes": 292531
+  }
 }
