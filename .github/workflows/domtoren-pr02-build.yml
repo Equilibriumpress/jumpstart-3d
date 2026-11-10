@@ -1,5 +1,11 @@
 name: Generate Domtoren PR2 source artifacts
 on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'models/domtoren-utrecht/**'
+      - 'models/library.json'
+      - '.github/workflows/domtoren-pr02-build.yml'
   push:
     branches:
       - equilibrium/domtoren-pr02-model
@@ -11,9 +17,12 @@ permissions:
   contents: write
 jobs:
   domtoren-build:
+    if: (github.event_name == 'push' && github.ref_name == 'equilibrium/domtoren-pr02-model') || (github.event_name == 'pull_request' && github.head_ref == 'equilibrium/domtoren-pr02-model' && github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: equilibrium/domtoren-pr02-model
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
